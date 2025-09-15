@@ -1,0 +1,1136 @@
+intent,question,answer,label
+Data Wajib Pasien Baru,Data apa saja yang wajib diisi untuk pasien baru?,"Data wajib meliputi: Nama, NIK/KTP, Tanggal Lahir/Umur, Jenis Kelamin, Golongan Darah, dan Nomor HP.",Pendaftaran Rawat Jalan
+Data Wajib Pasien Baru,Form wajib pasien baru itu meliputi apa saja?,"Meliputi Nama, NIK/KTP, Tanggal Lahir/Umur, Jenis Kelamin, Golongan Darah, dan Nomor HP.",Pendaftaran Rawat Jalan
+Data Wajib Pasien Baru,Pasien baru harus isi data apa saja?,"Nama, NIK/KTP, Tanggal Lahir/Umur, Jenis Kelamin, Golongan Darah, dan Nomor HP wajib diisi.",Pendaftaran Rawat Jalan
+Form Opsional Pasien Baru,Apakah email dan pendidikan pasien wajib diisi?,"Tidak wajib, bersifat opsional.",Pendaftaran Rawat Jalan
+Form Opsional Pasien Baru,Bagaimana cara upload foto pasien?,"Bisa diunggah maksimal 1 MB, tidak wajib.",Pendaftaran Rawat Jalan
+Jenis Layanan,Apa itu PRB?,PRB (Program Rujuk Balik) untuk pasien penyakit kronis stabil agar obat bisa diambil di faskes tingkat pertama.,Pendaftaran Rawat Jalan
+Jenis Layanan,Apa itu Prolanis?,"Program pengelolaan penyakit kronis melalui kegiatan terjadwal: konsultasi medis, edukasi, pemeriksaan kesehatan, dan klub Prolanis.",Pendaftaran Rawat Jalan
+Jenis Layanan,Apa itu layanan Non-Kronis?,"Non-Kronis untuk pasien umum tanpa penyakit kronis, seperti flu, diare, infeksi ringan.",Pendaftaran Rawat Jalan
+Alamat Pasien,Apakah alamat wajib diisi?,"Tidak wajib, tersedia opsi sama dengan wali.",Pendaftaran Rawat Jalan
+Alamat Pasien,Bagaimana jika alamat pasien sama dengan wali?,Gunakan opsi “Sama dengan Wali” agar data otomatis terisi.,Pendaftaran Rawat Jalan
+Data Wali,Bagaimana menambahkan data wali pasien?,"Klik “Tambah Wali”, pilih hubungan, isi nama dan nomor kontak, klik update.",Pendaftaran Rawat Jalan
+Data Wali,Bisa menambahkan lebih dari satu wali?,"Ya, klik “Tambah Wali” untuk setiap wali baru.",Pendaftaran Rawat Jalan
+Data Wali,Bagaimana menghapus data wali?,"Pilih data wali, klik hapus atau update sesuai kebutuhan.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Cara masuk pasien apa saja yang tersedia?,"Dropdown: datang sendiri, kontrol ulang, rujukan, kasus polisi, sewa kamar, dll.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Diagnosa awal harus diisi atau tidak?,Harus diisi sebagai dasar pelayanan medis.,Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana memilih dokter penanggung jawab?,"Pilih dari jadwal dokter yang tersedia, lengkap dengan unit, jam praktik, kuota pasien, dan filter pencarian.",Pendaftaran Rawat Jalan
+Pembayaran,Pilihan pembayaran apa yang tersedia?,"Umum, karyawan, asuransi, atau perusahaan.",Pendaftaran Rawat Jalan
+Pembayaran,Apa yang harus diisi bila pasien pakai asuransi?,"Form data polis: perusahaan, nomor asuransi, tanggal kadaluarsa, kelas, penjamin pembayar, keterangan tambahan.",Pendaftaran Rawat Jalan
+Bukti Registrasi,Apa isi nota registrasi pasien?,"Nomor pendaftaran, nomor rekam medis, data pasien, poli tujuan, dokter penanggung jawab, metode pembayaran, estimasi waktu pelayanan.",Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Pasien Kontrol Ulang?,Berisi pasien yang memiliki jadwal pemeriksaan lanjutan.,Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Pasien Booking?,Berisi pasien yang sudah melakukan reservasi melalui sistem.,Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Verifikasi Pasien?,Digunakan untuk mengecek kebenaran data sebelum pasien mendapatkan pelayanan.,Pendaftaran Rawat Jalan
+Filter Antrian,Bagaimana memfilter pasien berdasarkan status?,"Filter status pasien: daftar, dilayani, batal, dipulangkan, rujukan.",Pendaftaran Rawat Jalan
+Filter Antrian,Bisa filter pasien berdasarkan kata kunci?,"Ya, nama, tujuan poli, tanggal, dan lain-lain.",Pendaftaran Rawat Jalan
+Filter Antrian,Bagaimana memfilter jam dokter tertentu?,Gunakan filter jam dokter sesuai jadwal praktik dan unit poli.,Pendaftaran Rawat Jalan
+Filter Antrian,Bagaimana filter pasien SEP?,Gunakan filter status cetak SEP: sudah atau belum.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Arti warna kuning?,Kuning = pasien belum diverifikasi.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Arti warna hijau?,Hijau = pasien sudah mendaftar.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Putih di antrian artinya?,Putih = pasien sedang dilayani.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Abu-abu di antrian artinya?,Abu-abu = pasien batal.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Merah di antrian?,Merah = pasien sudah dipulangkan.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Biru di antrian?,Biru = pasien rujukan.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Ungu di antrian?,Ungu = pasien check-in JKN.,Pendaftaran Rawat Jalan
+Detail Tambahan Antrian,Apa itu CPPT?,"Catatan Perkembangan Pasien Terintegrasi, berisi dokumentasi medis dokter, perawat, gizi, dan komunikasi antar tenaga kesehatan.",Pendaftaran Rawat Jalan
+Detail Tambahan Antrian,Apa itu general consent?,"Persetujuan umum rawat jalan, berisi hak, kewajiban, tata tertib pasien, dan persetujuan pelepasan informasi medis.",Pendaftaran Rawat Jalan
+Detail Tambahan Antrian,Bagaimana sinkronisasi data dengan SATUSEHAT?,Sistem otomatis sinkronisasi agar data pasien masuk ke sistem nasional.,Pendaftaran Rawat Jalan
+Detail Tambahan Antrian,Bagaimana validasi identitas pasien?,Bisa menggunakan Face Recognition yang terintegrasi di sistem.,Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Apa saja data yang tersimpan di rekam medis elektronik?,"Profil pasien, riwayat kunjungan, alergi, pemeriksaan fisik, SOAP, SOAPIER, ADIME, SBAR, penyakit ICD-X, tindakan, terapi, resep, penunjang medis, membership, lampiran, file, form ERM, hasil lab Prodia.",Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Bisa cetak atau unduh data rekam medis?,"Ya, semua data dapat difilter, diurutkan, dicetak, atau diunduh sesuai kebutuhan.",Pendaftaran Rawat Jalan
+Paging Data,Berapa maksimal data per halaman?,Maksimal 34 data per halaman.,Pendaftaran Rawat Jalan
+Paging Data,Bagaimana navigasi jika data lebih dari satu halaman?,Gunakan tombol navigasi halaman dan lihat total data di kanan bawah.,Pendaftaran Rawat Jalan
+Layanan Paket,Apa itu layanan paket di pendaftaran rawat jalan?,Layanan paket adalah pilihan tambahan untuk pasien yang ingin menggunakan paket layanan tertentu yang tersedia di rumah sakit.,Pendaftaran Rawat Jalan
+Layanan Paket,Bagaimana cara memilih layanan paket?,"Pilih “Ya” pada opsi layanan paket, kemudian pilih paket yang tersedia di daftar sistem.",Pendaftaran Rawat Jalan
+Layanan Paket,Apakah layanan paket wajib?,"Tidak, layanan paket bersifat opsional.",Pendaftaran Rawat Jalan
+SITB,Apa itu SITB?,SITB adalah skrining batuk untuk mendeteksi gejala TBC dan mencegah penularan.,Pendaftaran Rawat Jalan
+SITB,Apakah semua pasien harus mengisi SITB?,"Tidak wajib, tapi dianjurkan untuk pasien dengan indikasi batuk atau risiko TBC.",Pendaftaran Rawat Jalan
+SITB,Bagaimana mengisi form SITB?,"Isi pertanyaan terkait gejala batuk, lama batuk, riwayat kontak, dan gejala pendukung sesuai panduan sistem.",Pendaftaran Rawat Jalan
+Form Rekam Medis Tambahan,Apa itu Form Rekam Medis Tambahan?,"Form tambahan untuk mencatat informasi medis lebih detail seperti DPJP, ringkasan keluar-masuk, atau permintaan fisioterapi.",Pendaftaran Rawat Jalan
+Form Rekam Medis Tambahan,Bagaimana cara mengisi form rekam medis tambahan?,"Pilih pasien, buka form rekam medis tambahan, isi data yang relevan, klik simpan.",Pendaftaran Rawat Jalan
+Form Rekam Medis Tambahan,Apakah semua pasien wajib mengisi form tambahan?,"Tidak, hanya pasien yang memerlukan pencatatan medis tambahan.",Pendaftaran Rawat Jalan
+Upload Dokumen,Bagaimana cara upload dokumen pendukung pasien?,"Pilih menu upload dokumen, pilih file yang akan diunggah, klik simpan.",Pendaftaran Rawat Jalan
+Upload Dokumen,Apa saja dokumen yang bisa diunggah?,"Dokumen medis, surat rujukan, hasil laboratorium, foto identitas, atau dokumen lain yang relevan.",Pendaftaran Rawat Jalan
+Upload Dokumen,Apakah ada batas ukuran file upload?,"Ya, file harus sesuai batas maksimal yang ditentukan sistem.",Pendaftaran Rawat Jalan
+CPPT,Apa itu CPPT?,"Catatan Perkembangan Pasien Terintegrasi, mencatat dokumentasi medis dokter, perawat, gizi, dan komunikasi antar tenaga kesehatan.",Pendaftaran Rawat Jalan
+CPPT,Siapa yang mengisi CPPT?,"Dokter, perawat, dan tenaga kesehatan lain sesuai tugas masing-masing.",Pendaftaran Rawat Jalan
+CPPT,Apakah pasien bisa melihat CPPT?,"CPPT bersifat internal, biasanya dapat diakses oleh tenaga kesehatan terkait.",Pendaftaran Rawat Jalan
+General Consent,Apa itu General Consent?,"Persetujuan umum rawat jalan yang berisi hak, kewajiban, tata tertib pasien, dan persetujuan pelepasan informasi medis.",Pendaftaran Rawat Jalan
+General Consent,Bagaimana pasien menyetujui general consent?,Pasien menandatangani atau menyetujui melalui sistem digital sebelum pelayanan.,Pendaftaran Rawat Jalan
+General Consent,Apakah General Consent wajib?,"Ya, pasien harus menyetujui agar dapat memperoleh pelayanan rawat jalan.",Pendaftaran Rawat Jalan
+Sinkronisasi SATUSEHAT,Apa tujuan sinkronisasi dengan SATUSEHAT?,Agar data pasien masuk ke sistem nasional dan dapat diakses oleh fasilitas kesehatan lain.,Pendaftaran Rawat Jalan
+Sinkronisasi SATUSEHAT,Bagaimana cara sinkronisasi data pasien?,Sistem otomatis melakukan sinkronisasi setelah pendaftaran atau update data pasien.,Pendaftaran Rawat Jalan
+Face Recognition,Apa fungsi Face Recognition di pendaftaran rawat jalan?,"Untuk validasi identitas pasien melalui biometrik, memastikan pasien terdaftar sesuai data.",Pendaftaran Rawat Jalan
+Face Recognition,Apakah Face Recognition wajib?,"Tidak wajib, tapi dianjurkan untuk keamanan dan validasi identitas pasien.",Pendaftaran Rawat Jalan
+Face Recognition,Bagaimana cara menggunakan Face Recognition?,"Arahkan kamera ke wajah pasien sesuai panduan sistem, tunggu verifikasi.",Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Bagaimana melihat riwayat kunjungan pasien?,"Buka tab Rekam Medis Elektronik, pilih pasien, kemudian buka riwayat kunjungan.",Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Apa itu ADIME?,"ADIME adalah catatan gizi pasien: Assessment, Diagnosis, Intervention, Monitoring, Evaluation.",Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Apa itu SBAR?,"SBAR adalah komunikasi standar antar tenaga kesehatan: Situation, Background, Assessment, Recommendation.",Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Apakah resep pasien dicatat di rekam medis elektronik?,"Ya, semua resep dokter tercatat di sistem.",Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Bagaimana mengunduh data rekam medis pasien?,"Gunakan opsi unduh di tab Rekam Medis Elektronik, pilih data yang diperlukan.",Pendaftaran Rawat Jalan
+Paging Data,Berapa tombol navigasi halaman tersedia?,Tombol navigasi halaman tersedia untuk berpindah antarhalaman jika data lebih dari 34 per halaman.,Pendaftaran Rawat Jalan
+Paging Data,Bagaimana melihat total data pasien?,Total data ditampilkan di kanan bawah halaman daftar pasien.,Pendaftaran Rawat Jalan
+Paging Data,Bisa filter data pasien per halaman?,"Ya, filter berlaku di semua halaman daftar pasien.",Pendaftaran Rawat Jalan
+Paging Data,Apakah data refresh otomatis?,Refresh bisa dilakukan manual untuk memperbarui status antrian pasien secara real-time.,Pendaftaran Rawat Jalan
+Detail Dokumen,Apa saja dokumen yang bisa dicetak dari antrian pasien?,"Nota registrasi, ID Card, Stiker, Label pasien, Status Rawat Jalan, CPPT, General Consent, Form Rekam Medis Tambahan.",Pendaftaran Rawat Jalan
+Detail Dokumen,Bagaimana mencetak ID Card pasien?,"Pilih pasien, klik cetak ID Card, pilih opsi biaya kartu jika perlu.",Pendaftaran Rawat Jalan
+Detail Dokumen,Bisa cetak stiker pasien?,"Ya, pilih pasien, klik cetak stiker, ikuti panduan sistem.",Pendaftaran Rawat Jalan
+Detail Dokumen,Apa itu Status Rawat Jalan cetak?,Ringkasan profil pasien beserta status pendaftaran dan penjamin.,Pendaftaran Rawat Jalan
+Detail Dokumen,Apakah CPPT bisa dicetak?,"Ya, CPPT dapat dicetak sesuai dokumentasi medis dokter, perawat, gizi, dan komunikasi.",Pendaftaran Rawat Jalan
+Catatan Khusus,Bagaimana menambahkan catatan khusus pasien?,Masukkan informasi tambahan atau kondisi khusus pasien di kolom catatan khusus.,Pendaftaran Rawat Jalan
+Catatan Khusus,Apakah catatan khusus wajib diisi?,"Tidak wajib, bersifat tambahan untuk informasi pasien.",Pendaftaran Rawat Jalan
+Catatan Khusus,Untuk siapa catatan khusus ini berguna?,"Berguna untuk pasien anak-anak, lansia, atau pasien dengan kebutuhan khusus.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apa saja data wajib untuk pasien baru?,"Data wajib meliputi nama, NIK/KTP, tanggal lahir/umur, jenis kelamin, golongan darah, dan nomor HP.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bagaimana cara mengisi formulir pasien baru?,"Isi data wajib terlebih dahulu, kemudian bisa menambahkan data opsional seperti email, pekerjaan, dan alamat.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apakah foto pasien wajib diunggah?,"Tidak wajib, foto pasien hanya opsional dengan batas ukuran tertentu.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apa itu layanan PRB?,PRB (Program Rujuk Balik) untuk pasien kronis stabil yang mengambil obat rutin di FKTP.,Pendaftaran Rawat Jalan
+Form Pasien Baru,Apa bedanya Prolanis dengan PRB?,"Prolanis fokus pada pemantauan pasien kronis melalui kegiatan terjadwal, sedangkan PRB untuk pengambilan obat rutin di FKTP.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bagaimana memilih jenis layanan Non-Kronis?,Pilih opsi Non-Kronis saat mengisi formulir pasien baru untuk penyakit umum seperti flu atau diare.,Pendaftaran Rawat Jalan
+Form Pasien Baru,Bisakah alamat pasien sama dengan wali?,"Ya, sistem menyediakan opsi “sama dengan wali” agar alamat otomatis terisi.",Pendaftaran Rawat Jalan
+Data Wali,Bagaimana menambahkan data wali pasien?,"Klik menu tambah wali, isi nama, nomor kontak, dan hubungan, kemudian simpan.",Pendaftaran Rawat Jalan
+Data Wali,Apakah bisa menambahkan lebih dari satu wali?,"Ya, sistem mendukung lebih dari satu wali dengan status aktif/non-aktif.",Pendaftaran Rawat Jalan
+Data Wali,Bagaimana menghapus atau mengubah data wali?,"Pilih data wali yang ingin diubah/hapus, klik edit atau hapus, kemudian simpan perubahan.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Apa saja detail pendaftaran rawat jalan yang perlu diisi?,"Cara masuk, diagnosa awal, detail pembayaran, pilihan dokter, dan jadwal pelayanan.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana memasukkan cara masuk pasien?,"Pilih dari dropdown: datang sendiri, kontrol ulang, rujukan, kasus polisi, dll.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Apa yang harus diisi jika pasien rujukan?,"Isi asal rujukan, nomor rujukan, dan tanggal rujukan.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana memasukkan diagnosa awal pasien?,"Masukkan diagnosa awal di kolom yang disediakan, ini wajib diisi sebagai dasar pelayanan medis.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana memilih dokter penanggung jawab?,"Pilih dokter dari daftar yang menampilkan unit, jam praktik, dan kuota pasien.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bisa filter dokter berdasarkan jam praktik?,"Ya, sistem menyediakan filter untuk mempermudah pencarian dokter sesuai jadwal.",Pendaftaran Rawat Jalan
+Pembayaran,Apa saja metode pembayaran yang tersedia?,"Umum, karyawan, asuransi, atau perusahaan.",Pendaftaran Rawat Jalan
+Pembayaran,Apa yang harus diisi jika pasien pakai asuransi?,"Isi data polis: perusahaan, nomor polis, tanggal kadaluarsa, kelas pelayanan, dan penjamin pembayar.",Pendaftaran Rawat Jalan
+Pembayaran,Bagaimana sistem menghitung biaya administrasi?,Sistem otomatis menghitung total biaya pendaftaran setelah dokter dan jenis layanan dipilih.,Pendaftaran Rawat Jalan
+Hasil Registrasi,Apa yang dihasilkan setelah pendaftaran tersimpan?,"Tanda Bukti Registrasi Rawat Jalan berisi nomor pendaftaran, nomor rekam medis, dokter, unit, dan metode pembayaran.",Pendaftaran Rawat Jalan
+Hasil Registrasi,Bisa mencetak tanda bukti registrasi?,"Ya, tanda bukti dapat dicetak dan diberikan kepada pasien.",Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Pasien Kontrol Ulang?,Daftar pasien yang memiliki jadwal pemeriksaan lanjutan.,Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Pasien Booking?,Daftar pasien yang sudah melakukan reservasi melalui sistem.,Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Verifikasi Pasien?,Digunakan untuk mengecek kebenaran data sebelum pasien mendapat pelayanan.,Pendaftaran Rawat Jalan
+Filtering,Bagaimana memfilter status pasien?,"Pilih filter status: daftar, dilayani, batal, dipulangkan, atau rujukan.",Pendaftaran Rawat Jalan
+Filtering,Bisa mencari pasien berdasarkan kata kunci?,"Ya, sistem mendukung pencarian nama, tujuan poli, tanggal, atau informasi lainnya.",Pendaftaran Rawat Jalan
+Filtering,Bisa filter jam dokter?,"Ya, filter jam dokter berdasarkan jadwal praktik dan unit poli.",Pendaftaran Rawat Jalan
+Filtering,Bagaimana memfilter status cetak SEP?,Pilih filter SEP: sudah dicetak atau belum dicetak.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti kode warna kuning di antrian?,Pasien belum diverifikasi.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna hijau?,Pasien sudah mendaftar.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna putih?,Pasien sedang dilayani.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna abu-abu?,Pasien batal.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna merah?,Pasien sudah dipulangkan.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna biru?,Pasien rujukan.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna ungu?,Check-in JKN.,Pendaftaran Rawat Jalan
+Detail Tambahan,Apa yang bisa dicetak saat klik pasien di antrian?,"Nota registrasi, ID Card, Stiker, Label, Status Rawat Jalan, CPPT, General Consent.",Pendaftaran Rawat Jalan
+Detail Tambahan,Bagaimana sinkronisasi dengan SATUSEHAT?,Sistem otomatis sinkronisasi data pasien ke sistem nasional.,Pendaftaran Rawat Jalan
+Detail Tambahan,Bagaimana mengaktifkan Face Recognition?,Ikuti panduan sistem untuk verifikasi wajah pasien.,Pendaftaran Rawat Jalan
+Form Pasien Baru,Bagaimana cara mendaftarkan pasien baru di sistem?,"Isi data wajib pasien terlebih dahulu, kemudian data opsional jika ada, lalu pilih jenis layanan dan simpan.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apakah semua data pasien wajib diisi?,Hanya data wajib yang harus diisi; data opsional bisa dilewati.,Pendaftaran Rawat Jalan
+Form Pasien Baru,Apa saja data opsional pasien baru?,"Email, tempat lahir, agama, pendidikan, pekerjaan, status pernikahan, dan foto pasien.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bagaimana cara unggah foto pasien?,"Klik upload foto di formulir pasien baru, maksimal ukuran file 1 MB.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Jenis layanan apa saja yang tersedia untuk pasien baru?,"PRB, Prolanis, PRB-Prolanis, dan Non-Kronis.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apa itu PRB-Prolanis?,"Pasien terdaftar dalam kedua program sekaligus, PRB dan Prolanis.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bisa pilih layanan Non-Kronis untuk pasien kronis?,"Tidak, Non-Kronis hanya untuk pasien umum tanpa riwayat penyakit kronis.",Pendaftaran Rawat Jalan
+Alamat Pasien,Bagaimana mengisi alamat pasien?,"Masukkan alamat lengkap, negara, provinsi, kota, kecamatan, kelurahan, RT/RW, kode pos; bisa pilih “sama dengan wali”.",Pendaftaran Rawat Jalan
+Data Wali,Apa saja informasi yang dibutuhkan untuk wali pasien?,"Nama, nomor kontak, hubungan dengan pasien, dan status aktif/non-aktif.",Pendaftaran Rawat Jalan
+Data Wali,Bisa menambahkan beberapa wali?,"Ya, sistem mendukung lebih dari satu wali.",Pendaftaran Rawat Jalan
+Data Wali,Bagaimana mengubah informasi wali?,"Pilih data wali, klik edit, ubah informasi, lalu simpan.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana memilih cara masuk pasien?,"Pilih dari dropdown: datang sendiri, kontrol ulang, rujukan, kasus polisi, sewa kamar, dll.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Apa yang harus diisi jika pasien datang karena rujukan?,"Isi asal rujukan, nomor rujukan, dan tanggal rujukan.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana memasukkan diagnosa awal?,"Masukkan diagnosa awal pada kolom yang disediakan, wajib diisi.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana cara memilih dokter penanggung jawab?,"Pilih dokter dari daftar sesuai unit dan jam praktik, sistem menampilkan kuota BPJS/non-BPJS.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Apakah ada filter untuk mencari dokter tertentu?,"Ya, filter berdasarkan jam praktik, unit poli, atau nama dokter.",Pendaftaran Rawat Jalan
+Pembayaran,Pilihan metode pembayaran apa saja?,"Umum, karyawan, asuransi, atau perusahaan.",Pendaftaran Rawat Jalan
+Pembayaran,Bagaimana jika pasien pakai asuransi?,"Isi data polis: perusahaan, nomor, tanggal kadaluarsa, kelas pelayanan, dan penjamin.",Pendaftaran Rawat Jalan
+Pembayaran,Apakah biaya pendaftaran otomatis dihitung?,"Ya, sistem menghitung biaya otomatis setelah dokter dan jenis layanan dipilih.",Pendaftaran Rawat Jalan
+Hasil Registrasi,Apa isi Tanda Bukti Registrasi?,"Nomor pendaftaran, nomor rekam medis, dokter, unit, metode pembayaran, data pasien, estimasi waktu pelayanan.",Pendaftaran Rawat Jalan
+Hasil Registrasi,Bisa cetak tanda bukti registrasi?,"Ya, dapat dicetak dan diberikan kepada pasien.",Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Pasien Kontrol Ulang?,Daftar pasien dengan jadwal pemeriksaan lanjutan.,Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Pasien Booking?,Daftar pasien yang sudah reservasi melalui sistem.,Pendaftaran Rawat Jalan
+List Pasien,Apa itu List Verifikasi Pasien?,Digunakan untuk mengecek data pasien sebelum pelayanan.,Pendaftaran Rawat Jalan
+Filtering,Bagaimana cara filter status pasien?,"Pilih filter status: daftar, dilayani, batal, dipulangkan, rujukan.",Pendaftaran Rawat Jalan
+Filtering,Bisa mencari pasien berdasarkan nama atau tanggal?,"Ya, sistem mendukung pencarian berdasarkan kata kunci.",Pendaftaran Rawat Jalan
+Filtering,Bisa filter pasien berdasarkan jam dokter?,"Ya, filter berdasarkan jadwal praktik dan unit poli.",Pendaftaran Rawat Jalan
+Filtering,Bisa filter SEP sudah dicetak atau belum?,"Ya, pilih filter sesuai status SEP.",Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna kuning di antrian?,Pasien belum diverifikasi.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna hijau?,Pasien sudah mendaftar.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna putih?,Pasien sedang dilayani.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna abu-abu?,Pasien batal.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna merah?,Pasien sudah dipulangkan.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna biru?,Pasien rujukan.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna ungu?,Check-in JKN.,Pendaftaran Rawat Jalan
+Detail Tambahan,Dokumen apa saja yang bisa dicetak dari antrian pasien?,"Nota registrasi, ID Card, Stiker, Label, Status Rawat Jalan, CPPT, General Consent.",Pendaftaran Rawat Jalan
+Detail Tambahan,Bagaimana sinkronisasi data dengan SATUSEHAT?,Sistem otomatis sinkronisasi data pasien ke sistem nasional.,Pendaftaran Rawat Jalan
+Detail Tambahan,Bagaimana melakukan face recognition?,Ikuti panduan sistem untuk validasi identitas pasien.,Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Apa saja yang tercatat di rekam medis pasien?,"Profil pasien, riwayat kunjungan, alergi, pemeriksaan fisik, SOAP, SOAPIER, ADIME, SBAR, hasil lab, tindakan, resep, penunjang medis, dan dokumen pendukung.",Pendaftaran Rawat Jalan
+Paging Data,Berapa data maksimal per halaman di list pasien?,"Maksimal 34 data per halaman, dengan tombol navigasi jika lebih.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bagaimana saya bisa menambahkan pasien baru?,"Klik menu pasien baru, isi data wajib, tambahkan data opsional jika ada, pilih jenis layanan, lalu simpan.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apakah NIK pasien harus diisi?,"Ya, NIK/KTP pasien wajib diisi agar sistem bisa membuat nomor rekam medis.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apakah saya bisa melewati alamat pasien?,"Ya, alamat bersifat opsional; bisa diisi nanti atau jika tersedia.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bagaimana memilih layanan pasien kronis?,"Pilih PRB, Prolanis, atau PRB-Prolanis sesuai program yang berlaku untuk pasien.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bisa daftar pasien tanpa golongan darah?,"Tidak, golongan darah termasuk data wajib untuk pendaftaran pasien baru.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apakah email pasien wajib diisi?,"Tidak, email pasien bersifat opsional.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bagaimana memasukkan umur pasien?,"Masukkan tanggal lahir, sistem otomatis menghitung umur.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bisa saya upload foto pasien lebih dari 1 MB?,"Tidak, sistem membatasi ukuran maksimal 1 MB per foto.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Apa itu layanan Non-Kronis?,"Layanan untuk pasien penyakit umum tanpa riwayat kronis, misal flu atau diare.",Pendaftaran Rawat Jalan
+Form Pasien Baru,Bisa ganti layanan dari PRB ke Prolanis setelah input data?,"Ya, bisa diubah sebelum data disimpan.",Pendaftaran Rawat Jalan
+Alamat Pasien,Apakah sistem bisa otomatis mengisi alamat pasien dari wali?,"Ya, pilih opsi “sama dengan wali” agar alamat otomatis terisi.",Pendaftaran Rawat Jalan
+Data Wali,Bagaimana menandai wali aktif atau tidak aktif?,Gunakan checkbox yang tersedia pada form data wali.,Pendaftaran Rawat Jalan
+Data Wali,Bagaimana menambahkan anak sebagai wali pasien?,"Pilih hubungan anak kandung atau anak angkat di dropdown, isi nama dan kontak, lalu simpan.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Apa itu dropdown “cara masuk”?,"Pilihan cara pasien datang: datang sendiri, kontrol ulang, rujukan, kasus polisi, sewa kamar, dll.",Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana mengisi diagnosa awal untuk pasien rawat jalan?,Masukkan diagnosa awal pada kolom yang tersedia; ini wajib diisi untuk dasar pelayanan.,Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bagaimana memilih dokter sesuai kuota BPJS?,Sistem menampilkan kuota pasien BPJS/non-BPJS; pilih dokter sesuai jadwal dan kuota.,Pendaftaran Rawat Jalan
+Detail Pendaftaran,Bisa filter dokter berdasarkan unit poli?,"Ya, filter unit tersedia untuk mempermudah pencarian dokter.",Pendaftaran Rawat Jalan
+Pembayaran,Bagaimana memilih pembayaran untuk pasien karyawan?,"Pilih opsi karyawan, lalu isi data tambahan jika diperlukan.",Pendaftaran Rawat Jalan
+Pembayaran,Apa yang harus diisi jika pasien pakai perusahaan penjamin?,"Isi nama perusahaan, nomor polis/asuransi, kelas pelayanan, dan keterangan tambahan.",Pendaftaran Rawat Jalan
+Pembayaran,Apakah sistem menghitung total biaya otomatis?,"Ya, setelah dokter dan jenis layanan dipilih, sistem otomatis menampilkan total biaya.",Pendaftaran Rawat Jalan
+Hasil Registrasi,Dokumen apa saja yang dihasilkan setelah pendaftaran?,"Nota registrasi, nomor rekam medis, dokter, unit, metode pembayaran, estimasi waktu pelayanan.",Pendaftaran Rawat Jalan
+Hasil Registrasi,Bisa cetak bukti registrasi langsung dari sistem?,"Ya, cetak langsung dari menu bukti registrasi pasien.",Pendaftaran Rawat Jalan
+List Pasien,Bagaimana melihat pasien yang sudah booking online?,Gunakan menu List Pasien Booking untuk melihat daftar pasien yang telah reservasi.,Pendaftaran Rawat Jalan
+List Pasien,Bagaimana cek pasien yang kontrol ulang?,Gunakan menu List Pasien Kontrol Ulang.,Pendaftaran Rawat Jalan
+List Pasien,Bagaimana memverifikasi data pasien sebelum pelayanan?,Gunakan menu List Verifikasi Pasien.,Pendaftaran Rawat Jalan
+Filtering,Bagaimana mencari pasien berdasarkan tujuan poli?,"Masukkan nama poli di kolom filter kata kunci, sistem menampilkan hasil sesuai.",Pendaftaran Rawat Jalan
+Filtering,Bisa refresh data antrian real-time?,"Ya, klik tombol refresh untuk memperbarui status pasien secara otomatis.",Pendaftaran Rawat Jalan
+Filtering,Bagaimana filter pasien berdasarkan status cetak SEP?,Pilih filter SEP: sudah dicetak atau belum dicetak.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa warna yang menandakan pasien sedang dilayani?,Warna putih.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Apa arti warna merah di daftar antrian?,Pasien sudah dipulangkan.,Pendaftaran Rawat Jalan
+Warna Status Antrian,Bagaimana mengetahui pasien rujukan?,Pasien rujukan ditandai dengan warna biru.,Pendaftaran Rawat Jalan
+Detail Tambahan,Bisa cetak ID Card pasien dari antrian?,"Ya, pilih pasien, lalu klik cetak ID Card, dengan opsi biaya kartu ditagihkan atau tidak.",Pendaftaran Rawat Jalan
+Detail Tambahan,Apa itu CPPT?,"Catatan Perkembangan Pasien Terintegrasi, dokumentasi medis dokter, perawat, gizi, dan komunikasi antar tenaga kesehatan.",Pendaftaran Rawat Jalan
+Detail Tambahan,Bagaimana upload dokumen tambahan pasien?,"Klik upload dokumen pada detail pasien, pilih file, lalu simpan.",Pendaftaran Rawat Jalan
+Detail Tambahan,Apa itu SITB?,Skrining Batuk (TBC) untuk pencegahan penularan penyakit.,Pendaftaran Rawat Jalan
+Detail Tambahan,Bagaimana menggunakan Face Recognition pasien?,Ikuti prosedur sistem untuk validasi identitas menggunakan biometrik.,Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Apa yang dicatat di rekam medis pasien?,"Profil, riwayat kunjungan, alergi, pemeriksaan fisik, SOAP, SOAPIER, ADIME, SBAR, hasil lab, tindakan, resep, penunjang medis, lampiran, dokumen tambahan.",Pendaftaran Rawat Jalan
+Paging Data,Berapa jumlah maksimal data per halaman?,"Maksimal 34 data, dengan tombol navigasi untuk halaman berikutnya.",Pendaftaran Rawat Jalan
+Rekam Medis Elektronik,Bisa unduh atau cetak data pasien?,"Ya, data pasien dapat dicetak atau diunduh sesuai kebutuhan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien baru tidak muncul setelah disimpan,"Pastikan data sudah tersimpan. Jika belum muncul, klik Refresh pada daftar pasien atau restart browser.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Kenapa pasien baru tidak terlihat di list?,"Gunakan tombol Refresh, pastikan filter status pasien tidak membatasi tampilan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Bukti registrasi gagal dicetak,"Periksa koneksi printer, izin popup/cetak di browser, dan refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Filter pasien tidak menampilkan hasil,Pastikan kata kunci sesuai dan cek filter status. Klik Refresh jika perlu.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem menolak upload foto pasien,Pastikan ukuran file maksimal 1 MB dan format file JPG/PNG.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data dokter tidak muncul saat memilih DPJP,Periksa jadwal dokter dan unit pelayanan. Gunakan filter unit atau refresh daftar dokter.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor rekam medis tidak muncul,Pastikan semua data wajib pasien sudah diisi sebelum menyimpan.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Antrian pasien tidak update secara real-time,Gunakan tombol Refresh dan pastikan koneksi internet stabil.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem error saat memilih layanan PRB/Prolanis,Pastikan pasien terdaftar dan pilih layanan sesuai program. Refresh halaman jika perlu.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data wali pasien tidak tersimpan,"Pastikan semua field wajib diisi (nama, kontak, hubungan), lalu klik Update.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol simpan pendaftaran tidak aktif,Pastikan semua data wajib diisi dan koneksi internet stabil.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Warna status antrian pasien tidak muncul,Refresh halaman dan pastikan filter status pasien aktif.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form pembayaran tidak muncul,"Pilih jenis pasien (umum, BPJS, karyawan, asuransi/perusahaan) agar form muncul otomatis.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien hilang setelah logout,Pastikan data sudah disimpan sebelum logout. Gunakan tombol Simpan.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa memilih jadwal dokter,"Periksa kuota pasien, jadwal dokter, dan filter unit. Refresh halaman jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem crash saat input alamat pasien,"Periksa format alamat, hindari karakter ilegal, dan refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload dokumen tambahan gagal,Pastikan format file sesuai dan ukuran tidak melebihi batas maksimal.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor SEP BPJS tidak muncul,"Pastikan pasien sudah terdaftar BPJS, pilih layanan BPJS, dan refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Pasien rujukan tidak muncul di list,"Pastikan asal rujukan dan tanggal diisi, lalu refresh daftar pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat saat membuka daftar pasien,"Pastikan koneksi internet stabil, kurangi filter kompleks, dan refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien kontrol ulang tidak update,Klik tombol Refresh di List Pasien Kontrol Ulang dan pastikan filter tidak membatasi tampilan.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Face recognition gagal mengenali pasien,"Pastikan pasien berdiri tepat, pencahayaan cukup, dan ulang proses verifikasi.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Dokter tidak muncul saat memilih unit poli tertentu,"Periksa jadwal dokter, kuota pasien, dan gunakan filter unit sesuai.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form catatan khusus tidak tersimpan,Pastikan klik Update/Save setelah mengisi catatan khusus.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem error saat mencetak CPPT atau dokumen lain,"Periksa koneksi printer, browser, dan refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload foto pasien gagal karena error server,"Coba ulang beberapa saat kemudian, periksa ukuran & format file, atau hubungi admin IT.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem menolak input nomor HP pasien,Pastikan format nomor HP sesuai (misal 08xx).,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Layanan Prolanis tidak muncul,Pastikan pasien terdaftar dalam program Prolanis. Refresh halaman jika perlu.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update wali pasien tidak berfungsi,Pastikan semua field wajib wali diisi dan browser tidak memblokir script.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form SLA tidak tampil,Refresh halaman dan pastikan data pasien sudah disimpan.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data alamat pasien tidak tersimpan,"Pastikan semua field alamat wajib diisi, atau gunakan opsi “sama dengan wali” bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem error saat memilih layanan Non-Kronis,Pastikan layanan sesuai kategori pasien dan refresh halaman.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol cetak ID card pasien tidak aktif,"Periksa browser, popup blocker, dan refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem menolak input tanggal lahir pasien,Pastikan format tanggal benar (DD/MM/YYYY) dan umur sesuai.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data penjamin tidak muncul saat memilih asuransi,Pastikan semua field asuransi terisi dan refresh halaman.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Dokter DPJP muncul tapi kuota penuh,Pilih dokter lain atau periksa jadwal untuk slot kosong.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien ganda muncul,"Periksa NIK, jika ganda hapus salah satu data atau hubungi admin IT.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form layanan paket tidak muncul,Pastikan opsi “Layanan Paket” dipilih Ya dan refresh halaman.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien tidak muncul setelah refresh,Pastikan koneksi internet stabil dan klik Refresh beberapa kali.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol simpan pendaftaran tetap tidak aktif,"Pastikan semua field wajib telah diisi, termasuk jenis layanan dan dokter DPJP.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat memilih cara masuk pasien,Periksa apakah dropdown Cara Masuk sudah diisi sesuai opsi yang tersedia.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa menghapus data wali pasien,Pastikan data yang ingin dihapus tidak sedang aktif sebagai penanggung pasien.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data wali tidak tersimpan setelah klik update,Pastikan semua field wajib wali sudah diisi dengan benar dan klik Update.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload dokumen tambahan tidak berhasil,Pastikan file tidak melebihi batas maksimal dan format file sesuai.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien tidak muncul di List Verifikasi,Gunakan tombol Refresh dan pastikan filter status pasien sesuai.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form diagnosa awal tidak bisa disimpan,"Pastikan field diagnosa awal diisi, format teks sesuai, lalu klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat saat memilih dokter,"Kurangi filter kompleks, pastikan kuota dokter tersedia, atau refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor rekam medis tidak otomatis terisi,Pastikan data pasien wajib telah lengkap sebelum menyimpan.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem menolak format nomor ID pasien,"Pastikan NIK dari KTP sesuai 16 digit, tanpa spasi atau karakter lain.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Warna status antrian tidak sesuai,"Pastikan refresh daftar pasien, dan filter status pasien aktif.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Face recognition error saat check-in,"Pastikan pencahayaan cukup, wajah jelas, dan ulang proses verifikasi.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien Prolanis tidak muncul,Pastikan pasien terdaftar dalam program Prolanis dan pilih layanan sesuai.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Layanan PRB tidak bisa dipilih,Pastikan pasien memiliki riwayat penyakit kronis dan data BPJS valid.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol cetak stiker pasien tidak aktif,"Periksa browser, popup blocker, dan pastikan halaman sudah Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Catatan khusus tidak tersimpan,"Klik Update/Save setelah mengisi catatan khusus, dan refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Layanan Non-Kronis tidak muncul,"Pastikan pasien sesuai kategori, refresh halaman, dan pilih layanan yang tersedia.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data alamat pasien hilang setelah refresh,"Gunakan tombol Sama dengan wali jika alamat sama, atau isi kembali field wajib.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem error saat cetak nota registrasi,"Periksa koneksi printer, refresh halaman, atau coba browser lain.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien ganda muncul,"Periksa NIK pasien, hapus data duplikat, dan pastikan field wajib unik.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update DPJP tidak berfungsi,Pastikan field dokter DPJP diisi lengkap dan browser tidak memblokir script.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Dokter DPJP muncul tapi jadwal penuh,Pilih dokter lain dengan kuota kosong atau ubah filter unit poli.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload foto pasien gagal,"Pastikan file format JPG/PNG, maksimal 1 MB, dan browser mendukung upload.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor SEP tidak muncul otomatis,"Pastikan pasien sudah terdaftar BPJS, pilih layanan BPJS, dan klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol cetak ID card pasien menolak,"Periksa koneksi printer, popup blocker, dan refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem error saat memilih paket layanan,Pastikan opsi Layanan Paket dipilih Ya dan refresh halaman jika perlu.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form SLA tidak tampil,"Pastikan pasien sudah disimpan, lalu refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat menginput pendidikan atau pekerjaan pasien,"Gunakan format teks standar tanpa karakter ilegal, lalu klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data keluarga/anak tidak muncul,"Pastikan field wajib (nama, hubungan, nomor kontak) sudah diisi dan klik Update.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat menampilkan list pasien booking,"Kurangi filter, pastikan koneksi stabil, dan klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload dokumen tambahan error,"Periksa ukuran file dan format, ulangi upload, atau hubungi admin IT.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Pasien rujukan tidak muncul di antrian,"Pastikan asal rujukan, nomor, dan tanggal rujukan sudah diisi lengkap, lalu refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pembayaran tidak tampil,Pastikan jenis pasien dan jenis pembayaran telah dipilih.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol batalkan transaksi tidak berfungsi,"Pastikan pasien belum diproses lebih lanjut, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Filter status pasien tidak bekerja,Pastikan filter aktif dan klik Refresh untuk update daftar pasien.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien tidak muncul di list kontrol ulang,"Klik tombol Refresh di List Kontrol Ulang, pastikan tanggal kontrol benar.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Face recognition gagal membaca wajah pasien,"Pastikan pasien menghadap kamera dengan pencahayaan cukup, ulangi verifikasi.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Bagaimana jika data pasien baru tidak tersimpan?,"Pastikan semua field wajib diisi, lalu klik Simpan, jika masih gagal refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Kenapa alamat pasien hilang setelah refresh?,Gunakan opsi Sama dengan Wali atau isi kembali alamat lengkap.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form jenis layanan tidak muncul,"Refresh halaman, pastikan pasien memenuhi syarat untuk PRB, Prolanis, atau Non-Kronis.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa memilih dokter,"Pastikan jadwal dokter tersedia, kuota belum penuh, dan filter unit poli benar.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol cetak nota tidak aktif,"Pastikan semua data pasien dan pembayaran sudah tersimpan, refresh halaman jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,List pasien kontrol ulang kosong,Pastikan pasien sudah terdaftar untuk kontrol ulang dan filter tanggal sesuai.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien booking tidak tampil,"Refresh halaman, pastikan pasien sudah melakukan booking dan filter status aktif.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Catatan khusus pasien tidak muncul,Pastikan sudah klik Update setelah mengisi catatan.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload dokumen gagal,"Pastikan format file sesuai (JPG, PNG, PDF), ukuran sesuai batas, dan koneksi stabil.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Face recognition tidak mengenali pasien,"Pastikan wajah jelas, pencahayaan cukup, dan coba ulang verifikasi.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem error saat memilih paket layanan,Pastikan opsi Layanan Paket dipilih Ya dan data pasien sudah tersimpan.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor SEP BPJS tidak otomatis terisi,"Pastikan pasien terdaftar BPJS, pilih layanan BPJS, klik Refresh jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update DPJP tidak bekerja,"Pastikan dokter DPJP dipilih lengkap, browser mendukung script, dan refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Warna status antrian tidak berubah,"Klik Refresh, pastikan filter status pasien sesuai.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa hapus data wali,Pastikan wali yang ingin dihapus tidak aktif sebagai penanggung pasien.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat input diagnosa awal,"Pastikan field diagnosa awal diisi, format teks standar, lalu klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,List verifikasi pasien kosong,"Refresh halaman, pastikan filter status pasien sesuai.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat pilih cara masuk pasien,Pastikan dropdown Cara Masuk diisi dengan opsi yang tersedia.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien Prolanis tidak muncul,Pastikan pasien terdaftar Prolanis dan pilih layanan sesuai.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol batalkan transaksi tidak aktif,"Pastikan pasien belum diproses lebih lanjut, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pembayaran tidak muncul,Pastikan jenis pasien dan jenis pembayaran sudah dipilih.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat upload foto pasien,"Pastikan format JPG/PNG, maksimal 1 MB, refresh browser jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat saat pilih dokter,"Kurangi filter kompleks, refresh halaman, dan pastikan kuota dokter tersedia.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien ganda muncul,"Periksa NIK pasien, hapus data duplikat, dan refresh daftar pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form SLA tidak tampil,"Pastikan pasien sudah tersimpan, lalu refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat cetak ID card pasien,"Periksa printer, popup blocker, refresh browser, dan coba ulang.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload dokumen tambahan error,"Periksa ukuran file, format, ulangi upload, atau hubungi admin IT.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien rujukan tidak muncul,"Pastikan asal rujukan, nomor, dan tanggal rujukan sudah lengkap, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Filter status pasien tidak bekerja,"Pastikan filter aktif, klik Refresh, dan cek data pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien tidak muncul di list kontrol ulang,"Klik Refresh, pastikan tanggal kontrol benar.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa cetak CPPT,"Pastikan data pasien tersimpan, browser mendukung script, dan klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat pilih layanan Non-Kronis,"Pastikan pasien kategori umum, refresh halaman jika tidak muncul.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem menolak NIK pasien,"Pastikan NIK 16 digit, tanpa spasi atau karakter lain.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update catatan medis tidak aktif,Pastikan semua field wajib diisi dan klik Simpan.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Rekam medis elektronik tidak muncul,"Pastikan pasien sudah disimpan, refresh halaman, dan cek hak akses.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa klik tombol daftar,"Pastikan semua field wajib sudah diisi, termasuk jenis layanan dan dokter DPJP.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien baru tidak muncul di List Pasien,"Klik Refresh, pastikan filter status pasien sesuai, dan koneksi internet stabil.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol cetak status rawat jalan tidak aktif,"Pastikan data pasien sudah tersimpan lengkap, refresh halaman jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,List pasien Booking error,"Pastikan pasien sudah melakukan booking, filter status aktif, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form pembayaran tidak muncul,"Pilih jenis pasien (umum, BPJS, karyawan, asuransi), refresh halaman jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat memilih unit poli,"Pastikan unit poli dipilih dari dropdown, refresh halaman bila sistem lambat.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa hapus data pasien,"Pastikan pasien belum diproses lebih lanjut, atau hubungi admin IT.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Warna antrian pasien tidak berubah,"Klik Refresh, pastikan filter status pasien sudah sesuai.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor rekam medis pasien tidak muncul,"Pastikan semua field wajib sudah lengkap, lalu klik Simpan, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat pilih dokter DPJP,"Pastikan jadwal dokter tersedia, kuota tidak penuh, filter unit poli sesuai.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa upload foto pasien,"Periksa format file (JPG/PNG), ukuran maksimal 1 MB, refresh browser.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form diagnosa awal tetap kosong,"Field diagnosa awal wajib diisi, lalu klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update data wali tidak aktif,Pastikan field nama dan nomor kontak wali sudah terisi lengkap.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien Prolanis tidak muncul,"Pastikan pasien terdaftar Prolanis dan pilih layanan Prolanis, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat pilih layanan PRB,Pastikan pasien memiliki riwayat penyakit kronis dan data BPJS valid.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,List pasien kontrol ulang kosong,Pastikan pasien sudah dijadwalkan kontrol ulang dan filter tanggal benar.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa cetak stiker pasien,"Periksa koneksi printer, popup blocker, refresh browser, coba ulang.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload dokumen tambahan tidak berhasil,"Pastikan ukuran file sesuai, format file mendukung, ulangi upload.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem error saat cetak CPPT,"Pastikan semua data medis lengkap dan browser mendukung script, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Face recognition gagal,"Pastikan wajah jelas, pencahayaan cukup, ulangi verifikasi.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Layanan Non-Kronis tidak muncul,"Pastikan pasien kategori umum, refresh halaman, pilih layanan Non-Kronis.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem menolak NIK pasien,"Pastikan NIK 16 digit, tanpa spasi atau karakter lain.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update catatan medis tidak aktif,"Pastikan semua field wajib sudah diisi, klik Simpan, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Rekam medis elektronik tidak tampil,"Pastikan pasien sudah tersimpan, refresh halaman, dan cek hak akses.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat pilih paket layanan,"Pastikan opsi Layanan Paket dipilih Ya, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor SEP tidak otomatis muncul,"Pastikan pasien terdaftar BPJS, pilih layanan BPJS, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien rujukan tidak muncul,"Pastikan asal rujukan, nomor, tanggal sudah lengkap, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat pilih cara masuk pasien,Pastikan dropdown Cara Masuk sesuai opsi yang tersedia.,Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol batalkan transaksi tidak aktif,"Pastikan pasien belum diproses, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Filter status pasien tidak bekerja,"Pastikan filter aktif, klik Refresh, cek data pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien tidak muncul di list kontrol ulang,"Klik Refresh, pastikan tanggal kontrol sesuai.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Catatan khusus pasien tidak tersimpan,"Klik Update/Save setelah mengisi catatan, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat input pendidikan atau pekerjaan,"Gunakan format teks standar, klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat saat pilih dokter,"Kurangi filter kompleks, refresh halaman, pastikan kuota dokter tersedia.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien ganda muncul,"Periksa NIK, hapus duplikat, refresh daftar pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Kenapa daftar pasien kontrol ulang tidak muncul?,"Pastikan pasien sudah dijadwalkan kontrol ulang, periksa tanggal, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Bagaimana jika warna status antrian tidak berubah?,"Klik Refresh, pastikan filter status pasien sudah sesuai.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol cetak ID card tidak aktif,"Pastikan semua data pasien tersimpan lengkap, refresh halaman, cek popup blocker.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien booking hilang,"Pastikan pasien sudah melakukan booking, filter status aktif, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat pilih dokter spesialis,"Pastikan dokter tersedia pada unit poli dan kuota belum penuh, refresh halaman jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data wali tidak bisa dihapus,"Pastikan wali tidak aktif sebagai penanggung pasien, klik Update, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload dokumen pendukung gagal,"Pastikan file sesuai format (PDF, JPG, PNG), ukuran maksimal, dan koneksi stabil.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Catatan medis CPPT tidak muncul,"Pastikan data pasien sudah tersimpan lengkap, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Face recognition error,"Pastikan wajah pasien jelas, pencahayaan cukup, ulangi verifikasi.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa pilih layanan PRB,"Pastikan pasien memiliki penyakit kronis, BPJS aktif, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form Non-Kronis tidak muncul,"Pastikan pasien kategori umum, klik refresh, pilih layanan Non-Kronis.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor SEP BPJS tidak otomatis muncul,"Pastikan pasien terdaftar BPJS, pilih layanan BPJS, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien rujukan tidak tampil,"Pastikan asal rujukan, nomor, dan tanggal rujukan sudah lengkap, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol batalkan transaksi tidak aktif,"Pastikan pasien belum diproses lebih lanjut, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Filter status pasien tidak bekerja,"Pastikan filter aktif, klik Refresh, cek data pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa cetak stiker pasien,"Periksa printer, klik Refresh, pastikan popup blocker tidak aktif.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload foto pasien error,"Pastikan format JPG/PNG, ukuran maksimal 1 MB, refresh browser.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update catatan khusus tidak bekerja,"Pastikan semua field wajib sudah diisi, klik Simpan, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Rekam medis elektronik tidak muncul,"Pastikan pasien sudah disimpan, refresh halaman, cek hak akses.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat saat memilih dokter,"Kurangi filter kompleks, refresh halaman, pastikan kuota dokter tersedia.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien ganda muncul,"Periksa NIK pasien, hapus duplikat, refresh daftar pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Layanan paket tidak muncul,"Pastikan opsi Layanan Paket dipilih Ya, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form diagnosa awal tetap kosong,"Field diagnosa awal wajib diisi, klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pembayaran tidak muncul,"Pilih jenis pasien dan metode pembayaran, refresh halaman jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update DPJP tidak bekerja,"Pastikan dokter DPJP dipilih, jadwal tersedia, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien Prolanis tidak tampil,"Pastikan pasien sudah terdaftar Prolanis, pilih layanan, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem menolak NIK,"Pastikan NIK 16 digit, tanpa spasi atau karakter lain.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol daftar pasien tidak aktif,"Pastikan semua field wajib telah diisi, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Catatan khusus pasien tidak tersimpan,"Klik Update/Save setelah mengisi catatan, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat input pendidikan atau pekerjaan,"Gunakan format teks standar, klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat saat pilih dokter,"Kurangi filter kompleks, refresh halaman, pastikan kuota dokter tersedia.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa hapus data pasien,"Pastikan pasien belum diproses lebih lanjut, hubungi admin IT bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Kenapa daftar pasien kontrol ulang tidak muncul?,"Pastikan pasien sudah dijadwalkan kontrol ulang, periksa tanggal, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Bagaimana jika warna status antrian tidak berubah?,"Klik Refresh, pastikan filter status pasien sudah sesuai.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol cetak ID card tidak aktif,"Pastikan semua data pasien tersimpan lengkap, refresh halaman, cek popup blocker.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien booking hilang,"Pastikan pasien sudah melakukan booking, filter status aktif, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat pilih dokter spesialis,"Pastikan dokter tersedia pada unit poli dan kuota belum penuh, refresh halaman jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data wali tidak bisa dihapus,"Pastikan wali tidak aktif sebagai penanggung pasien, klik Update, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload dokumen pendukung gagal,"Pastikan file sesuai format (PDF, JPG, PNG), ukuran maksimal, dan koneksi stabil.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Catatan medis CPPT tidak muncul,"Pastikan data pasien sudah tersimpan lengkap, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Face recognition error,"Pastikan wajah pasien jelas, pencahayaan cukup, ulangi verifikasi.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa pilih layanan PRB,"Pastikan pasien memiliki penyakit kronis, BPJS aktif, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form Non-Kronis tidak muncul,"Pastikan pasien kategori umum, klik refresh, pilih layanan Non-Kronis.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Nomor SEP BPJS tidak otomatis muncul,"Pastikan pasien terdaftar BPJS, pilih layanan BPJS, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien rujukan tidak tampil,"Pastikan asal rujukan, nomor, dan tanggal rujukan sudah lengkap, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol batalkan transaksi tidak aktif,"Pastikan pasien belum diproses lebih lanjut, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Filter status pasien tidak bekerja,"Pastikan filter aktif, klik Refresh, cek data pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa cetak stiker pasien,"Periksa printer, klik Refresh, pastikan popup blocker tidak aktif.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Upload foto pasien error,"Pastikan format JPG/PNG, ukuran maksimal 1 MB, refresh browser.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update catatan khusus tidak bekerja,"Pastikan semua field wajib sudah diisi, klik Simpan, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Rekam medis elektronik tidak muncul,"Pastikan pasien sudah disimpan, refresh halaman, cek hak akses.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat saat memilih dokter,"Kurangi filter kompleks, refresh halaman, pastikan kuota dokter tersedia.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien ganda muncul,"Periksa NIK pasien, hapus duplikat, refresh daftar pasien.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Layanan paket tidak muncul,"Pastikan opsi Layanan Paket dipilih Ya, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Form diagnosa awal tetap kosong,"Field diagnosa awal wajib diisi, klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pembayaran tidak muncul,"Pilih jenis pasien dan metode pembayaran, refresh halaman jika perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol update DPJP tidak bekerja,"Pastikan dokter DPJP dipilih, jadwal tersedia, refresh halaman.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Data pasien Prolanis tidak tampil,"Pastikan pasien sudah terdaftar Prolanis, pilih layanan, klik Refresh.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem menolak NIK,"Pastikan NIK 16 digit, tanpa spasi atau karakter lain.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tombol daftar pasien tidak aktif,"Pastikan semua field wajib telah diisi, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Catatan khusus pasien tidak tersimpan,"Klik Update/Save setelah mengisi catatan, refresh halaman bila perlu.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Error saat input pendidikan atau pekerjaan,"Gunakan format teks standar, klik Simpan.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Sistem lambat saat pilih dokter,"Kurangi filter kompleks, refresh halaman, pastikan kuota dokter tersedia.",Pendaftaran Rawat Jalan
+Troubleshooting Pendaftaran Rawat Jalan,Tidak bisa hapus data pasien,"Pastikan pasien belum diproses lebih lanjut, hubungi admin IT bila perlu.",Pendaftaran Rawat Jalan
+Pendaftaran Rawat Darurat Umum,Apa fungsi halaman Pendaftaran Rawat Darurat?,Halaman Pendaftaran Rawat Darurat digunakan untuk mengelola data pasien sejak pendaftaran awal hingga penerbitan bukti registrasi.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Halaman ini untuk apa saja?,"Untuk pendaftaran pasien baru, pengelolaan antrian, pemilihan dokter, dan penerbitan bukti registrasi.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara mendaftar pasien baru?,"Isi formulir pasien baru, pilih jenis layanan, masukkan data dokter, metode pembayaran, lalu klik Daftarkan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa saja field wajib di formulir pasien baru?,"Nama, Nomor ID (NIK), Tanggal Lahir/Umur, Jenis Kelamin, Golongan Darah, Nomor HP.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Field opsional apa saja?,"Email, tempat lahir, agama, pendidikan, pekerjaan, status pernikahan, dan unggah foto pasien.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu layanan PRB?,PRB (Program Rujuk Balik) adalah layanan BPJS untuk pasien penyakit kronis stabil agar obat bisa diambil di faskes tingkat pertama.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu layanan Prolanis?,Prolanis adalah program promotif-preventif BPJS untuk meningkatkan kualitas hidup pasien dengan penyakit kronis.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu layanan PRB-Prolanis?,"Pasien yang terdaftar dalam kedua program sekaligus, PRB dan Prolanis.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu layanan Non-Kronis?,Pasien umum tanpa riwayat penyakit kronis.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apakah unggah foto wajib?,"Tidak, foto pasien bersifat opsional dengan ukuran maksimal 1 MB.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara isi alamat pasien?,"Lengkapi alamat lengkap, negara, provinsi, kota, kecamatan, kelurahan, RT/RW, kode pos. Bisa pakai opsi “sama dengan wali”.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara menambahkan data wali pasien?,"Klik Tambah Wali, pilih hubungan, isi nama dan nomor kontak, klik Update.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bisa menambahkan lebih dari satu wali?,"Ya, sistem memungkinkan menambahkan beberapa wali dan menandai aktif/tidak aktif.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu kolom Catatan Khusus?,Untuk mencatat kondisi atau informasi tambahan mengenai pasien.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara isi Form Pendaftaran Rawat Darurat?,"Sistem menampilkan form dengan tanggal dan jam otomatis, profil pasien, lalu isi cara masuk, diagnosa awal, dokter, metode pembayaran.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa saja pilihan cara masuk pasien?,"Datang sendiri, dibawa dokter, kasus polisi, kontrol ulang, rujukan, sewa kamar.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,"Jika pilih rujukan, apa yang perlu diisi?","Asal rujukan, nomor rujukan, tanggal rujukan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu Diagnosa Awal?,Diagnosa awal wajib diisi sebagai dasar pelayanan medis.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana memilih dokter menangani?,"Pilih dari daftar sesuai jadwal praktik dokter, kuota pasien, unit, dan filter unit jika perlu.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana memilih metode pembayaran?,"Pilih umum, karyawan, asuransi, atau perusahaan. Jika asuransi/perusahaan, isi data polis lengkap.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu Layanan Paket?,"Opsi tambahan, bila dipilih “Ya” akan menampilkan layanan paket tersedia.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara mencatat biaya pendaftaran?,Sistem mencatat otomatis setelah data lengkap.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu Nota Registrasi?,"Bukti registrasi pasien yang berisi nomor pendaftaran, nomor rekam medis, data pasien, dokter, unit tujuan, dan data petugas.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana kode warna antrian pasien?,"Kuning: belum diverifikasi, Hijau: sudah mendaftar, Putih: sedang dilayani, Abu-abu: batal, Merah: dipulangkan, Biru: rujukan, Ungu: check-in JKN.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Fitur apa saja di daftar antrian pasien?,"Edit/verifikasi data pasien, batalkan transaksi, search bar, filter status, refresh data.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa detail yang muncul saat klik pasien di antrian?,"Cetak Nota, ID Card, Stiker/Label, Status Rawat Jalan, CPPT, KYC, SEP, upload dokumen, General Consent, sinkronisasi SATUSEHAT, rekam medis tambahan, SITB, Face Recognition.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa yang tersimpan di Rekam Medis Elektronik?,"Profil pasien, riwayat kunjungan, alergi, pemeriksaan fisik, SOAP, SOAPIER, ICD-X, operasi, tindakan, terapi, resep, penunjang medis, membership, lampiran, file, SBAR, ADIME, Form ERM, hasil lab.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Berapa data yang ditampilkan per halaman?,"Maksimal 34 data per halaman, navigasi tersedia jika lebih.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bisa mengurutkan atau memfilter data pasien?,"Ya, sistem menyediakan filter, sort, cetak, atau unduh sesuai kebutuhan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara pasien mendaftar rawat darurat jika datang sendiri?,Pilih opsi Datang Sendiri pada form cara masuk saat pendaftaran.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana jika pasien dibawa dokter?,Pilih opsi Dibawa Dokter dan isi data tambahan sesuai instruksi.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa yang harus diisi untuk pasien kasus polisi?,Pilih Kasus Polisi pada form cara masuk dan lengkapi data tambahan sesuai prosedur.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara mendaftar pasien rujukan?,"Pilih Rujukan, kemudian isi asal rujukan, nomor rujukan, dan tanggal rujukan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apakah semua pasien harus punya nomor ID?,"Ya, NIK/KTP wajib diisi agar pasien bisa terdaftar dalam sistem.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana sistem menampilkan profil pasien?,"Setelah data pasien tersimpan, ringkasan profil pasien akan tampil secara otomatis untuk verifikasi.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apakah bisa mengubah data pasien setelah disimpan?,"Ya, gunakan fitur Edit/Verifikasi data pasien di daftar antrian.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana menambahkan lebih dari satu wali pasien?,"Klik Tambah Wali beberapa kali, isi nama dan nomor kontak, pilih status aktif/non-aktif, klik update.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apakah bisa hapus data wali pasien?,"Ya, sistem menyediakan opsi hapus data wali jika ada pembaruan informasi.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara sistem mencatat tanggal dan jam pendaftaran?,Tanggal dan jam otomatis tercatat pada form pendaftaran rawat darurat saat membuka halaman.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana SLA tercatat di sistem?,SLA otomatis tercatat saat pendaftaran pasien masuk ke sistem.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana memilih dokter untuk pasien BPJS?,"Sistem menampilkan jadwal dokter, kuota BPJS, unit, dan filter unit untuk memudahkan pemilihan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana jika pasien memilih layanan paket?,"Jika dipilih “Ya”, sistem menampilkan layanan paket yang tersedia untuk dipilih.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara sistem menghitung biaya pendaftaran?,"Sistem menghitung otomatis berdasarkan data pasien, jenis layanan, dan metode pembayaran.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara cetak Nota Registrasi?,"Pilih pasien di daftar antrian, klik Cetak Nota Registrasi, lalu cetak atau simpan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apakah ID Card pasien harus dicetak?,"Tidak wajib, bisa dicetak dengan opsi biaya kartu ditagihkan atau tidak.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa yang ditampilkan di stiker dan label pasien?,"Nama pasien, nomor rekam medis, kode unit, dan informasi penting lainnya.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara mencetak ringkasan status rawat jalan?,"Klik pasien di antrian, pilih Cetak Status Rawat Jalan, sistem menampilkan ringkasan profil pasien.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu CPPT?,"Catatan Perkembangan Pasien Terintegrasi berisi dokumentasi medis dokter, perawat, gizi, dan komunikasi antar tenaga kesehatan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana sistem memverifikasi pasien dengan SATUSEHAT?,Gunakan fitur KYC/SATUSEHAT untuk sinkronisasi data pasien ke sistem nasional.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana cara input Nomor SEP pasien BPJS?,"Jika pasien BPJS, sistem menampilkan form Nomor SEP untuk diisi sesuai data BPJS.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana upload dokumen tambahan pasien?,"Klik menu Upload Dokumen, pilih file sesuai format yang diizinkan, lalu simpan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu General Consent?,"Persetujuan umum rawat jalan berisi hak, kewajiban, tata tertib pasien, dan persetujuan pelepasan informasi medis.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana form rekam medis tambahan digunakan?,"Untuk DPJP, ringkasan keluar-masuk, permintaan fisioterapi, atau dokumentasi tambahan pasien.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apa itu SITB?,"Skrining Batuk (TBC) untuk pencegahan penularan, form gejala TBC wajib diisi jika diperlukan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana face recognition membantu pendaftaran?,Validasi identitas pasien melalui biometrik untuk memastikan data benar dan akurat.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana melihat riwayat kunjungan pasien?,Semua riwayat kunjungan tersimpan di tab Rekam Medis Elektronik dan dapat difilter/urutkan.,Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Apakah pasien bisa lihat hasil lab?,"Ya, hasil lab tersimpan di Rekam Medis Elektronik dan bisa dicetak atau diunduh.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bisa mengurutkan data pasien berdasarkan tanggal?,"Ya, sistem menyediakan opsi sort dan filter sesuai kebutuhan.",Pendaftaran Rawat Darurat
+Pendaftaran Rawat Darurat Umum,Bagaimana navigasi jika data lebih dari 34 pasien?,"Gunakan tombol navigasi halaman, total data ditampilkan di kanan bawah.",Pendaftaran Rawat Darurat
+Variasi Pasien Baru,Bagaimana cara menambahkan pasien baru tanpa foto?,"Foto pasien bersifat opsional, bisa langsung simpan data pasien tanpa mengunggah foto.",Pendaftaran Rawat Darurat
+Variasi Pasien Baru,Apakah alamat pasien wajib diisi?,"Tidak wajib, namun jika diisi bisa memudahkan proses administrasi dan penentuan unit pelayanan.",Pendaftaran Rawat Darurat
+Variasi Pasien Baru,Bisa pakai alamat sama dengan wali?,"Ya, ada opsi Sama dengan Wali untuk otomatis menyalin alamat wali ke alamat pasien.",Pendaftaran Rawat Darurat
+Variasi Layanan,Bagaimana cara mendaftar pasien PRB?,Pilih jenis layanan PRB pada form pasien baru untuk pasien penyakit kronis stabil.,Pendaftaran Rawat Darurat
+Variasi Layanan,Apa itu layanan PRB-Prolanis?,"Pasien yang terdaftar di kedua program sekaligus, otomatis mengikuti alur kedua layanan.",Pendaftaran Rawat Darurat
+Variasi Layanan,Bagaimana mendaftar pasien Non-Kronis?,Pilih Non-Kronis pada jenis layanan untuk pasien umum tanpa penyakit kronis.,Pendaftaran Rawat Darurat
+Variasi Data Wali,Bagaimana menandai wali aktif atau tidak aktif?,"Gunakan checkbox pada form wali, pilih aktif atau non-aktif sesuai status wali.",Pendaftaran Rawat Darurat
+Variasi Data Wali,Bisa menambahkan lebih dari satu wali?,"Ya, klik Tambah Wali beberapa kali dan isi data masing-masing wali.",Pendaftaran Rawat Darurat
+Variasi Data Wali,Bagaimana menghapus data wali?,"Pilih wali yang ingin dihapus, klik tombol hapus, sistem akan menghapus data tersebut.",Pendaftaran Rawat Darurat
+Variasi Diagnosa,Diagnosa awal wajib diisi atau tidak?,"Ya, diagnosa awal wajib diisi sebagai dasar pelayanan medis.",Pendaftaran Rawat Darurat
+Variasi Diagnosa,Bagaimana memilih dokter yang menangani pasien?,"Pilih dokter sesuai jadwal praktik, unit, dan kuota pasien yang tersedia di sistem.",Pendaftaran Rawat Darurat
+Variasi Diagnosa,Apakah bisa memfilter dokter berdasarkan unit?,"Ya, ada filter unit untuk memudahkan pencarian dokter sesuai poli.",Pendaftaran Rawat Darurat
+Variasi Pembayaran,Bagaimana memilih metode pembayaran pasien umum?,"Pilih Umum pada form pembayaran, biaya akan tercatat otomatis.",Pendaftaran Rawat Darurat
+Variasi Pembayaran,Apa yang harus diisi jika pasien pakai asuransi?,"Masukkan nama perusahaan asuransi, nomor polis, tanggal kadaluarsa, kelas, dan penjamin pembayar.",Pendaftaran Rawat Darurat
+Variasi Bukti Registrasi,Bagaimana mendapatkan bukti registrasi pasien?,"Setelah pendaftaran selesai, sistem otomatis menghasilkan Nota Registrasi.",Pendaftaran Rawat Darurat
+Variasi Bukti Registrasi,Apakah bukti registrasi bisa dicetak?,"Ya, bisa dicetak dan diberikan kepada pasien sebagai bukti resmi.",Pendaftaran Rawat Darurat
+Variasi Antrian,Bagaimana cara mengetahui pasien sudah diverifikasi?,"Cek kode warna Kuning = belum diverifikasi, Hijau = sudah mendaftar.",Pendaftaran Rawat Darurat
+Variasi Antrian,Bagaimana menandai pasien batal atau sudah dipulangkan?,"Kode warna Abu-abu = batal, Merah = sudah dipulangkan.",Pendaftaran Rawat Darurat
+Variasi Antrian,Bagaimana menandai pasien rujukan atau check-in JKN?,"Biru = pasien rujukan, Ungu = pasien check-in JKN.",Pendaftaran Rawat Darurat
+Variasi Antrian,Bagaimana cara refresh daftar antrian pasien?,Klik tombol Refresh untuk memperbarui data real-time.,Pendaftaran Rawat Darurat
+ Variasi Pencarian,Bisa mencari pasien dengan NIK atau nama?,"Ya, gunakan search bar, bisa mencari berdasarkan nama, NIK, nomor RM, atau data lain.",Pendaftaran Rawat Darurat
+ Variasi Filtering,Bagaimana filter pasien yang sedang dilayani?,Gunakan filter Status Pasien ? Sedang Dilayani untuk menampilkan data yang sesuai.,Pendaftaran Rawat Darurat
+ Variasi Filtering,Bisa filter pasien yang menggunakan BPJS?,"Ya, filter dapat mengelompokkan pasien berdasarkan status penjamin, termasuk BPJS.",Pendaftaran Rawat Darurat
+ Variasi Cetak Dokumen,Bagaimana cetak ID Card pasien?,"Pilih pasien di daftar antrian, klik Cetak ID Card, pilih opsi biaya kartu ditagihkan atau tidak.",Pendaftaran Rawat Darurat
+ Variasi Cetak Dokumen,Bisa cetak stiker pasien?,"Ya, klik Cetak Stiker, sistem akan menyiapkan stiker dengan informasi pasien.",Pendaftaran Rawat Darurat
+ Variasi Cetak Dokumen,Bagaimana cetak label pasien?,"Pilih pasien, klik Cetak Label, label akan muncul sesuai format sistem.",Pendaftaran Rawat Darurat
+ Variasi Rekam Medis,Bagaimana melihat riwayat penyakit pasien?,"Semua data tersimpan di tab Rekam Medis Elektronik, bisa diurutkan atau difilter.",Pendaftaran Rawat Darurat
+ Variasi Rekam Medis,Bagaimana melihat hasil laboratorium Prodia?,"Hasil lab tersimpan di tab Rekam Medis Elektronik, bisa dicetak atau diunduh.",Pendaftaran Rawat Darurat
+ Variasi Rekam Medis,Apa itu ADIME dan SBAR?,"ADIME ? dokumentasi gizi, SBAR ? komunikasi antar tenaga kesehatan, keduanya tersimpan di Rekam Medis Elektronik.",Pendaftaran Rawat Darurat
+ Variasi Paging,Bagaimana jika ada lebih dari 34 pasien?,"Gunakan tombol navigasi halaman, total data ditampilkan di kanan bawah.",Pendaftaran Rawat Darurat
+ Variasi Paging,Bisa ubah jumlah pasien per halaman?,"Sistem menampilkan maksimal 34 pasien per halaman, jumlah default tidak bisa diubah.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Data pasien baru tidak muncul di daftar, apa yang harus dilakukan?",Klik tombol Refresh untuk memperbarui daftar pasien.,Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Form pasien baru sudah diisi tapi tidak tersimpan, kenapa?","Pastikan semua field wajib (*) telah diisi, lalu klik Daftarkan.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Tombol Daftarkan tidak aktif, bagaimana solusinya?","Periksa kembali data wajib, pastikan diagnosa awal dan metode pembayaran telah dipilih.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Refresh data tidak menampilkan pasien terbaru, apa penyebabnya?","Bisa karena koneksi jaringan atau server lambat, coba tunggu beberapa detik lalu klik Refresh lagi.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Data pasien ganda muncul, bagaimana menanganinya?","Periksa nomor ID (NIK/KTP), jika duplikat hapus entri yang salah.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Foto pasien gagal diunggah, apa yang harus dilakukan?","Pastikan ukuran foto ?1 MB dan format sesuai (JPG/PNG), lalu coba unggah lagi.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Tidak bisa memilih dokter, kenapa?","Pastikan unit dan jadwal dokter tersedia, dan kuota pasien belum penuh.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Nomor SEP tidak muncul untuk pasien BPJS, apa solusinya?",Periksa kembali status penjamin dan koneksi ke sistem SATUSEHAT.,Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Cetak nota registrasi tidak keluar, bagaimana mengatasinya?","Pastikan printer terhubung, pilih pasien yang benar, dan klik Cetak Nota Registrasi.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Label atau stiker pasien tidak tercetak?,"Pastikan printer siap, pilih pasien yang benar, cek setting ukuran kertas, lalu klik Cetak Label/Stiker.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Data wali tidak tersimpan, apa yang salah?","Pastikan nama dan nomor kontak wali diisi, lalu klik Update.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Data rujukan tidak muncul, bagaimana cara memperbaikinya?","Pastikan asal rujukan, nomor, dan tanggal diisi dengan benar.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Sistem lambat menampilkan antrian pasien, apa penyebabnya?","Bisa karena banyak data yang diproses, coba refresh atau tunggu beberapa saat.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Tidak bisa filter pasien berdasarkan status, apa solusinya?","Pastikan filter dipilih dengan benar, klik Apply atau refresh jika perlu.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Data pembayaran asuransi tidak muncul?,"Periksa kembali input data polis: perusahaan, nomor, tanggal kadaluarsa, dan kelas.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Face Recognition gagal mendeteksi pasien, apa yang dilakukan?","Pastikan wajah pasien terlihat jelas, cahaya cukup, dan kamera berfungsi.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Tidak bisa mengunggah dokumen tambahan pasien?,"Periksa ukuran file dan format, pastikan sesuai ketentuan sistem.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Rekam medis tidak muncul di tab RM elektronik, kenapa?","Bisa karena data belum tersimpan sepenuhnya, klik Refresh atau cek koneksi sistem.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Paging data tidak berjalan, pasien lebih dari 34 tidak muncul?","Gunakan tombol navigasi halaman di bawah daftar pasien, pastikan tidak ada filter aktif yang membatasi tampilan.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Status pasien tetap kuning meskipun sudah diverifikasi, kenapa?","Pastikan update data pasien telah disimpan, lalu refresh daftar antrian.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Bagaimana jika pasien baru sudah diisi tapi tidak muncul di daftar?,Klik tombol Refresh untuk memperbarui daftar pasien.,Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Formulir pasien baru sudah lengkap tapi tombol Daftarkan tetap tidak aktif, kenapa?",Pastikan semua field wajib (*) telah diisi termasuk diagnosa awal dan metode pembayaran.,Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Bagaimana cara menghapus pasien yang salah masuk daftar?,"Pilih pasien yang dimaksud, klik Batalkan Transaksi atau hapus entri duplikat.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Foto pasien gagal diunggah, apa solusinya?","Pastikan ukuran foto ?1 MB, format JPG/PNG, lalu unggah kembali.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Dokter tidak bisa dipilih di form pendaftaran, apa penyebabnya?","Periksa jadwal dokter dan kuota pasien. Jika penuh, pilih dokter lain atau tunggu kuota tersedia.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Nomor SEP tidak muncul untuk pasien BPJS, bagaimana mengatasinya?","Periksa status penjamin dan koneksi ke sistem SATUSEHAT, lalu refresh halaman.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Cetak nota registrasi tidak keluar, apa yang harus dilakukan?","Pastikan printer aktif, pilih pasien yang benar, lalu klik Cetak Nota Registrasi.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Stiker dan label pasien tidak tercetak?,"Pastikan printer siap, ukuran kertas sesuai, lalu klik Cetak Label/Stiker.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Data wali pasien tidak tersimpan, bagaimana caranya?","Pastikan nama dan nomor kontak wali terisi, lalu klik Update.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Rujukan pasien tidak muncul di sistem?,"Pastikan asal rujukan, nomor, dan tanggal rujukan diisi dengan benar, kemudian refresh daftar.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Sistem lambat menampilkan daftar pasien, kenapa?",Bisa karena banyak data diproses. Tunggu beberapa detik lalu klik Refresh.,Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Filter status pasien tidak bekerja, bagaimana solusinya?","Pastikan filter dipilih benar, klik Apply, atau refresh halaman.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Data pembayaran asuransi tidak muncul, apa yang harus dicek?","Periksa input data polis: perusahaan, nomor, tanggal kadaluarsa, kelas, dan penjamin.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Face Recognition gagal mengenali pasien?,"Pastikan wajah terlihat jelas, cahaya cukup, dan kamera berfungsi baik.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Dokumen tambahan pasien gagal diunggah, apa solusinya?","Periksa ukuran file dan format sesuai ketentuan, lalu unggah ulang.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Data rekam medis tidak muncul di tab RM elektronik?,"Bisa karena data belum tersimpan, klik Refresh atau cek koneksi sistem.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Paging data tidak menampilkan pasien >34?,"Gunakan tombol navigasi halaman, pastikan tidak ada filter yang membatasi tampilan.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Status pasien tetap kuning padahal sudah diverifikasi, kenapa?","Pastikan update data pasien telah disimpan, lalu klik Refresh.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,Bagaimana jika form PRB-Prolanis tidak bisa dipilih?,"Pastikan pasien memang terdaftar di kedua program, jika tidak, pilih salah satu yang sesuai.",Pendaftaran Rawat Darurat
+ Error / Troubleshooting,"Tidak bisa memilih layanan paket, apa yang harus dilakukan?",Pastikan opsi paket tersedia untuk unit pelayanan yang dipilih.,Pendaftaran Rawat Darurat
+ Form Pasien Baru,Apa saja data wajib yang harus diisi saat mendaftar pasien baru?,"Nama, Nomor ID (NIK), Tanggal Lahir/Umur, Jenis Kelamin, Golongan Darah, Nomor HP.",Pendaftaran Rawat Darurat
+ Form Pasien Baru,"Form pasien baru tidak bisa disimpan, kenapa?","Pastikan semua field wajib (*) telah diisi, termasuk diagnosa awal dan metode pembayaran.",Pendaftaran Rawat Darurat
+ Form Pasien Baru,Apakah foto pasien wajib diunggah?,"Tidak wajib, maksimal ukuran file 1 MB.",Pendaftaran Rawat Darurat
+ Form Pasien Baru,"Bagaimana memilih jenis layanan PRB, Prolanis, PRB-Prolanis, atau Non-Kronis?","Pilih sesuai kondisi pasien: PRB untuk pasien kronis stabil, Prolanis untuk pemantauan kronis, PRB-Prolanis jika keduanya, Non-Kronis untuk pasien umum.",Pendaftaran Rawat Darurat
+Form Alamat,Bagaimana cara mengisi alamat pasien?,"Isi alamat lengkap, negara, provinsi, kota, kecamatan, kelurahan, RT/RW, kode pos. Bisa pilih “sama dengan wali” jika sama.",Pendaftaran Rawat Darurat
+Form Alamat,"Alamat pasien tidak muncul di form, bagaimana mengatasinya?",Pastikan input field terisi lengkap dan klik Update/Refresh jika perlu.,Pendaftaran Rawat Darurat
+Data Wali,Berapa jumlah wali yang bisa ditambahkan?,"Bisa lebih dari satu, tiap wali memiliki status aktif atau tidak aktif.",Pendaftaran Rawat Darurat
+Data Wali,Bagaimana menghapus data wali pasien?,Pilih wali yang ingin dihapus lalu klik Hapus.,Pendaftaran Rawat Darurat
+Data Wali,"Data wali tidak tersimpan, kenapa?","Pastikan nama dan nomor kontak terisi, kemudian klik Update.",Pendaftaran Rawat Darurat
+ Catatan Khusus,Apa fungsi kolom catatan khusus?,Untuk mencatat kondisi atau informasi tambahan mengenai pasien.,Pendaftaran Rawat Darurat
+Form Pendaftaran,Bagaimana cara masuk pasien di rawat darurat?,"Pilih dari dropdown: datang sendiri, dibawa dokter, kasus polisi, kontrol ulang, rujukan, sewa kamar.",Pendaftaran Rawat Darurat
+Form Pendaftaran,Apa yang harus diisi saat pasien datang dari rujukan?,"Masukkan asal rujukan, nomor, dan tanggal rujukan.",Pendaftaran Rawat Darurat
+ Diagnosa Awal,"Diagnosa awal wajib diisi, kenapa?",Sebagai dasar pelayanan medis dan penentuan alur rawat.,Pendaftaran Rawat Darurat
+ Dokter,"Dokter tidak tersedia, apa yang harus dilakukan?","Periksa jadwal dan kuota dokter, pilih dokter lain jika penuh.",Pendaftaran Rawat Darurat
+ Pembayaran,Opsi pembayaran apa saja yang tersedia?,"Umum, karyawan, asuransi, atau perusahaan.",Pendaftaran Rawat Darurat
+ Pembayaran,"Data asuransi tidak muncul, kenapa?","Pastikan data polis: perusahaan, nomor, tanggal kadaluarsa, kelas, penjamin terisi.",Pendaftaran Rawat Darurat
+ Dokter Menangani,Bagaimana memilih dokter penanggung jawab?,"Pilih dari form dokter, sistem menampilkan unit, jenis dokter, jam praktik, kuota BPJS/non-BPJS.",Pendaftaran Rawat Darurat
+ Layanan Paket,"Layanan paket tidak muncul, kenapa?",Pastikan opsi “Ya” dipilih dan paket tersedia di unit pelayanan.,Pendaftaran Rawat Darurat
+ Bukti Registrasi,Apa yang muncul di nota registrasi?,"Nomor pendaftaran, nomor RM, data pasien, dokter penanggung jawab, jenis pembayaran, unit tujuan, data petugas.",Pendaftaran Rawat Darurat
+ Antrian,Bagaimana kode warna antrian pasien?,"Kuning = belum diverifikasi, Hijau = sudah mendaftar, Putih = sedang dilayani, Abu-abu = batal, Merah = sudah dipulangkan, Biru = rujukan, Ungu = check-in JKN.",Pendaftaran Rawat Darurat
+Form Pasien Baru,Apa saja data wajib untuk pasien baru rawat inap?,"Nama, NIK, tanggal lahir/umur, jenis kelamin, golongan darah, nomor HP.",Pendaftaran Rawat Inap
+Form Pasien Baru,Apakah pasien rawat inap harus mengisi jenis layanan PRB/Prolanis/Non-Kronis?,"Tidak wajib, bisa diisi sesuai kondisi pasien.",Pendaftaran Rawat Inap
+Form Alamat,Bagaimana cara mengisi alamat pasien rawat inap?,"Sama seperti rawat jalan/darurat: alamat lengkap, negara, provinsi, kota, kecamatan, kelurahan, RT/RW, kode pos, atau pilih “sama dengan wali”.",Pendaftaran Rawat Inap
+Data Wali,Berapa jumlah wali pasien rawat inap yang bisa ditambahkan?,"Bisa lebih dari satu, tiap wali memiliki status aktif atau tidak aktif.",Pendaftaran Rawat Inap
+Detail Pendaftaran,Apa itu DPJP?,Dokter Penanggung Jawab yang bertanggung jawab penuh atas perawatan pasien rawat inap.,Pendaftaran Rawat Inap
+Detail Pendaftaran,Bagaimana cara memilih ruang/kamar rawat inap?,"Pilih dari dropdown berdasarkan ketersediaan, mencakup kelas (VIP, 1, 2, 3), nomor kamar, dan jumlah bed kosong.",Pendaftaran Rawat Inap
+Detail Pendaftaran,Apa saja opsi cara masuk pasien rawat inap?,"Datang sendiri, rujukan, IGD, kontrol ulang, atau lainnya sesuai sistem.",Pendaftaran Rawat Inap
+Detail Pendaftaran,"Diagnosa awal rawat inap wajib diisi, kenapa?",Sebagai dasar pelayanan medis dan alur perawatan inap pasien.,Pendaftaran Rawat Inap
+Detail Pendaftaran,Pilihan pembayaran apa saja tersedia untuk rawat inap?,"Umum, perusahaan, asuransi/BPJS, lengkap dengan data polis bila menggunakan penjamin.",Pendaftaran Rawat Inap
+ Biaya Administrasi,Bagaimana biaya administrasi awal dihitung?,"Sistem otomatis menghitung berdasarkan ruang, kelas, dan jenis layanan pasien.",Pendaftaran Rawat Inap
+List Pasien Rujukan,Apa itu List Pasien Rujukan?,Daftar pasien yang dirujuk dari Rawat Jalan atau IGD untuk rawat inap. Pastikan pasien tidak sedang dirawat inap aktif.,Pendaftaran Rawat Inap
+List Booking,Bagaimana cara kerja List Booking Rawat Inap?,"Menampilkan pasien yang sudah booking kamar, biasanya pasien elektif, dengan kode warna hijau = konfirmasi bersedia.",Pendaftaran Rawat Inap
+List Pasien RJ/IGD,Bagaimana memindahkan pasien dari Rawat Jalan/IGD ke Rawat Inap?,Data pasien bisa langsung di-link dari RJ/IGD tanpa input ulang seluruh identitas.,Pendaftaran Rawat Inap
+Bukti Registrasi,Apa yang muncul di bukti registrasi rawat inap?,"Identitas pasien, nomor rekam medis, nomor pendaftaran, DPJP, ruang/kamar, metode pembayaran, data penjamin.",Pendaftaran Rawat Inap
+ Antrian,Bagaimana kode warna status antrian rawat inap?,"Hijau = sudah daftar, Putih = sedang dilayani, Abu-abu = dibatalkan, Merah = sudah dipulangkan, Ungu = naik kelas, Biru = titip kamar.",Pendaftaran Rawat Inap
+ Monitoring,Bagaimana cara memonitor pasien rawat inap?,"Gunakan daftar antrian, filter berdasarkan status, unit, dokter, atau sinkronisasi dengan rekam medis elektronik dan SATUSEHAT.",Pendaftaran Rawat Inap
+ Troubleshooting,"Data pasien baru rawat inap tidak muncul di antrian, apa yang dilakukan?","Refresh halaman atau daftar ulang pasien, pastikan semua field wajib terisi.",Pendaftaran Rawat Inap
+ Troubleshooting,"Booking pasien rawat inap tidak muncul di list booking, kenapa?","Pastikan pasien sudah konfirmasi bersedia dan kamar tersedia, kemudian refresh sistem.",Pendaftaran Rawat Inap
+ Troubleshooting,"Ruang/kamar tidak muncul saat pendaftaran, bagaimana mengatasinya?","Periksa ketersediaan bed, filter kelas/kamar, atau hubungi admin jika terjadi kesalahan sistem.",Pendaftaran Rawat Inap
+Form Pasien Baru,Bagaimana cara mengunggah foto pasien rawat inap?,"Klik opsi unggah foto pada form pasien baru, maksimal ukuran 1 MB.",Pendaftaran Rawat Inap
+Form Pasien Baru,Apakah unggah foto pasien wajib?,"Tidak, hanya opsional untuk melengkapi data pasien.",Pendaftaran Rawat Inap
+ Data Wali,Bagaimana menandai wali pasien sebagai aktif atau tidak aktif?,Gunakan checkbox yang tersedia di form data wali.,Pendaftaran Rawat Inap
+Data Wali,Bagaimana cara menghapus data wali yang salah?,Klik tombol hapus pada data wali yang ingin dihapus.,Pendaftaran Rawat Inap
+ Detail Pendaftaran,"Jika pasien rujukan, apa data tambahan yang perlu diisi?","Asal rujukan (puskesmas, klinik, apotek, dll.), nomor, dan tanggal rujukan.",Pendaftaran Rawat Inap
+ Detail Pendaftaran,Bagaimana cara memilih DPJP jika jadwal dokter penuh?,"Gunakan filter unit dan jadwal, atau pilih dokter lain yang tersedia sesuai ketersediaan.",Pendaftaran Rawat Inap
+List Pasien Rujukan,Bagaimana mengetahui pasien rujukan sudah valid?,Pastikan pasien tidak memiliki status rawat inap aktif di sistem.,Pendaftaran Rawat Inap
+List Booking,Bagaimana menandai pasien yang batal booking?,Sistem otomatis menandai status dengan warna sesuai pengaturan (misalnya merah).,Pendaftaran Rawat Inap
+Antrian,Bagaimana memfilter pasien rawat inap berdasarkan kelas kamar?,Gunakan opsi filter kelas kamar pada daftar antrian.,Pendaftaran Rawat Inap
+Antrian,Bagaimana memfilter pasien berdasarkan DPJP?,Gunakan filter dokter pada daftar antrian rawat inap.,Pendaftaran Rawat Inap
+Bukti Registrasi,Apakah bukti registrasi bisa dicetak ulang?,"Ya, bisa dicetak ulang melalui detail pendaftaran pasien.",Pendaftaran Rawat Inap
+Bukti Registrasi,Informasi apa saja yang tercetak di bukti registrasi pasien rawat inap?,"Nama pasien, nomor rekam medis, nomor pendaftaran, DPJP, ruang/kamar, metode pembayaran, data penjamin.",Pendaftaran Rawat Inap
+ Troubleshooting,Bagaimana jika ruang/kamar yang dipilih sudah terisi saat menyimpan pendaftaran?,"Sistem akan menampilkan peringatan, pilih kamar lain yang tersedia.",Pendaftaran Rawat Inap
+ Troubleshooting,Apa yang dilakukan jika kode warna antrian tidak muncul?,"Refresh halaman, pastikan data pasien sudah tersimpan dengan benar.",Pendaftaran Rawat Inap
+ Troubleshooting,Bagaimana jika pasien sudah terdaftar di RJ tapi tidak muncul di list RJ/IGD?,Pastikan data pasien sudah selesai disimpan di RJ/IGD dan lakukan refresh list pasien.,Pendaftaran Rawat Inap
+ Monitoring,Bagaimana cara memantau pasien titip kamar sementara?,Gunakan kode warna biru pada daftar antrian rawat inap.,Pendaftaran Rawat Inap
+ Monitoring,Bagaimana mengetahui pasien naik kelas kamar?,Kode warna ungu menandakan pasien naik kelas (misalnya dari kelas 3 ke VIP).,Pendaftaran Rawat Inap
+ Monitoring,Bagaimana memastikan sinkronisasi data pasien dengan SATUSEHAT?,"Gunakan tombol sinkronisasi pada menu pendaftaran rawat inap, pastikan koneksi aktif.",Pendaftaran Rawat Inap
+ Troubleshooting,Bagaimana jika SEP BPJS tidak otomatis muncul?,"Pastikan nomor BPJS valid, pasien sudah terdaftar, lalu refresh halaman atau hubungi admin.",Pendaftaran Rawat Inap
+ Troubleshooting,Bagaimana cara memperbaiki data pasien yang salah setelah disimpan?,"Gunakan fitur edit/verifikasi data pasien, simpan perubahan.",Pendaftaran Rawat Inap
+Pilih dpdp,Bagaimana cara memilih DPJP untuk pasien rawat inap?,"Pada form pendaftaran rawat inap, pilih dokter penanggung jawab (DPJP) dari dropdown yang tersedia. Sistem menampilkan jadwal, kuota, dan unit dokter.",Pendaftaran Rawat Inap
+Pilih dpdp,Siapa dokter yang bisa dipilih sebagai DPJP?,DPJP dipilih sesuai jadwal praktik dokter dan ketersediaan di unit pelayanan rawat inap.,Pendaftaran Rawat Inap
+Pilih kamar,Bagaimana memilih kamar untuk rawat inap?,"Pilih ruang/kamar dari dropdown yang menampilkan kelas perawatan, nomor kamar, dan jumlah bed kosong.",Pendaftaran Rawat Inap
+Pilih kamar,"Kamar yang tersedia tidak muncul, bagaimana?",Refresh halaman pendaftaran atau cek kembali filter kamar. Pastikan ada bed kosong sesuai kelas yang dipilih.,Pendaftaran Rawat Inap
+Cek status pasien,Bagaimana melihat status pasien rawat inap?,"Masuk ke daftar antrian rawat inap, perhatikan kode warna status: Hijau = daftar, Putih = sedang dilayani, Abu-abu = batal, Merah = dipulangkan, Ungu = naik kelas, Biru = titip kamar.",Pendaftaran Rawat Inap
+Filter pasien,Bagaimana memfilter pasien rawat inap berdasarkan dokter?,"Gunakan fitur filter di halaman antrian, pilih nama DPJP untuk menampilkan pasien yang ditangani dokter tersebut.",Pendaftaran Rawat Inap
+Filter pasien,Bisa memfilter pasien by status dan ruang sekaligus?,"Ya, gunakan filter kombinasi: pilih status pasien dan ruang/kamar, sistem menampilkan hasil sesuai kriteria.",Pendaftaran Rawat Inap
+Booking pasien,Bagaimana melihat pasien yang sudah booking rawat inap?,"Masuk ke menu “List Booking Rawat Inap”, sistem menampilkan pasien yang telah melakukan reservasi kamar.",Pendaftaran Rawat Inap
+Booking pasien,Bagaimana mengetahui pasien batal booking?,Periksa kode warna di list booking: merah = batal.,Pendaftaran Rawat Inap
+Rujukan pasien,Bagaimana menambahkan pasien rujukan dari RJ/IGD ke rawat inap?,"Pilih menu “List Pasien RJ/IGD”, pilih pasien yang akan dipindahkan, pastikan pasien belum memiliki rawat inap aktif, lalu link data ke rawat inap.",Pendaftaran Rawat Inap
+Dokumen pasien,Bagaimana mencetak Bukti Registrasi Rawat Inap?,"Setelah pendaftaran berhasil, klik opsi cetak Bukti Registrasi. Dokumen berisi identitas pasien, nomor rekam medis, DPJP, ruang/kamar, metode pembayaran, dan data penjamin.",Pendaftaran Rawat Inap
+Dokumen pasien,Bisa mencetak ID Card atau stiker pasien?,"Ya, di menu detail pasien terdapat opsi cetak ID Card, stiker, label pasien.",Pendaftaran Rawat Inap
+Error data,"Data pasien baru tidak muncul di antrian, apa yang harus dilakukan?","Klik tombol refresh data antrian, pastikan pendaftaran berhasil tersimpan.",Pendaftaran Rawat Inap
+Error data,"Sistem gagal menyimpan pendaftaran, apa solusinya?","Periksa koneksi internet, pastikan semua field wajib sudah diisi, lalu coba simpan ulang.",Pendaftaran Rawat Inap
+Integrasi sep,Bagaimana memasukkan nomor SEP BPJS untuk pasien rawat inap?,"Pada form pembayaran pilih BPJS, isi nomor SEP, tanggal, dan data penjamin sesuai BPJS.",Pendaftaran Rawat Inap
+Integrasi erm,Apakah data pasien rawat inap otomatis tersimpan di rekam medis elektronik?,"Ya, setiap pendaftaran rawat inap tersinkronisasi ke tab rekam medis elektronik, termasuk DPJP, diagnosa awal, dan tindakan.",Pendaftaran Rawat Inap
+Layanan paket,Bagaimana menambahkan layanan paket untuk pasien rawat inap?,"Jika tersedia, pilih opsi “Layanan Paket = Ya”, sistem menampilkan layanan paket yang bisa ditambahkan.",Pendaftaran Rawat Inap
+MCU Navigasi,Bagaimana cara membuka halaman Pendaftaran MCU?,"Untuk membuka halaman Pendaftaran MCU, pilih menu Front Office ? Back Office ? Booking Online ? Pendaftaran MCU.",Pendaftaran MCU
+MCU Navigasi,"Saya ingin masuk ke menu pendaftaran MCU, langkahnya apa?",Masuk melalui menu Front Office > Back Office > Booking Online > Pendaftaran MCU.,Pendaftaran MCU
+MCU Navigasi,Dimana letak menu pendaftaran MCU di sistem?,Menu Pendaftaran MCU berada di bagian Booking Online dalam modul Front Office / Back Office.,Pendaftaran MCU
+MCU Formulir,Apa saja data yang harus diisi untuk pasien baru MCU?,"Form pasien baru terbagi menjadi wajib (Nama, NIK, Tanggal Lahir/Umur, Jenis Kelamin, Golongan Darah, Nomor HP) dan opsional (email, agama, pendidikan, pekerjaan, status pernikahan, jenis layanan, unggah foto).",Pendaftaran MCU
+MCU Formulir,Data wajib apa saja yang perlu diisi saat mendaftar MCU?,"Nama, NIK, Tanggal Lahir/Umur, Jenis Kelamin, Golongan Darah, dan Nomor HP.",Pendaftaran MCU
+MCU Formulir,Apakah saya harus mengisi email pasien saat daftar MCU?,"Email termasuk form opsional, jadi tidak wajib diisi.",Pendaftaran MCU
+MCU Formulir,Bagaimana cara mengunggah foto pasien di MCU?,"Pilih opsi unggah foto di form pasien baru, maksimal ukuran file 1 MB.",Pendaftaran MCU
+MCU Formulir,Jenis layanan apa saja yang bisa dipilih untuk MCU?,"PRB, Prolanis, PRB-Prolanis, Non-Kronis.",Pendaftaran MCU
+MCU Import Data,Bagaimana cara import data pasien MCU dari file?,"Gunakan tombol Tempat & Import Data, lalu pilih file melalui Browse untuk diunggah.",Pendaftaran MCU
+MCU Import Data,Apa aturan saat import data pasien MCU?,"Data dengan tanda ""-"" tidak diisi; jika nama pasien sama, sistem tidak menambahkan duplikat.",Pendaftaran MCU
+MCU Import Data,Bagaimana cara mencari diagnosis tertentu di tabel ICD MCU?,Gunakan kotak “Cari Nama ICD X” untuk mencari berdasarkan nama penyakit/diagnosis.,Pendaftaran MCU
+MCU Import Data,Tombol refresh untuk apa di halaman MCU?,Tombol Refresh memperbarui data pasien atau diagnosis yang ditampilkan di tabel.,Pendaftaran MCU
+MCU Tabel ICD,Apa saja kolom yang ada di tabel ICD MCU?,"Kode DTD, Kode ICD X, Nama ICD X, ICD DTD Nama, Alias, Keterangan, Aktif.",Pendaftaran MCU
+MCU Tabel ICD,Bagaimana mengetahui status aktif diagnosis di tabel MCU?,Kolom “Aktif” menampilkan “y” jika diagnosis sedang aktif digunakan.,Pendaftaran MCU
+MCU Paket,Bagaimana memilih paket pemeriksaan MCU?,Pilih paket yang tersedia melalui form pendaftaran atau tabel paket.,Pendaftaran MCU
+MCU Paket,Apakah pasien MCU bisa memilih paket sendiri?,"Ya, pasien dapat memilih paket sesuai ketersediaan di sistem.",Pendaftaran MCU
+MCU Dokter,Bagaimana memilih dokter untuk pasien MCU?,"Pilih dokter dari daftar dokter yang tersedia di tab Data Dokter, sesuai jadwal praktik.",Pendaftaran MCU
+MCU Dokter,Apakah bisa mengganti dokter pasien MCU?,"Bisa, selama dokter lain tersedia dan jadwalnya sesuai.",Pendaftaran MCU
+MCU Kota,Bagaimana memilih lokasi pemeriksaan MCU?,Pilih kota atau fasilitas layanan di tab Data Kota saat pendaftaran.,Pendaftaran MCU
+MCU Penjamin,Apa saja metode pembayaran di MCU?,"Umum, perusahaan, asuransi/BPJS.",Pendaftaran MCU
+MCU Penjamin,Bagaimana memasukkan nomor polis asuransi pasien MCU?,Masukkan nomor polis di form data penjamin jika metode pembayaran menggunakan asuransi/perusahaan.,Pendaftaran MCU
+MCU Status,Apa arti warna hijau di daftar MCU?,Hijau menunjukkan pasien sudah terdaftar.,Pendaftaran MCU
+MCU Status,Warna merah di daftar pasien MCU berarti apa?,Merah menandakan pasien sudah dipulangkan.,Pendaftaran MCU
+MCU Status,Bagaimana cara memantau status pasien MCU secara cepat?,"Gunakan kode warna di antrian MCU: Hijau (daftar), Putih (dilayani), Abu-abu (batal), Merah (dipulangkan).",Pendaftaran MCU
+MCU Error,"Data pasien baru tidak muncul, apa yang harus dilakukan?",Klik tombol Refresh untuk memperbarui tampilan data pasien.,Pendaftaran MCU
+MCU Error,"File import MCU gagal, bagaimana solusinya?","Pastikan format file sesuai aturan, tidak ada duplikat, lalu coba import ulang.",Pendaftaran MCU
+MCU Error,"Saya tidak bisa memilih dokter MCU, kenapa?","Periksa jadwal dokter dan ketersediaan unit, pastikan dokter belum penuh kuotanya.",Pendaftaran MCU
+MCU Navigasi,Di mana saya bisa melihat daftar antrian MCU?,Daftar antrian MCU bisa dilihat di bagian Antrian MCU pada halaman Pendaftaran MCU.,Pendaftaran MCU
+MCU Navigasi,Bagaimana cara kembali ke menu Front Office dari halaman MCU?,Gunakan breadcrumb/menu navigasi di bagian atas halaman: klik Front Office untuk kembali.,Pendaftaran MCU
+MCU Navigasi,Apakah ada tombol tutup untuk menutup form import data MCU?,"Ya, di bagian atas tabel import data terdapat tombol Tutup untuk menutup form.",Pendaftaran MCU
+MCU Formulir,Bagaimana cara menambahkan data pasien baru MCU?,"Klik tombol tambah pasien baru, kemudian isi form wajib dan opsional sesuai kebutuhan.",Pendaftaran MCU
+MCU Formulir,Apakah wajib memilih jenis layanan saat daftar MCU?,"Ya, pilih jenis layanan PRB, Prolanis, PRB-Prolanis, atau Non-Kronis.",Pendaftaran MCU
+MCU Formulir,Bagaimana cara menambahkan alamat pasien MCU?,"Isi form alamat lengkap, mulai dari negara, provinsi, kota, kecamatan, kelurahan, RT/RW, hingga kode pos. Bisa pilih “sama dengan wali” jika alamat sama.",Pendaftaran MCU
+MCU Formulir,Bagaimana menambahkan data wali pasien MCU?,"Klik Tambah Wali, pilih hubungan, isi nama dan nomor kontak, kemudian klik update.",Pendaftaran MCU
+MCU Import Data,Bagaimana cara mengunggah banyak pasien sekaligus di MCU?,"Gunakan fitur Import Data: pilih file CSV/Excel sesuai format, klik Browse, lalu Import.",Pendaftaran MCU
+MCU Import Data,Bisa tidak menambahkan pasien MCU yang sudah ada di sistem?,"Tidak, sistem akan menolak duplikat jika nama atau NIK sama.",Pendaftaran MCU
+MCU Tabel ICD,Apakah kolom Alias penting saat daftar MCU?,Alias digunakan sebagai nama alternatif penyakit untuk mempermudah pencarian. Tidak wajib diisi.,Pendaftaran MCU
+MCU Tabel ICD,Bagaimana cara mengetahui keterangan penyakit di MCU?,"Lihat kolom Keterangan di tabel ICD, berisi deskripsi tambahan penyakit.",Pendaftaran MCU
+MCU Paket,Apakah bisa memilih beberapa paket MCU sekaligus?,"Tidak, biasanya sistem hanya membolehkan satu paket per pasien.",Pendaftaran MCU
+MCU Paket,Bagaimana melihat daftar paket MCU yang tersedia?,"Buka tab Data Paket pada halaman pendaftaran MCU, pilih paket sesuai kebutuhan.",Pendaftaran MCU
+MCU Dokter,Apakah bisa memilih dokter berbeda untuk diagnosis berbeda di MCU?,"Tidak, dokter dipilih satu per pasien sesuai DPJP atau jadwal praktik.",Pendaftaran MCU
+MCU Dokter,Bagaimana cara memfilter dokter yang tersedia untuk MCU?,Gunakan opsi filter unit atau jadwal praktik di tab Data Dokter.,Pendaftaran MCU
+MCU Kota,Bagaimana memilih kota pemeriksaan MCU?,Pilih kota dari dropdown di tab Data Kota.,Pendaftaran MCU
+MCU Penjamin,Bagaimana cara memilih penjamin perusahaan untuk pasien MCU?,"Pilih metode pembayaran Perusahaan, lalu isi data perusahaan, nomor polis, dan masa berlaku.",Pendaftaran MCU
+MCU Penjamin,Apa yang harus dilakukan jika pasien menggunakan BPJS untuk MCU?,"Pilih metode pembayaran BPJS, sistem akan otomatis menampilkan data SEP jika ada.",Pendaftaran MCU
+MCU Status,Bagaimana cara mengetahui pasien MCU sudah dilayani?,Periksa warna status antrian: Putih menandakan pasien sedang dilayani.,Pendaftaran MCU
+MCU Status,Apakah sistem menunjukkan pasien MCU batal?,"Ya, status abu-abu menandakan pendaftaran pasien dibatalkan.",Pendaftaran MCU
+MCU Error,"Data ICD tidak muncul saat import, apa solusinya?","Pastikan file import sesuai format dan tidak ada duplikat, kemudian klik Refresh.",Pendaftaran MCU
+MCU Error,Kenapa pasien MCU tidak muncul di antrian?,"Pastikan pasien sudah didaftarkan, kemudian klik Refresh untuk memperbarui data.",Pendaftaran MCU
+MCU Error,Bagaimana jika ada pasien MCU ganda muncul?,Hapus data duplikat dan pastikan NIK/ID pasien unik sebelum mendaftar kembali.,Pendaftaran MCU
+MCU Error,"Tombol Import tidak aktif, kenapa?",Periksa format file yang dipilih dan pastikan browser mendukung fitur upload.,Pendaftaran MCU
+MCU Error,"Saya tidak bisa memilih paket MCU, apa yang salah?",Pastikan pasien sudah mengisi data wajib di form dan paket tersedia di sistem.,Pendaftaran MCU
+MCU Error,Bagaimana jika data pasien MCU salah?,Gunakan fitur Edit/Verifikasi untuk memperbaiki data sebelum menyimpan pendaftaran.,Pendaftaran MCU
+Lab Menu Utama,Bagaimana cara mencari pasien di laboratorium?,"Gunakan menu ""Cari Pasien"" di sidebar kiri, bisa berdasarkan No. RM, nama, alamat, tanggal lahir, atau identitas lain.",Pendaftaran Laboratorium
+Lab Menu Utama,"Apa fungsi tombol ""Lihat List Order""?",Menampilkan daftar order pemeriksaan laboratorium yang dibuat oleh dokter atau unit pelayanan lain.,Pendaftaran Laboratorium
+Lab Menu Utama,Bagaimana melihat daftar pasien yang sudah terdaftar?,"Gunakan menu ""Lihat Informasi Terdata"" untuk menampilkan pasien resmi terdaftar, termasuk status pelayanan dan administrasi.",Pendaftaran Laboratorium
+Lab List Order,Bagaimana cara memvalidasi order laboratorium?,"Buka menu ""List Order"", pilih order yang masuk, lalu verifikasi data sebelum diproses.",Pendaftaran Laboratorium
+Lab List Order,Apa arti warna putih pada List Order?,Putih menandakan order belum diverifikasi.,Pendaftaran Laboratorium
+Lab List Order,Apa arti warna hitam pada List Order?,Hitam menandakan order dibatalkan.,Pendaftaran Laboratorium
+Lab List Order,Bagaimana cara mencari order tertentu?,"Gunakan filter berdasarkan tanggal, unit pengorder, atau status order.",Pendaftaran Laboratorium
+Lab List Order,Bagaimana cara menghapus order laboratorium?,"Pilih order, lalu klik tombol ""Hapus"".",Pendaftaran Laboratorium
+Lab List Order,Bagaimana cara memperbarui data List Order?,"Klik tombol ""Refresh"" untuk memperbarui daftar order terbaru.",Pendaftaran Laboratorium
+Lab Informasi Terdata,Bagaimana mengetahui pasien laboratorium sudah terdaftar?,"Buka menu ""Informasi Terdata"", data pasien yang valid akan tampil beserta statusnya.",Pendaftaran Laboratorium
+Lab Informasi Terdata,Apa arti warna hijau di Informasi Terdata?,Hijau menandakan pasien sudah daftar.,Pendaftaran Laboratorium
+Lab Informasi Terdata,Apa arti warna biru muda di Informasi Terdata?,Biru muda menandakan pasien sedang dilayani.,Pendaftaran Laboratorium
+Lab Informasi Terdata,Apa arti warna merah di Informasi Terdata?,Merah menandakan pasien sudah dipulangkan.,Pendaftaran Laboratorium
+Lab Informasi Terdata,Apa arti warna hitam di Informasi Terdata?,Hitam menandakan pasien batal.,Pendaftaran Laboratorium
+Lab Informasi Terdata,Apa arti warna kuning di Informasi Terdata?,Kuning menandakan pasien dirujuk ke Prodia.,Pendaftaran Laboratorium
+Lab Informasi Terdata,Bagaimana menambahkan pasien baru laboratorium?,"Gunakan tombol ""Tambah"" di menu Informasi Terdata untuk input pasien baru yang belum ada order.",Pendaftaran Laboratorium
+Lab Informasi Terdata,Bagaimana membatalkan pendaftaran pasien laboratorium?,"Pilih pasien di Informasi Terdata, lalu klik tombol ""Batal"".",Pendaftaran Laboratorium
+Lab Informasi Terdata,Bagaimana mengedit data pasien laboratorium?,"Pilih pasien di Informasi Terdata, lalu klik tombol ""Edit"" untuk memperbarui informasi.",Pendaftaran Laboratorium
+Lab Cari Pasien,Bagaimana cara mencari pasien yang baru daftar?,"Gunakan menu ""Cari Pasien"", isi No. RM, nama, alamat, tanggal lahir, atau data wali, lalu klik tombol ""Cari"".",Pendaftaran Laboratorium
+Lab Cari Pasien,Bagaimana cara membatalkan pencarian pasien?,"Klik tombol ""Batal"" di menu Cari Pasien.",Pendaftaran Laboratorium
+Lab Cari Pasien,Bagaimana mendaftarkan pasien baru yang belum ada di sistem?,"Gunakan fitur ""Pasien Baru"" di menu Cari Pasien.",Pendaftaran Laboratorium
+Lab Error,Apa yang harus dilakukan jika order laboratorium tidak muncul di List Order?,"Klik Refresh, pastikan dokter/unit sudah membuat order, dan cek filter tanggal serta status.",Pendaftaran Laboratorium
+Lab Error,Bagaimana jika pasien tidak muncul di Informasi Terdata?,"Pastikan order sudah diverifikasi, atau pasien sudah didaftarkan melalui tombol ""Tambah"".",Pendaftaran Laboratorium
+Lab Error,Bagaimana jika warna status pasien tidak sesuai?,"Refresh halaman, cek data pendaftaran, pastikan proses pendaftaran/layanan sudah sesuai.",Pendaftaran Laboratorium
+Lab Error,Bagaimana cara memperbarui data pasien laboratorium secara real-time?,Gunakan tombol Refresh di menu Informasi Terdata atau List Order.,Pendaftaran Laboratorium
+Lab Error,Kenapa pasien dirujuk ke Prodia berwarna kuning?,"Warna kuning menunjukkan pasien perlu dirujuk ke laboratorium eksternal, misalnya Prodia.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana cara mencetak formulir rekam medis pasien laboratorium?,"Di menu Informasi Terdata, pilih pasien, lalu klik tombol Cetak ? Form RM.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana cara mencetak general consent pasien laboratorium?,"Di menu Informasi Terdata, pilih pasien, lalu klik tombol General Consent untuk mencetak persetujuan umum.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana mencetak biaya administrasi pasien laboratorium?,"Pilih pasien di Informasi Terdata, klik Biaya Adm., lalu cetak rincian biaya administrasi.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana menghubungkan pasien dengan order pemeriksaan dokter?,"Pastikan order sudah diverifikasi di List Order, lalu pasien akan otomatis tampil di Informasi Terdata.",Pendaftaran Laboratorium
+Lab Alur,Bagaimana alur umum pendaftaran laboratorium?,Dokter/unit membuat order ? masuk List Order ? diverifikasi petugas ? pasien tampil di Informasi Terdata ? menjalani pemeriksaan sesuai order.,Pendaftaran Laboratorium
+Lab Alur,Bagaimana cara menandai pasien sudah dilayani di laboratorium?,Status pasien otomatis berubah menjadi biru muda saat pemeriksaan dilakukan.,Pendaftaran Laboratorium
+Lab Error,Bagaimana jika pasien sudah dipulangkan tapi status masih hijau?,"Refresh halaman, pastikan data pelayanan sudah dicatat, atau update status secara manual.",Pendaftaran Laboratorium
+Lab Error,Bagaimana jika general consent tidak muncul saat cetak?,"Pastikan data pasien sudah lengkap dan sudah mendaftar di Informasi Terdata, lalu coba refresh halaman.",Pendaftaran Laboratorium
+Lab Error,Bagaimana jika biaya administrasi tidak muncul?,"Pastikan pasien sudah terdaftar dan pilih opsi Biaya Adm. Ya/Tidak sesuai kebutuhan, lalu refresh jika perlu.",Pendaftaran Laboratorium
+Lab Error,Bagaimana menangani data pasien ganda di sistem laboratorium?,"Periksa No. RM dan identitas pasien, lalu gunakan tombol Edit untuk menggabungkan data atau hapus duplikat.",Pendaftaran Laboratorium
+Lab Import Data,Bagaimana cara mengimpor data pasien dari file eksternal?,"Klik tombol Tempat dan Import Data, pilih file melalui Browse, lalu unggah.",Pendaftaran Laboratorium
+Lab Import Data,"File import data pasien tidak berhasil, bagaimana solusinya?","Pastikan format file sesuai aturan, nama tidak duplikat, lalu refresh halaman dan coba unggah lagi.",Pendaftaran Laboratorium
+Lab Import Data,Apakah data yang sudah ada di sistem akan tertimpa saat import?,"Tidak, data dengan No. RM yang sama tidak akan ditambahkan kembali.",Pendaftaran Laboratorium
+Lab ICD,Bagaimana mencari kode ICD tertentu?,"Gunakan kotak “Cari Nama ICD X” di tabel Data ICD, ketik nama penyakit atau kode ICD.",Pendaftaran Laboratorium
+Lab ICD,"Data ICD tidak muncul setelah pencarian, kenapa?","Refresh halaman, pastikan kolom pencarian benar, atau cek status data aktif (y/n).",Pendaftaran Laboratorium
+Lab ICD,Apa fungsi kolom Alias di Data ICD?,Alias menampilkan nama alternatif penyakit agar lebih mudah dicari.,Pendaftaran Laboratorium
+Lab Dokter,Bagaimana menambahkan data dokter ke pasien laboratorium?,"Data dokter dapat diimpor melalui tab Data Dokter, lalu pilih pasien dan hubungkan dokter sesuai order.",Pendaftaran Laboratorium
+Lab Dokter,Bagaimana mencari dokter di laboratorium berdasarkan unit?,Gunakan filter unit pengorder di menu List Order atau Informasi Terdata.,Pendaftaran Laboratorium
+Lab Paket,Bagaimana cara memilih paket pemeriksaan MCU/laboratorium?,"Pilih pasien, lalu di menu paket, pilih paket pemeriksaan sesuai kebutuhan.",Pendaftaran Laboratorium
+Lab Filter,Bagaimana cara memfilter pasien berdasarkan status?,"Gunakan opsi filter status di Informasi Terdata: Hijau (Daftar), Biru Muda (Diterima), Merah (Dipulangkan), Kuning (Rujukan Prodia), Hitam (Batal).",Pendaftaran Laboratorium
+Lab Filter,Bagaimana mencari pasien berdasarkan unit pengorder?,Gunakan filter unit pengorder di menu List Order atau Informasi Terdata.,Pendaftaran Laboratorium
+Lab Refresh,Bagaimana cara memperbarui data pasien terbaru?,Klik tombol Refresh pada List Order atau Informasi Terdata.,Pendaftaran Laboratorium
+Lab Refresh,"Data pasien baru tidak muncul setelah pendaftaran, apa yang harus dilakukan?","Refresh halaman, pastikan order sudah diverifikasi, atau cek koneksi sistem.",Pendaftaran Laboratorium
+Lab Error,Apa yang dilakukan jika order pasien tidak muncul di List Order?,"Periksa apakah dokter/unit sudah membuat order, lalu refresh halaman.",Pendaftaran Laboratorium
+Lab Error,Bagaimana jika status warna pasien tidak berubah otomatis?,"Pastikan data pasien sudah diverifikasi, jika perlu refresh halaman atau update manual.",Pendaftaran Laboratorium
+Lab Navigasi,Bagaimana cara kembali ke menu utama laboratorium?,Gunakan sidebar kiri atau breadcrumb di bagian atas halaman.,Pendaftaran Laboratorium
+Lab Navigasi,Bagaimana mencari pasien tertentu di laboratorium?,"Gunakan menu Cari Pasien, masukkan No. RM, nama, alamat, tanggal lahir, atau No. Badge/NIP, lalu klik Cari.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana mencetak nota order laboratorium?,"Pilih pasien/order di Informasi Terdata, lalu klik tombol Cetak atau Form RM.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana mencetak general consent untuk pasien MCU?,"Pilih pasien, klik General Consent, cetak persetujuan sesuai kebutuhan.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana mencetak hasil Biaya Adm. pasien laboratorium?,"Pilih pasien, klik Biaya Adm., lalu cetak rincian biaya.",Pendaftaran Laboratorium
+Lab List Order,Bagaimana melihat daftar order laboratorium yang masuk?,"Klik menu List Order di sidebar, semua order dari dokter/unit pengorder akan tampil.",Pendaftaran Laboratorium
+Lab List Order,Bagaimana cara memvalidasi order yang masuk?,"Pilih order di List Order, lalu klik Pilih untuk memproses atau Hapus untuk membatalkan.",Pendaftaran Laboratorium
+Lab List Order,Bagaimana memfilter order berdasarkan tanggal?,Gunakan filter Tanggal di List Order untuk menampilkan order pada periode tertentu.,Pendaftaran Laboratorium
+Lab List Order,Bagaimana memfilter order berdasarkan unit pengorder?,Gunakan filter Unit Pengorder di List Order.,Pendaftaran Laboratorium
+Lab List Order,Bagaimana mengetahui status cito (urgensi) pasien?,Kolom Status Cito menunjukkan tingkat urgensi order: normal atau cito.,Pendaftaran Laboratorium
+Lab Informasi Terdata,Bagaimana melihat pasien yang sudah terdaftar di laboratorium?,"Klik menu Lihat Informasi Terdata, semua pasien yang sudah diverifikasi akan tampil.",Pendaftaran Laboratorium
+Lab Informasi Terdata,Bagaimana menambahkan pasien baru yang belum ada order?,"Klik tombol Tambah di Informasi Terdata, lalu isi formulir pasien baru.",Pendaftaran Laboratorium
+Lab Informasi Terdata,Bagaimana membatalkan pendaftaran pasien laboratorium?,"Pilih pasien, lalu klik tombol Batal untuk membatalkan pendaftaran.",Pendaftaran Laboratorium
+Lab Informasi Terdata,Bagaimana merujuk pasien ke Prodia?,"Pilih pasien di Informasi Terdata, klik tombol Rujuk ke Prodia, isi form rujukan sesuai aturan.",Pendaftaran Laboratorium
+Lab Status Warna,Apa arti warna hijau pada daftar pasien?,"Hijau menunjukkan pasien Daftar, siap untuk diproses pemeriksaan.",Pendaftaran Laboratorium
+Lab Status Warna,Apa arti warna biru muda pada daftar pasien?,Biru muda menunjukkan pasien sedang Diterima/Dilayani oleh laboratorium.,Pendaftaran Laboratorium
+Lab Status Warna,Apa arti warna merah pada daftar pasien?,Merah menunjukkan pasien sudah Dipulangkan atau pemeriksaan selesai.,Pendaftaran Laboratorium
+Lab Status Warna,Apa arti warna kuning pada daftar pasien?,Kuning menunjukkan pasien Dirujuk ke Prodia.,Pendaftaran Laboratorium
+Lab Status Warna,Apa arti warna hitam pada daftar pasien?,Hitam menunjukkan pasien atau order dibatalkan.,Pendaftaran Laboratorium
+Lab Cari Pasien,Bagaimana mencari pasien berdasarkan No. RM?,"Masukkan nomor RM di kolom pencarian Cari Pasien, lalu klik tombol Cari.",Pendaftaran Laboratorium
+Lab Cari Pasien,Bagaimana mencari pasien berdasarkan nama atau alamat?,"Masukkan nama/alamat di kolom pencarian Cari Pasien, klik Cari.",Pendaftaran Laboratorium
+Lab Cari Pasien,Bagaimana membatalkan proses pencarian pasien?,Klik tombol Batal untuk mengosongkan hasil pencarian.,Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana mencetak Form RM pasien laboratorium?,"Pilih pasien di Informasi Terdata, klik tombol Form RM untuk cetak.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana mencetak general consent pasien laboratorium?,"Pilih pasien, klik tombol General Consent, cetak sesuai kebutuhan.",Pendaftaran Laboratorium
+Lab Dokumen,Bagaimana mencetak rincian biaya administrasi pasien?,"Pilih pasien, klik tombol Biaya Adm., lalu cetak.",Pendaftaran Laboratorium
+Radiologi Cari Pasien,Bagaimana cara mencari pasien di radiologi?,"Gunakan menu Cari Pasien, masukkan No. RM, nama, atau data lain, lalu klik tombol Cari.",Pendaftaran Radiologi
+Radiologi List Order,Bagaimana melihat daftar order radiologi yang masuk?,"Klik menu Lihat List Order, semua permintaan pemeriksaan dari unit/poli akan tampil.",Pendaftaran Radiologi
+Radiologi List Order,Bagaimana memvalidasi order radiologi yang masuk?,"Pilih order, klik tombol Pilih untuk memproses atau Hapus untuk membatalkan.",Pendaftaran Radiologi
+Radiologi List Order,Bagaimana memfilter order berdasarkan tanggal?,Gunakan filter Tanggal Order di List Order untuk menampilkan order pada periode tertentu.,Pendaftaran Radiologi
+Radiologi List Order,Bagaimana mengetahui status cito pasien radiologi?,Kolom CITO menunjukkan apakah pemeriksaan bersifat segera/darurat.,Pendaftaran Radiologi
+Radiologi List Order,Apa arti warna putih di List Order radiologi?,Putih menunjukkan order Belum Diverifikasi.,Pendaftaran Radiologi
+Radiologi List Order,Apa arti warna hitam di List Order radiologi?,Hitam menunjukkan order radiologi Dibatalkan.,Pendaftaran Radiologi
+Radiologi PACS,Bagaimana mengetahui status integrasi dengan PACS?,"Cek kolom Respons, No. Reg PACS, Status PACS di tab Integrasi PACS.",Pendaftaran Radiologi
+Radiologi PACS,Apa arti warna abu-abu pada status PACS?,Abu-abu menunjukkan pendaftaran ke PACS Tertunda.,Pendaftaran Radiologi
+Radiologi PACS,Apa arti warna biru muda pada status PACS?,Biru muda menunjukkan pasien sedang Antrean di PACS.,Pendaftaran Radiologi
+Radiologi PACS,Apa arti warna hitam pada status PACS?,Hitam menunjukkan pendaftaran ke PACS Gagal.,Pendaftaran Radiologi
+Radiologi PACS,Apa arti warna hijau pada status PACS?,Hijau menunjukkan data Berhasil terintegrasi ke PACS.,Pendaftaran Radiologi
+Radiologi RIS,Bagaimana mengetahui status integrasi dengan RIS?,Cek kolom Respons di tab Integrasi RIS.,Pendaftaran Radiologi
+Radiologi RIS,Apa arti warna abu-abu pada status RIS?,Abu-abu menunjukkan pendaftaran ke RIS Tertunda.,Pendaftaran Radiologi
+Radiologi RIS,Apa arti warna hijau pada status RIS?,Hijau menunjukkan data RIS Terkirim.,Pendaftaran Radiologi
+Radiologi RIS,Apa arti warna hitam pada status RIS?,Hitam menunjukkan data Gagal Terkirim ke RIS.,Pendaftaran Radiologi
+Radiologi Navigasi,Apa menu utama di halaman Pendaftaran Radiologi?,"Menu utama terdiri dari Cari Pasien, Lihat List Order, Lihat Informasi Terdata, Integrasi PACS, Integrasi RIS.",Pendaftaran Radiologi
+Radiologi Fungsi,Apa tujuan halaman Pendaftaran Radiologi?,"Untuk mencatat, memantau, dan mengintegrasikan data pasien radiologi ke PACS dan RIS, serta mempermudah verifikasi dan monitoring status pemeriksaan.",Pendaftaran Radiologi
+Radiologi Refresh Data,Bagaimana cara memperbarui data pasien di List Order radiologi?,Klik tombol Refresh untuk memperbarui data terbaru dari sistem.,Pendaftaran Radiologi
+Radiologi Refresh Data,"Data pasien baru tidak muncul di List Order, apa yang harus dilakukan?","Lakukan Refresh di tab List Order, pastikan order sudah disimpan sebelumnya.",Pendaftaran Radiologi
+Radiologi Cari Order,Bagaimana mencari order tertentu di List Order radiologi?,"Gunakan kolom pencarian di List Order, bisa berdasarkan No. RM, Nama, atau No. Order.",Pendaftaran Radiologi
+Radiologi Hapus Order,Bagaimana cara membatalkan order radiologi yang salah?,"Pilih order, klik tombol Hapus atau Batalkan.",Pendaftaran Radiologi
+Radiologi Integrasi PACS,"Data PACS tidak muncul, apa yang harus dicek?","Pastikan koneksi PACS aktif, lalu klik Refresh di tab Integrasi PACS.",Pendaftaran Radiologi
+Radiologi Integrasi RIS,"Status RIS gagal terkirim, apa yang harus dilakukan?","Periksa jaringan/integrasi RIS, lalu klik Refresh atau kirim ulang data.",Pendaftaran Radiologi
+Radiologi Tab Navigasi,Bagaimana berpindah antar tab di halaman radiologi?,"Klik tab yang diinginkan: List Order, Informasi Terdata, PACS, RIS.",Pendaftaran Radiologi
+Radiologi Filter Order,Bagaimana memfilter order berdasarkan unit pengorder?,Gunakan opsi Filter Unit Pengorder di List Order.,Pendaftaran Radiologi
+Radiologi Filter Order,Bagaimana memfilter order berdasarkan status?,Gunakan opsi Filter Status di List Order (Belum Diverifikasi/Sudah Diverifikasi).,Pendaftaran Radiologi
+Radiologi Keterangan Warna,Apa arti warna putih di Informasi Terdata?,Putih menunjukkan pasien Belum Diverifikasi.,Pendaftaran Radiologi
+Radiologi Keterangan Warna,Apa arti warna hijau di Informasi Terdata?,Hijau menunjukkan pasien Sudah Daftar.,Pendaftaran Radiologi
+Radiologi Keterangan Warna,Apa arti warna biru muda di Informasi Terdata?,Biru muda menunjukkan pasien sedang Diterima/Dilayani.,Pendaftaran Radiologi
+Radiologi Keterangan Warna,Apa arti warna merah di Informasi Terdata?,Merah menunjukkan pasien Sudah Dipulangkan.,Pendaftaran Radiologi
+Radiologi Keterangan Warna,Apa arti warna hitam di Informasi Terdata?,Hitam menunjukkan pasien atau order Dibatalkan.,Pendaftaran Radiologi
+Radiologi Error,Bagaimana jika order tidak muncul setelah verifikasi?,"Pastikan order sudah disimpan, klik Refresh, dan periksa filter atau tanggal yang digunakan.",Pendaftaran Radiologi
+Radiologi Info Terdata,Bagaimana melihat detail pasien di Informasi Terdata?,"Klik pasien yang diinginkan, sistem menampilkan data lengkap seperti tanggal masuk, unit asal, jenis pemeriksaan, dan status.",Pendaftaran Radiologi
+Radiologi Info Terdata,Bagaimana menambahkan pasien baru langsung dari Informasi Terdata?,"Klik tombol Tambah, isi formulir pasien baru, kemudian simpan.",Pendaftaran Radiologi
+Radiologi Proses,Apa langkah umum untuk memproses pasien radiologi?,1. Dokter/unit buat order ? 2. Order masuk List Order ? 3. Petugas verifikasi ? 4. Data pasien tampil di Informasi Terdata ? 5. Pasien menjalani pemeriksaan.,Pendaftaran Radiologi
+Radiologi Tambah Pasien,Bagaimana cara menambahkan pasien baru di Radiologi jika belum ada di sistem?,"Klik tombol Tambah di Informasi Terdata, isi formulir pasien baru, lalu simpan.",Pendaftaran Radiologi
+Radiologi Edit Pasien,Bagaimana mengedit data pasien di Radiologi?,"Pilih pasien di Informasi Terdata, klik Edit, ubah data sesuai kebutuhan, lalu simpan.",Pendaftaran Radiologi
+Radiologi Batalkan Pendaftaran,Bagaimana membatalkan pendaftaran pasien radiologi?,"Pilih pasien/order, klik tombol Hapus atau Batalkan.",Pendaftaran Radiologi
+Radiologi Refresh PACS,"Data PACS tidak muncul, apa solusinya?","Pastikan koneksi PACS aktif, lalu klik Refresh di tab Integrasi PACS.",Pendaftaran Radiologi
+Radiologi Refresh RIS,"Status RIS gagal terkirim, bagaimana menanganinya?","Periksa koneksi ke RIS, kemudian klik Refresh atau kirim ulang data.",Pendaftaran Radiologi
+Radiologi Filter PACS,Bagaimana memfilter data PACS berdasarkan status?,"Gunakan filter di tab PACS, pilih status seperti Abu-abu (Tertunda), Biru Muda (Antrean), Hijau (Berhasil), Hitam (Gagal).",Pendaftaran Radiologi
+Radiologi Filter RIS,Bagaimana memfilter data RIS berdasarkan status?,"Gunakan filter di tab RIS, pilih status seperti Abu-abu (Tertunda), Hijau (RIS Terkirim), Hitam (Gagal Terkirim).",Pendaftaran Radiologi
+Radiologi Detail Order,Bagaimana melihat detail pemeriksaan pasien di List Order?,"Klik pasien/order di List Order, sistem menampilkan No. Order, tanggal, unit pengorder, CITO, nama pasien, dan dokter pengorder.",Pendaftaran Radiologi
+Radiologi Navigasi Tab,Bagaimana berpindah antar tab Radiologi?,"Klik tab yang diinginkan: List Order, Informasi Terdata, Integrasi PACS, Integrasi RIS.",Pendaftaran Radiologi
+Radiologi Cari Pasien,Bagaimana mencari pasien di Radiologi?,"Gunakan kolom pencarian di tab Cari Pasien, bisa berdasarkan No. RM, Nama, atau Data lain.",Pendaftaran Radiologi
+Radiologi CITO,Bagaimana menandai order radiologi sebagai darurat?,Pilih opsi CITO saat membuat order atau di List Order.,Pendaftaran Radiologi
+Radiologi Status Warna,Apa arti warna biru muda di PACS?,Biru muda menunjukkan pasien/antrian sedang Antrean.,Pendaftaran Radiologi
+Radiologi Status Warna,Apa arti warna abu-abu di PACS?,Abu-abu menunjukkan pasien/order Tertunda.,Pendaftaran Radiologi
+Radiologi Status Warna,Apa arti warna hijau di PACS?,Hijau menunjukkan pasien/order Berhasil terintegrasi ke PACS.,Pendaftaran Radiologi
+Radiologi Status Warna,Apa arti warna hitam di PACS?,Hitam menunjukkan pasien/order Gagal integrasi ke PACS.,Pendaftaran Radiologi
+Radiologi Status Warna,Apa arti warna abu-abu di RIS?,Abu-abu menunjukkan status Tertunda.,Pendaftaran Radiologi
+Radiologi Status Warna,Apa arti warna hijau di RIS?,Hijau menunjukkan RIS Terkirim.,Pendaftaran Radiologi
+Radiologi Status Warna,Apa arti warna hitam di RIS?,Hitam menunjukkan Gagal Terkirim.,Pendaftaran Radiologi
+Radiologi Error Data,"Data pasien tidak muncul di Informasi Terdata, apa yang harus dilakukan?","Pastikan order sudah diverifikasi di List Order, klik Refresh, periksa filter dan tanggal kunjungan.",Pendaftaran Radiologi
+Radiologi Export,Bagaimana mengekspor data pasien radiologi?,Gunakan fitur export di tab Informasi Terdata untuk mengunduh data dalam format CSV/Excel.,Pendaftaran Radiologi
+Radiologi Cetak,Bagaimana mencetak dokumen order atau data pasien?,"Pilih pasien/order, klik tombol Cetak, pilih dokumen yang ingin dicetak.",Pendaftaran Radiologi
+Radiologi Integrasi,Bagaimana memastikan data pasien terkirim ke PACS dan RIS?,"Setelah pendaftaran/order disimpan, cek tab PACS dan RIS. Status hijau menandakan berhasil.",Pendaftaran Radiologi
+Radiologi Filter Tanggal,Bagaimana memfilter pasien berdasarkan tanggal order?,"Gunakan filter tanggal di List Order atau Informasi Terdata, pilih rentang tanggal yang diinginkan, lalu klik Refresh.",Pendaftaran Radiologi
+Radiologi Filter Unit,Bagaimana memfilter order berdasarkan unit pengorder?,"Pilih unit pengorder di filter, sistem menampilkan pasien/order dari unit tersebut.",Pendaftaran Radiologi
+Radiologi Filter Status,Bagaimana memfilter order berdasarkan status diverifikasi?,"Gunakan filter Belum Diverifikasi atau Sudah Diverifikasi di List Order, lalu klik Refresh.",Pendaftaran Radiologi
+Radiologi Hapus Order,Bagaimana cara menghapus order radiologi?,"Pilih order di List Order, klik Hapus, konfirmasi penghapusan.",Pendaftaran Radiologi
+Radiologi Refresh Data,"Data order tidak muncul, apa yang harus dilakukan?","Klik tombol Refresh di List Order atau Informasi Terdata, pastikan filter tidak membatasi tampilan.",Pendaftaran Radiologi
+Radiologi Cek Koneksi PACS,Bagaimana memastikan PACS aktif?,"Masuk tab Integrasi PACS, periksa status respons; hijau = terkoneksi, hitam/abu-abu = ada masalah.",Pendaftaran Radiologi
+Radiologi Cek Koneksi RIS,Bagaimana memastikan RIS aktif?,"Masuk tab Integrasi RIS, cek status respons; hijau = terkirim, hitam/abu-abu = gagal.",Pendaftaran Radiologi
+Radiologi Navigasi Tab,Bagaimana berpindah dari List Order ke Informasi Terdata?,Klik tab Informasi Terdata di sisi atas atau menu kiri sidebar.,Pendaftaran Radiologi
+Radiologi Lihat Detail,Bagaimana melihat detail pemeriksaan pasien?,"Pilih pasien/order di List Order atau Informasi Terdata, klik Detail, tampilkan semua info order, dokter, unit, dan status PACS/RIS.",Pendaftaran Radiologi
+Radiologi Tambah Dokumen,Bagaimana menambahkan dokumen tambahan pasien?,"Pilih pasien, klik Upload Dokumen, pilih file dari komputer, simpan.",Pendaftaran Radiologi
+Radiologi Cari Berdasarkan No RM,Bagaimana mencari pasien berdasarkan nomor RM?,"Masukkan No. RM di kolom pencarian, klik Cari, hasil muncul di tabel.",Pendaftaran Radiologi
+Radiologi Cari Berdasarkan Nama,Bagaimana mencari pasien berdasarkan nama?,"Masukkan nama pasien di kolom pencarian, klik Cari, hasil muncul di tabel.",Pendaftaran Radiologi
+Radiologi Cari Berdasarkan No Order,Bagaimana mencari pasien berdasarkan nomor order?,"Masukkan No. Order di kolom pencarian, klik Cari, hasil muncul di tabel.",Pendaftaran Radiologi
+Radiologi Ganti Halaman,Bagaimana berpindah ke halaman data berikutnya?,"Gunakan tombol navigasi di bawah tabel, pilih halaman atau klik Next/Prev.",Pendaftaran Radiologi
+Radiologi Warna Status Hijau,Apa arti warna hijau di List Order?,Menandakan pasien/order sudah terverifikasi atau berhasil integrasi PACS/RIS.,Pendaftaran Radiologi
+Radiologi Warna Status Putih,Apa arti warna putih di List Order?,Menandakan pasien/order belum diverifikasi atau baru daftar.,Pendaftaran Radiologi
+Radiologi Warna Status Hitam,Apa arti warna hitam di List Order/PACS/RIS?,Menandakan pasien/order batal atau gagal integrasi.,Pendaftaran Radiologi
+Radiologi Warna Status Abu-abu,Apa arti warna abu-abu di List Order/PACS/RIS?,Menandakan pasien/order tertunda atau menunggu konfirmasi.,Pendaftaran Radiologi
+Radiologi Warna Status Biru Muda,Apa arti warna biru muda di PACS?,Menandakan pasien/order sedang antrean.,Pendaftaran Radiologi
+Radiologi Upload File Import,Bagaimana cara mengunggah data pasien melalui file?,"Klik Browse, pilih file CSV/Excel, lalu klik Import.",Pendaftaran Radiologi
+Radiologi Keterangan Web Info,Apa fungsi Web Info di halaman import data?,"Memberi panduan aturan import data, misal data duplikat tidak ditambahkan.",Pendaftaran Radiologi
+Radiologi Tab Data,Apa saja tab data yang tersedia untuk import?,"Terdapat: Data ICD X, Data Dokter, Data Paket, Data Kota, Data Pembayaran, Data Penjamin, Data Kelas, Data Jabatan.",Pendaftaran Radiologi
+Radiologi Navigasi Data,Bagaimana melihat jumlah total data pasien/order?,"Lihat di bagian atas/bawah tabel, biasanya tertulis 1–20 dari total data.",Pendaftaran Radiologi
+Radiologi Tutup Form,Bagaimana menutup form import data?,Klik tombol Tutup di pojok kanan atas form.,Pendaftaran Radiologi
+Radiologi Error Duplikat,Bagaimana jika file import mengandung data pasien yang sudah ada?,"Sistem menandai duplikat, tidak menambahkan data yang sama, gunakan Web Info sebagai panduan.",Pendaftaran Radiologi
+Radiologi Refresh Semua Tab,"Bagaimana memperbarui semua data PACS, RIS, dan Informasi Terdata?",Klik Refresh di masing-masing tab atau refresh halaman utama.,Pendaftaran Radiologi
+Radiologi Proses Order CITO,Bagaimana menandai order darurat di List Order?,"Pilih order, centang CITO, simpan perubahan.",Pendaftaran Radiologi
+Radiologi Cetak Order,Bagaimana mencetak order radiologi?,"Pilih order, klik Cetak, pilih dokumen yang diinginkan.",Pendaftaran Radiologi
+Radiologi Integrasi Manual PACS,Bagaimana mengirim data secara manual ke PACS?,"Klik tombol Kirim ke PACS, pastikan koneksi online.",Pendaftaran Radiologi
+Radiologi Integrasi Manual RIS,Bagaimana mengirim data secara manual ke RIS?,"Klik tombol Kirim ke RIS, pastikan koneksi",Pendaftaran Radiologi
+Radiologi Filter Tanggal,Bagaimana memfilter pasien berdasarkan tanggal order?,"Gunakan filter tanggal di List Order atau Informasi Terdata, pilih rentang tanggal yang diinginkan, lalu klik Refresh.",Pendaftaran Radiologi
+Radiologi Filter Unit,Bagaimana memfilter order berdasarkan unit pengorder?,"Pilih unit pengorder di filter, sistem menampilkan pasien/order dari unit tersebut.",Pendaftaran Radiologi
+Radiologi Filter Status,Bagaimana memfilter order berdasarkan status diverifikasi?,"Gunakan filter Belum Diverifikasi atau Sudah Diverifikasi di List Order, lalu klik Refresh.",Pendaftaran Radiologi
+Radiologi Hapus Order,Bagaimana cara menghapus order radiologi?,"Pilih order di List Order, klik Hapus, konfirmasi penghapusan.",Pendaftaran Radiologi
+Radiologi Refresh Data,"Data order tidak muncul, apa yang harus dilakukan?","Klik tombol Refresh di List Order atau Informasi Terdata, pastikan filter tidak membatasi tampilan.",Pendaftaran Radiologi
+Radiologi Cek Koneksi PACS,Bagaimana memastikan PACS aktif?,"Masuk tab Integrasi PACS, periksa status respons; hijau = terkoneksi, hitam/abu-abu = ada masalah.",Pendaftaran Radiologi
+Radiologi Cek Koneksi RIS,Bagaimana memastikan RIS aktif?,"Masuk tab Integrasi RIS, cek status respons; hijau = terkirim, hitam/abu-abu = gagal.",Pendaftaran Radiologi
+Radiologi Navigasi Tab,Bagaimana berpindah dari List Order ke Informasi Terdata?,Klik tab Informasi Terdata di sisi atas atau menu kiri sidebar.,Pendaftaran Radiologi
+Radiologi Lihat Detail,Bagaimana melihat detail pemeriksaan pasien?,"Pilih pasien/order di List Order atau Informasi Terdata, klik Detail, tampilkan semua info order, dokter, unit, dan status PACS/RIS.",Pendaftaran Radiologi
+Radiologi Tambah Dokumen,Bagaimana menambahkan dokumen tambahan pasien?,"Pilih pasien, klik Upload Dokumen, pilih file dari komputer, simpan.",Pendaftaran Radiologi
+Radiologi Cari Berdasarkan No RM,Bagaimana mencari pasien berdasarkan nomor RM?,"Masukkan No. RM di kolom pencarian, klik Cari, hasil muncul di tabel.",Pendaftaran Radiologi
+Radiologi Cari Berdasarkan Nama,Bagaimana mencari pasien berdasarkan nama?,"Masukkan nama pasien di kolom pencarian, klik Cari, hasil muncul di tabel.",Pendaftaran Radiologi
+Radiologi Cari Berdasarkan No Order,Bagaimana mencari pasien berdasarkan nomor order?,"Masukkan No. Order di kolom pencarian, klik Cari, hasil muncul di tabel.",Pendaftaran Radiologi
+Radiologi Ganti Halaman,Bagaimana berpindah ke halaman data berikutnya?,"Gunakan tombol navigasi di bawah tabel, pilih halaman atau klik Next/Prev.",Pendaftaran Radiologi
+Radiologi Warna Status Hijau,Apa arti warna hijau di List Order?,Menandakan pasien/order sudah terverifikasi atau berhasil integrasi PACS/RIS.,Pendaftaran Radiologi
+Radiologi Warna Status Putih,Apa arti warna putih di List Order?,Menandakan pasien/order belum diverifikasi atau baru daftar.,Pendaftaran Radiologi
+Radiologi Warna Status Hitam,Apa arti warna hitam di List Order/PACS/RIS?,Menandakan pasien/order batal atau gagal integrasi.,Pendaftaran Radiologi
+Radiologi Warna Status Abu-abu,Apa arti warna abu-abu di List Order/PACS/RIS?,Menandakan pasien/order tertunda atau menunggu konfirmasi.,Pendaftaran Radiologi
+Radiologi Warna Status Biru Muda,Apa arti warna biru muda di PACS?,Menandakan pasien/order sedang antrean.,Pendaftaran Radiologi
+Radiologi Upload File Import,Bagaimana cara mengunggah data pasien melalui file?,"Klik Browse, pilih file CSV/Excel, lalu klik Import.",Pendaftaran Radiologi
+Radiologi Keterangan Web Info,Apa fungsi Web Info di halaman import data?,"Memberi panduan aturan import data, misal data duplikat tidak ditambahkan.",Pendaftaran Radiologi
+Radiologi Tab Data,Apa saja tab data yang tersedia untuk import?,"Terdapat: Data ICD X, Data Dokter, Data Paket, Data Kota, Data Pembayaran, Data Penjamin, Data Kelas, Data Jabatan.",Pendaftaran Radiologi
+Radiologi Navigasi Data,Bagaimana melihat jumlah total data pasien/order?,"Lihat di bagian atas/bawah tabel, biasanya tertulis 1–20 dari total data.",Pendaftaran Radiologi
+Radiologi Tutup Form,Bagaimana menutup form import data?,Klik tombol Tutup di pojok kanan atas form.,Pendaftaran Radiologi
+Radiologi Error Duplikat,Bagaimana jika file import mengandung data pasien yang sudah ada?,"Sistem menandai duplikat, tidak menambahkan data yang sama, gunakan Web Info sebagai panduan.",Pendaftaran Radiologi
+Radiologi Refresh Semua Tab,"Bagaimana memperbarui semua data PACS, RIS, dan Informasi Terdata?",Klik Refresh di masing-masing tab atau refresh halaman utama.,Pendaftaran Radiologi
+Radiologi Proses Order CITO,Bagaimana menandai order darurat di List Order?,"Pilih order, centang CITO, simpan perubahan.",Pendaftaran Radiologi
+Radiologi Cetak Order,Bagaimana mencetak order radiologi?,"Pilih order, klik Cetak, pilih dokumen yang diinginkan.",Pendaftaran Radiologi
+Radiologi Integrasi Manual PACS,Bagaimana mengirim data secara manual ke PACS?,"Klik tombol Kirim ke PACS, pastikan koneksi online.",Pendaftaran Radiologi
+Radiologi Integrasi Manual RIS,Bagaimana mengirim data secara manual ke RIS?,"Klik tombol Kirim ke RIS, pastikan koneksi online.",Pendaftaran Radiologi
+Radiologi Alur Lengkap,Apa alur pendaftaran pasien di Radiologi?,1. Order dibuat dokter/unit 2. Order masuk List Order 3. Verifikasi order 4. Pasien muncul di Informasi Terdata 5. Data diintegrasikan ke PACS/RIS 6. Pasien menjalani pemeriksaan,Pendaftaran Radiologi
+Perawatan Cari Customer,Bagaimana mencari customer yang sudah terdaftar?,"Klik tombol Cari Customer, masukkan nama atau nomor customer, lalu pilih dari daftar.",Penjualan Layanan Perawatan
+Perawatan Pilih Customer,Bagaimana memilih customer?,"Klik Cari Customer, pilih customer, maka No. Customer dan Nama Customer akan terisi otomatis.",Penjualan Layanan Perawatan
+Perawatan Input No Customer,Apa yang harus diisi di No. Customer?,"Masukkan nomor customer yang valid, kolom ini wajib diisi.",Penjualan Layanan Perawatan
+Perawatan Alamat Customer,Bagaimana menampilkan alamat dan nomor telepon customer?,"Setelah memilih customer, alamat dan nomor telepon otomatis tampil.",Penjualan Layanan Perawatan
+Perawatan Tanggal Transaksi,Bagaimana mengisi tanggal transaksi?,Kolom Tanggal otomatis sesuai tanggal hari ini.,Penjualan Layanan Perawatan
+Perawatan Jam Transaksi,Bagaimana mengisi jam transaksi?,Kolom Jam otomatis sesuai waktu transaksi saat ini.,Penjualan Layanan Perawatan
+Perawatan Keterangan,Bagaimana menambahkan catatan tambahan transaksi?,Isi kolom Keterangan dengan informasi tambahan yang relevan.,Penjualan Layanan Perawatan
+Perawatan Pilih Unit,Bagaimana memilih unit perawatan?,"Pilih unit dari dropdown Unit Perawatan, kolom ini wajib diisi.",Penjualan Layanan Perawatan
+Perawatan Pilih Paket,Bagaimana memilih paket perawatan?,"Masuk tab Paket Perawatan, klik Pilih Paket, paket akan ditambahkan ke tabel.",Penjualan Layanan Perawatan
+Perawatan Tindakan Tambahan,Bagaimana menambahkan tindakan tambahan?,"Masuk tab Tindakan Tambahan, pilih layanan tambahan jika ada, klik Pilih Paket.",Penjualan Layanan Perawatan
+Perawatan Detail Paket,Bagaimana melihat detail paket?,"Klik tombol Detail Paket di sebelah paket yang dipilih, muncul informasi lengkap layanan dan harga.",Penjualan Layanan Perawatan
+Perawatan Delete Paket,Bagaimana menghapus paket yang salah pilih?,"Pilih paket di tabel, klik Delete, paket akan dihapus dari transaksi.",Penjualan Layanan Perawatan
+Perawatan Subtotal Paket,Bagaimana subtotal dihitung?,Sistem otomatis menghitung subtotal berdasarkan harga paket dan tambahan.,Penjualan Layanan Perawatan
+Perawatan Warna Promo,Apa arti warna hijau di tabel paket?,Menandakan paket tersebut termasuk Promo.,Penjualan Layanan Perawatan
+Perawatan Warna Non Promo,Apa arti warna kuning di tabel paket?,Menandakan paket tersebut termasuk Non Promo.,Penjualan Layanan Perawatan
+Perawatan Total Tagihan,Bagaimana total tagihan dihitung?,Sistem otomatis menjumlahkan semua paket dan tindakan tambahan untuk total tagihan.,Penjualan Layanan Perawatan
+Perawatan List Pengambilan,Bagaimana melihat layanan yang sudah diambil customer?,"Klik tombol List Pengambilan, tampil daftar layanan yang sudah diambil.",Penjualan Layanan Perawatan
+Perawatan List Penjualan,Bagaimana melihat semua transaksi penjualan?,"Klik tombol List Penjualan, tampil seluruh transaksi layanan perawatan.",Penjualan Layanan Perawatan
+Perawatan Simpan Transaksi,Bagaimana menyimpan transaksi?,Klik tombol Simpan setelah semua data lengkap dan valid.,Penjualan Layanan Perawatan
+Perawatan Batal Transaksi,Bagaimana membatalkan transaksi?,"Klik tombol Batal, semua data input akan dibatalkan dan form dikosongkan.",Penjualan Layanan Perawatan
+Perawatan Error Customer Tidak Ditemukan,Apa yang harus dilakukan jika customer tidak ditemukan?,Pastikan nomor customer benar atau gunakan Pasien Baru untuk menambahkan data customer baru.,Penjualan Layanan Perawatan
+Perawatan Error Paket Tidak Terisi,Apa yang harus dilakukan jika paket tidak dipilih tapi ingin simpan?,Pilih minimal satu paket atau tindakan tambahan sebelum klik Simpan.,Penjualan Layanan Perawatan
+Perawatan Error Total Tagihan,Mengapa total tagihan tidak muncul?,Pastikan setidaknya satu paket atau tindakan tambahan dipilih dan harga terisi.,Penjualan Layanan Perawatan
+Perawatan Refresh Data,Bagaimana memperbarui daftar paket atau tindakan tambahan?,Gunakan tombol refresh di tab Paket Perawatan atau Tindakan Tambahan.,Penjualan Layanan Perawatan
+Perawatan Navigasi Tab,Bagaimana pindah dari Paket Perawatan ke Tindakan Tambahan?,Klik tab Tindakan Tambahan di bagian atas tabel.,Penjualan Layanan Perawatan
+Perawatan Cetak Nota,Bagaimana mencetak nota transaksi?,"Setelah transaksi tersimpan, klik tombol Cetak Nota untuk mendapatkan bukti transaksi.",Penjualan Layanan Perawatan
+Perawatan Validasi Harga,Bagaimana memastikan harga paket benar?,"Periksa tabel paket, harga akan otomatis tampil; jika ada kesalahan, hubungi admin sistem.",Penjualan Layanan Perawatan
+Perawatan Promo & Non Promo Bersamaan,Bagaimana jika memilih paket promo dan non promo sekaligus?,"Sistem otomatis menghitung subtotal masing-masing, total ditampilkan di Total Tagihan.",Penjualan Layanan Perawatan
+Perawatan Input Manual Keterangan,Bagaimana menambahkan keterangan tambahan manual?,Isi kolom Keterangan sebelum menyimpan transaksi.,Penjualan Layanan Perawatan
+Perawatan Error Customer Kosong,Apa yang terjadi jika No. Customer dikosongkan?,Sistem tidak akan membolehkan menyimpan transaksi; kolom No. Customer wajib diisi.,Penjualan Layanan Perawatan
+Perawatan Error Customer Tidak Valid,Apa yang terjadi jika No. Customer tidak valid?,"Muncul notifikasi error: “Customer tidak ditemukan”, gunakan Cari Customer atau input pasien baru.",Penjualan Layanan Perawatan
+Perawatan Tambah Customer Baru,Bagaimana menambahkan customer baru?,"Klik tombol Pasien Baru, isi semua data wajib, lalu simpan.",Penjualan Layanan Perawatan
+Perawatan Error Unit Tidak Dipilih,Apa yang terjadi jika Unit Perawatan tidak dipilih?,Sistem menolak penyimpanan transaksi; Unit Perawatan wajib dipilih.,Penjualan Layanan Perawatan
+Perawatan Error Paket Tidak Dipilih,Apa yang terjadi jika paket perawatan tidak dipilih?,Sistem menolak menyimpan; minimal satu paket atau tindakan tambahan harus dipilih.,Penjualan Layanan Perawatan
+Perawatan Filter Paket,Bagaimana memfilter paket promo?,Gunakan filter warna hijau atau kategori promo di tab Paket Perawatan.,Penjualan Layanan Perawatan
+Perawatan Filter Non Promo,Bagaimana memfilter paket non promo?,Gunakan filter warna kuning atau kategori non promo di tab Paket Perawatan.,Penjualan Layanan Perawatan
+Perawatan Multiple Paket,Bisa memilih lebih dari satu paket sekaligus?,"Ya, klik Pilih Paket untuk tiap paket yang diinginkan, sistem menghitung subtotal otomatis.",Penjualan Layanan Perawatan
+Perawatan Tambah Tindakan Tambahan,Bagaimana menambahkan tindakan tambahan setelah memilih paket?,"Masuk tab Tindakan Tambahan, klik Pilih Paket untuk layanan tambahan.",Penjualan Layanan Perawatan
+Perawatan Error Tindakan Tambahan Kosong,Apa yang terjadi jika ingin simpan tapi tindakan tambahan kosong?,"Jika paket sudah dipilih, transaksi tetap bisa disimpan; jika tidak ada paket atau tindakan, transaksi ditolak.",Penjualan Layanan Perawatan
+Perawatan Delete Tindakan Tambahan,Bagaimana menghapus tindakan tambahan yang salah pilih?,"Pilih baris tindakan tambahan, klik Delete, data akan dihapus.",Penjualan Layanan Perawatan
+Perawatan Refresh Paket,Bagaimana memperbarui daftar paket terbaru?,Klik tombol Refresh di tab Paket Perawatan.,Penjualan Layanan Perawatan
+Perawatan Refresh Tindakan Tambahan,Bagaimana memperbarui daftar tindakan tambahan terbaru?,Klik tombol Refresh di tab Tindakan Tambahan.,Penjualan Layanan Perawatan
+Perawatan Total Tagihan Update,Bagaimana jika menambahkan paket baru setelah subtotal muncul?,Total Tagihan otomatis diperbarui sesuai paket/tindakan tambahan terbaru.,Penjualan Layanan Perawatan
+Perawatan Simpan Gagal,Apa yang dilakukan jika klik Simpan tapi muncul error?,"Periksa semua kolom wajib: No. Customer, Unit Perawatan, paket/tindakan. Lengkapi data lalu coba simpan kembali.",Penjualan Layanan Perawatan
+Perawatan Batal Transaksi,Bagaimana membatalkan transaksi yang sedang diisi?,"Klik tombol Batal, semua data input akan dikosongkan.",Penjualan Layanan Perawatan
+Perawatan Hasil Cetak Nota,Bagaimana mencetak bukti transaksi?,"Setelah klik Simpan, klik Cetak Nota untuk mendapatkan dokumen resmi.",Penjualan Layanan Perawatan
+Perawatan Error Cetak Nota,Apa yang dilakukan jika cetak nota gagal?,"Pastikan printer tersambung dan online, lalu klik ulang Cetak Nota.",Penjualan Layanan Perawatan
+Perawatan Kombinasi Promo Non Promo,Bagaimana sistem menghitung jika memilih paket promo dan non promo bersamaan?,"Sistem menghitung subtotal masing-masing paket, total ditampilkan di Total Tagihan.",Penjualan Layanan Perawatan
+Perawatan Error Total Tagihan Tidak Muncul,Mengapa total tagihan tidak muncul?,"Pastikan minimal satu paket atau tindakan tambahan dipilih, sistem menghitung otomatis.",Penjualan Layanan Perawatan
+Perawatan Edit Paket,Bagaimana mengubah paket setelah dipilih?,"Hapus paket lama dengan Delete, kemudian pilih paket baru.",Penjualan Layanan Perawatan
+Perawatan Edit Tindakan Tambahan,Bagaimana mengubah tindakan tambahan setelah dipilih?,"Hapus tindakan lama, pilih tindakan baru dari tab Tindakan Tambahan.",Penjualan Layanan Perawatan
+Perawatan Keterangan Manual,Bagaimana menambahkan keterangan transaksi secara manual?,Isi kolom Keterangan sebelum klik Simpan.,Penjualan Layanan Perawatan
+Perawatan Navigasi Antar Tab,Bagaimana pindah antar tab Paket Perawatan dan Tindakan Tambahan?,Klik tab yang diinginkan di bagian atas tabel.,Penjualan Layanan Perawatan
+Perawatan Error Import Data,Bagaimana jika data customer atau paket tidak muncul saat import?,"Pastikan format file benar, gunakan tombol Refresh untuk memperbarui daftar.",Penjualan Layanan Perawatan
+Perawatan List Pengambilan,Bagaimana melihat layanan yang sudah diambil?,"Klik tombol List Pengambilan, tampil daftar layanan yang sudah diambil customer.",Penjualan Layanan Perawatan
+Perawatan List Penjualan,Bagaimana melihat seluruh transaksi?,"Klik tombol List Penjualan, tampil semua transaksi sebelumnya.",Penjualan Layanan Perawatan
+Perawatan Validasi Harga,Bagaimana memastikan harga paket/tindakan sesuai?,Cek tabel paket/tindakan; harga akan otomatis tampil dari master data sistem.,Penjualan Layanan Perawatan
+Perawatan Error Harga Kosong,Apa yang terjadi jika harga paket kosong?,Sistem tidak membolehkan menyimpan transaksi; hubungi admin sistem untuk validasi harga.,Penjualan Layanan Perawatan
+Perawatan Warna Tabel,Apa arti warna hijau pada tabel paket?,Paket termasuk Promo.,Penjualan Layanan Perawatan
+Perawatan Warna Kuning,Apa arti warna kuning pada tabel paket?,Paket termasuk Non Promo.,Penjualan Layanan Perawatan
+Perawatan Error Kode Paket Salah,Apa yang dilakukan jika kode paket salah?,"Pilih paket ulang melalui tombol Pilih Paket, pastikan kode sesuai master data.",Penjualan Layanan Perawatan
+Perawatan Error Input Duplikat,Apa yang terjadi jika memasukkan customer yang sama dua kali?,"Sistem menolak input duplikat, muncul notifikasi “Customer sudah terdaftar.”",Penjualan Layanan Perawatan
+Perawatan Error Paket Duplikat,Apa yang terjadi jika memilih paket yang sama dua kali?,Sistem menolak duplikasi paket; subtotal tidak akan bertambah untuk paket yang sama.,Penjualan Layanan Perawatan
+Perawatan Validasi Total,Bagaimana memastikan total tagihan benar sebelum simpan?,"Periksa kolom subtotal tiap paket/tindakan tambahan, total otomatis dihitung di Total Tagihan.",Penjualan Layanan Perawatan
+Perawatan Error Sistem Timeout,Apa yang dilakukan jika sistem timeout saat input paket?,"Simpan data sesering mungkin, refresh halaman, dan input ulang paket jika diperlukan.",Penjualan Layanan Perawatan
+Perawatan Error Refresh Gagal,Apa yang dilakukan jika tombol refresh tidak memperbarui data paket?,"Periksa koneksi internet, refresh halaman, atau hubungi admin.",Penjualan Layanan Perawatan
+Perawatan Error File Import,Apa yang terjadi jika file import data rusak?,"Muncul notifikasi error, gunakan file dengan format yang sesuai (CSV/XLS).",Penjualan Layanan Perawatan
+Perawatan Error Harga Tidak Sesuai,Bagaimana jika harga paket berbeda dari master data?,"Sistem menampilkan harga master; jika berbeda, hubungi admin untuk koreksi.",Penjualan Layanan Perawatan
+Perawatan Validasi Promo,Bagaimana mengetahui paket termasuk promo?,Paket dengan warna hijau di tabel menandakan Promo.,Penjualan Layanan Perawatan
+Perawatan Validasi Non Promo,Bagaimana mengetahui paket non promo?,Paket dengan warna kuning di tabel menandakan Non Promo.,Penjualan Layanan Perawatan
+Perawatan Error Kode Paket Tidak Terdaftar,Apa yang terjadi jika kode paket tidak ada di master?,Sistem menolak input dan menampilkan pesan “Kode paket tidak ditemukan.”,Penjualan Layanan Perawatan
+Perawatan Error Tindakan Tambahan Kosong,Apa yang dilakukan jika ingin simpan tapi tidak ada tindakan tambahan?,"Sistem bisa menyimpan jika ada paket; jika kosong semua, transaksi ditolak.",Penjualan Layanan Perawatan
+Perawatan Navigasi Antar Tab Error,Apa yang dilakukan jika tab Paket atau Tindakan Tambahan tidak terbuka?,"Refresh halaman, pastikan browser kompatibel, atau hubungi admin IT.",Penjualan Layanan Perawatan
+Perawatan Cetak Gagal,Apa yang dilakukan jika klik Cetak Nota tidak muncul hasil cetak?,"Periksa koneksi printer, driver printer, atau refresh halaman, lalu coba cetak ulang.",Penjualan Layanan Perawatan
+Perawatan Batal Edit,Bagaimana membatalkan perubahan paket/tindakan sebelum simpan?,"Klik tombol Batal, semua perubahan akan dihapus.",Penjualan Layanan Perawatan
+Perawatan List Pengambilan Kosong,Mengapa List Pengambilan kosong?,Belum ada layanan yang diambil; sistem menampilkan data setelah layanan diproses.,Penjualan Layanan Perawatan
+Perawatan List Penjualan Kosong,Mengapa List Penjualan kosong?,Belum ada transaksi tersimpan di sistem.,Penjualan Layanan Perawatan
+Perawatan Error Data Tidak Sinkron,Apa yang dilakukan jika data customer atau paket tidak sinkron dengan master?,"Klik Refresh, atau hubungi admin untuk sinkronisasi data.",Penjualan Layanan Perawatan
+Perawatan Error Biaya Admin,Apa yang terjadi jika biaya admin tidak terhitung?,Sistem otomatis menambahkan jika pilih Ya; cek pengaturan biaya admin di master data.,Penjualan Layanan Perawatan
+Perawatan Update Data Customer,Bagaimana mengubah data customer setelah simpan?,"Edit data customer melalui menu Cari Customer ? Edit, simpan perubahan.",Penjualan Layanan Perawatan
+Perawatan Update Paket,Bagaimana mengubah paket setelah transaksi tersimpan?,Hapus transaksi atau lakukan koreksi melalui List Penjualan (jika sistem mengizinkan).,Penjualan Layanan Perawatan
+Perawatan Update Tindakan Tambahan,Bagaimana mengubah tindakan tambahan setelah transaksi tersimpan?,"Sama seperti paket, edit melalui List Penjualan atau input ulang tindakan tambahan.",Penjualan Layanan Perawatan
+Perawatan Error Customer Tidak Aktif,Apa yang dilakukan jika customer yang dipilih statusnya tidak aktif?,"Sistem menampilkan notifikasi, pilih customer aktif lainnya.",Penjualan Layanan Perawatan
+Perawatan Error Unit Tidak Aktif,Apa yang dilakukan jika unit perawatan yang dipilih tidak aktif?,"Sistem menolak input, pilih unit aktif lain yang tersedia.",Penjualan Layanan Perawatan
+Perawatan Error Koneksi,Apa yang dilakukan jika koneksi terputus saat input transaksi?,"Simpan data sesering mungkin, refresh halaman, dan input ulang jika belum tersimpan.",Penjualan Layanan Perawatan
+Perawatan Error Format File,Apa yang terjadi jika format file import salah?,Muncul notifikasi error; gunakan file CSV/XLS sesuai template sistem.,Penjualan Layanan Perawatan
+Perawatan Validasi Jam & Tanggal,Bagaimana memastikan jam & tanggal transaksi benar?,Sistem otomatis mengisi jam & tanggal saat input; bisa disesuaikan jika diperlukan.,Penjualan Layanan Perawatan
+Perawatan Error Refresh Tabel,Apa yang dilakukan jika tabel paket/tindakan tidak terupdate setelah refresh?,"Cek koneksi, refresh halaman utama, atau hubungi admin.",Penjualan Layanan Perawatan
+Perawatan Error Transaksi Duplikat,Bagaimana menghindari transaksi yang sama disimpan dua kali?,"Pastikan klik Simpan hanya sekali, cek List Penjualan untuk memastikan.",Penjualan Layanan Perawatan
+Perawatan Warna Tabel,Apa arti warna hijau & kuning pada tabel paket?,"Hijau = Promo, Kuning = Non Promo.",Penjualan Layanan Perawatan
+Perawatan Error Subtotal Tidak Muncul,Mengapa subtotal tidak muncul setelah pilih paket/tindakan?,Pastikan kolom jumlah diisi dengan benar; sistem menghitung otomatis.,Penjualan Layanan Perawatan
+Perawatan Error Combo Paket,Bagaimana jika paket dan tindakan tambahan dipilih bersamaan?,"Sistem menghitung subtotal untuk tiap item, total otomatis di Total Tagihan.",Penjualan Layanan Perawatan
+Perawatan Keterangan Tambahan,Bagaimana menambahkan catatan transaksi manual?,Isi kolom Keterangan sebelum klik Simpan.,Penjualan Layanan Perawatan
+Perawatan Error Paket Tidak Sesuai Unit,Apa yang dilakukan jika paket yang dipilih tidak tersedia di unit?,Sistem menolak input; pilih paket yang sesuai unit perawatan.,Penjualan Layanan Perawatan
+Perawatan Error Harga Salah,Bagaimana jika harga paket berbeda dengan daftar master?,Hubungi admin; sistem menampilkan harga master yang valid.,Penjualan Layanan Perawatan
+Perawatan Error Diskon Tidak Terhitung,Bagaimana jika promo/discount tidak muncul di Total Tagihan?,"Periksa format paket promo, refresh tabel paket, subtotal akan diperbarui.",Penjualan Layanan Perawatan
+Perawatan Error Multiple File Import,Bagaimana jika ingin import beberapa file sekaligus?,Import satu per satu untuk memastikan data terbaca; sistem menolak duplikat.,Penjualan Layanan Perawatan
+Perawatan Error Customer Tidak Tersedia,Apa yang dilakukan jika customer belum terdaftar di master?,Gunakan tombol Pasien Baru untuk input customer baru.,Penjualan Layanan Perawatan
+Perawatan Error Data Tidak Lengkap,Apa yang dilakukan jika ada paket tanpa kode atau harga?,Sistem menolak simpan; lengkapi data paket terlebih dahulu.,Penjualan Layanan Perawatan
+Perawatan Error Simpan Kosong,Apa yang terjadi jika klik Simpan tanpa memilih paket/tindakan?,"Sistem menolak dan menampilkan notifikasi “Transaksi kosong, pilih minimal satu paket/tindakan.”",Penjualan Layanan Perawatan
+Perawatan Error Simpan Ganda,Apa yang terjadi jika klik Simpan beberapa kali beruntun?,Sistem hanya menyimpan satu kali; duplikasi dicegah.,Penjualan Layanan Perawatan
+Perawatan Error Jumlah Tidak Valid,Apa yang terjadi jika jumlah paket/tindakan diisi negatif atau nol?,Sistem menolak input dan menampilkan pesan error.,Penjualan Layanan Perawatan
+Perawatan Error Pilih Paket Tidak Aktif,Bagaimana jika paket yang dipilih sudah tidak aktif?,Sistem menolak input; pilih paket aktif lainnya.,Penjualan Layanan Perawatan
+Perawatan Error Refresh Tidak Jalan,Apa yang dilakukan jika tombol Refresh tidak memperbarui data?,"Periksa koneksi, refresh halaman utama browser, atau hubungi admin.",Penjualan Layanan Perawatan
+Perawatan Validasi Subtotal,Bagaimana memastikan subtotal tiap paket/tindakan benar?,Periksa kolom harga & jumlah; subtotal otomatis dihitung oleh sistem.,Penjualan Layanan Perawatan
+Perawatan Validasi Total Tagihan,Bagaimana memastikan total tagihan benar?,Total Tagihan = jumlah semua subtotal paket + tindakan + biaya admin (jika ada).,Penjualan Layanan Perawatan
+Perawatan Error Hapus Paket,Apa yang terjadi jika klik Delete paket?,Paket akan dihapus dari transaksi; subtotal & total otomatis diperbarui.,Penjualan Layanan Perawatan
+Perawatan Error Hapus Tindakan,Apa yang terjadi jika klik Delete tindakan tambahan?,Tindakan tambahan akan dihapus; subtotal & total diperbarui.,Penjualan Layanan Perawatan
+Perawatan Error Pilih Paket Promo dan Non Promo,Apa yang terjadi jika pilih paket promo dan non promo bersamaan?,Sistem menghitung subtotal masing-masing; total otomatis menyesuaikan.,Penjualan Layanan Perawatan
+Perawatan Error Data Tidak Sinkron,Bagaimana jika data customer atau paket tidak sinkron dengan master?,"Klik Refresh; jika masih tidak sinkron, hubungi admin.",Penjualan Layanan Perawatan
+Perawatan Error Cetak Nota Gagal,Apa yang dilakukan jika klik Cetak Nota tidak muncul hasil cetak?,"Periksa koneksi printer, driver, atau refresh halaman, lalu coba cetak ulang.",Penjualan Layanan Perawatan
+Perawatan Error Koneksi Putus,Apa yang dilakukan jika koneksi internet putus saat input transaksi?,"Simpan data sesering mungkin, refresh halaman, input ulang jika perlu.",Penjualan Layanan Perawatan
+Perawatan Error File Import Rusak,Apa yang dilakukan jika file import rusak?,Muncul notifikasi error; gunakan file dengan format sesuai sistem (CSV/XLS).,Penjualan Layanan Perawatan
+Perawatan Error Import Duplikat,Apa yang terjadi jika file import mengandung customer/paket yang sama?,Sistem menolak duplikasi; data baru yang sama tidak ditambahkan.,Penjualan Layanan Perawatan
+Perawatan Error Biaya Admin Tidak Terhitung,Bagaimana jika biaya admin tidak muncul?,Pastikan opsi Ya dipilih; biaya admin otomatis ditambahkan.,Penjualan Layanan Perawatan
+Perawatan Error Customer Tidak Aktif,Apa yang terjadi jika memilih customer tidak aktif?,Sistem menolak input; pilih customer aktif lain.,Penjualan Layanan Perawatan
+Perawatan Error Unit Tidak Aktif,Apa yang dilakukan jika unit perawatan tidak aktif?,Sistem menolak input; pilih unit aktif yang tersedia.,Penjualan Layanan Perawatan
+Perawatan Validasi Warna Paket,Bagaimana mengetahui paket promo/non promo?,"Hijau = Promo, Kuning = Non Promo.",Penjualan Layanan Perawatan
+Perawatan Error Subtotal Tidak Muncul,Mengapa subtotal tidak muncul setelah pilih paket/tindakan?,Pastikan kolom jumlah diisi; sistem menghitung otomatis.,Penjualan Layanan Perawatan
+Perawatan Error Harga Salah,Apa yang dilakukan jika harga paket berbeda dari master?,Hubungi admin; sistem menampilkan harga master.,Penjualan Layanan Perawatan
+Perawatan Error Diskon Tidak Terhitung,Bagaimana jika promo/discount tidak muncul?,Refresh tabel paket; subtotal dan total akan diperbarui.,Penjualan Layanan Perawatan
+Perawatan Error Paket Tidak Sesuai Unit,Bagaimana jika paket tidak tersedia di unit perawatan?,Sistem menolak input; pilih paket sesuai unit.,Penjualan Layanan Perawatan
+Perawatan Error Combo Paket,Bagaimana jika pilih paket & tindakan tambahan bersamaan?,Subtotal dihitung per item; total otomatis di Total Tagihan.,Penjualan Layanan Perawatan
+Perawatan Error Keterangan Kosong,Bagaimana menambahkan catatan transaksi?,Isi kolom Keterangan sebelum klik Simpan.,Penjualan Layanan Perawatan
+Perawatan Error Update Data Customer,Bagaimana mengubah data customer setelah tersimpan?,"Gunakan menu Edit Customer, simpan perubahan.",Penjualan Layanan Perawatan
+Perawatan Error Update Paket,Bagaimana mengubah paket setelah transaksi tersimpan?,Hapus transaksi atau lakukan koreksi melalui List Penjualan.,Penjualan Layanan Perawatan
+Perawatan Error Update Tindakan Tambahan,Bagaimana mengubah tindakan tambahan setelah tersimpan?,Edit melalui List Penjualan atau input ulang tindakan tambahan.,Penjualan Layanan Perawatan
+Perawatan Error Customer Belum Terdaftar,Apa yang dilakukan jika customer belum ada di master?,Gunakan tombol Pasien Baru untuk input customer baru.,Penjualan Layanan Perawatan
+Perawatan Error Transaksi Duplikat,Bagaimana menghindari transaksi sama tersimpan dua kali?,"Pastikan klik Simpan hanya sekali, cek List Penjualan.",Penjualan Layanan Perawatan
+Perawatan Error Multiple File Import,Bagaimana import beberapa file sekaligus?,Import satu per satu; sistem menolak duplikat.,Penjualan Layanan Perawatan
+Perawatan Error Refresh Tabel,Apa yang dilakukan jika tabel paket/tindakan tidak terupdate?,Refresh halaman utama atau hubungi admin.,Penjualan Layanan Perawatan
+Perawatan Error Jam & Tanggal Salah,Bagaimana memastikan jam & tanggal transaksi benar?,Sistem otomatis mengisi jam & tanggal; bisa disesuaikan manual.,Penjualan Layanan Perawatan
+Perawatan Error List Pengambilan Kosong,Mengapa List Pengambilan kosong?,Belum ada layanan diambil; data muncul setelah layanan diproses.,Penjualan Layanan Perawatan
+Perawatan Error List Penjualan Kosong,Mengapa List Penjualan kosong?,Belum ada transaksi tersimpan di sistem.,Penjualan Layanan Perawatan
+Perawatan Error Hapus Semua Paket,Bagaimana menghapus semua paket dari transaksi?,Klik Delete tiap paket; subtotal & total diperbarui otomatis.,Penjualan Layanan Perawatan
+Perawatan Error Simpan & Batal Bersamaan,Apa yang terjadi jika klik Simpan dan Batal bersamaan?,Sistem memproses Simpan dulu; Batal hanya berlaku sebelum Simpan.,Penjualan Layanan Perawatan
+Perawatan Error Format File Tidak Sesuai,Apa yang terjadi jika file import format salah?,Muncul notifikasi; gunakan file sesuai template sistem (CSV/XLS).,Penjualan Layanan Perawatan
+Pengambilan Error Customer Kosong,Apa yang terjadi jika klik Simpan tanpa memilih customer?,Sistem menolak transaksi dan menampilkan notifikasi “Customer wajib dipilih.”,Pengambilan Layanan Perawatan
+Pengambilan Error Unit Tidak Dipilih,Apa yang terjadi jika unit perawatan tidak dipilih?,Sistem menolak input dan menampilkan pesan error “Unit perawatan wajib dipilih.”,Pengambilan Layanan Perawatan
+Pengambilan Error Paket/Tindakan Kosong,Apa yang terjadi jika klik Simpan tapi belum memilih paket atau tindakan tambahan?,Sistem menolak input dan menampilkan notifikasi “Layanan perawatan belum dipilih.”,Pengambilan Layanan Perawatan
+Pengambilan Error Subtotal Tidak Terhitung,Mengapa subtotal tidak muncul setelah pilih paket/tindakan?,Pastikan jumlah layanan diisi; subtotal dihitung otomatis oleh sistem.,Pengambilan Layanan Perawatan
+Pengambilan Error Total Tagihan Salah,Bagaimana memastikan Total Tagihan benar?,Sistem otomatis menghitung total dari semua subtotal layanan + biaya admin (jika ada).,Pengambilan Layanan Perawatan
+Pengambilan Error Delete Paket/Tindakan,Apa yang terjadi jika klik Delete pada paket/tindakan?,Paket/tindakan akan dihapus; subtotal & total tagihan diperbarui otomatis.,Pengambilan Layanan Perawatan
+Pengambilan Error List Pengambilan Kosong,Mengapa List Pengambilan kosong?,Belum ada layanan yang diambil; data akan muncul setelah transaksi tersimpan atau layanan diambil.,Pengambilan Layanan Perawatan
+Pengambilan Error List Penjualan Kosong,Mengapa List Penjualan kosong?,Belum ada transaksi tersimpan di sistem.,Pengambilan Layanan Perawatan
+Pengambilan Error Simpan & Batal Bersamaan,Apa yang terjadi jika klik Simpan dan Batal bersamaan?,Sistem memproses Simpan dulu; Batal hanya berlaku sebelum Simpan.,Pengambilan Layanan Perawatan
+Pengambilan Error Keterangan Kosong,Bagaimana menambahkan catatan transaksi?,Isi kolom Keterangan sebelum klik Simpan.,Pengambilan Layanan Perawatan
+Pengambilan Error Promo/Non Promo Salah,Bagaimana mengetahui paket promo dan non promo?,"Hijau = Promo, Kuning = Non Promo.",Pengambilan Layanan Perawatan
+Pengambilan Error Refresh Tidak Jalan,Apa yang dilakukan jika tabel List Pengambilan tidak terupdate?,"Refresh halaman; jika masih error, hubungi admin.",Pengambilan Layanan Perawatan
+Pengambilan Error Jam & Tanggal Salah,Bagaimana memastikan jam & tanggal transaksi benar?,Sistem otomatis mengisi jam & tanggal; bisa disesuaikan manual jika diperlukan.,Pengambilan Layanan Perawatan
+Pengambilan Validasi File Import,Apakah bisa import data layanan perawatan dari file?,"Ya, klik tombol Import Data ? pilih file ? sistem akan memverifikasi format dan menambahkan data ke daftar layanan.",Pengambilan Layanan Perawatan
+Pengambilan Error File Import Salah,Apa yang terjadi jika format file import salah?,Sistem menampilkan pesan error “Format file tidak sesuai. Pastikan kolom dan tipe data benar.”,Pengambilan Layanan Perawatan
+Pengambilan Validasi Data Duplikat,Bagaimana jika customer yang sama sudah ada di list pengambilan?,Sistem mendeteksi duplikasi dan menampilkan notifikasi; data tidak ditambahkan dua kali.,Pengambilan Layanan Perawatan
+Pengambilan Error Promo Tidak Tercatat,Mengapa paket promo tidak muncul warna hijau?,Pastikan paket sudah ditandai sebagai promo di master paket; refresh tabel untuk memperbarui tampilan.,Pengambilan Layanan Perawatan
+Pengambilan Error Tindakan Tambahan Tidak Tersimpan,Mengapa tindakan tambahan tidak muncul setelah klik Simpan?,Pastikan kolom tindakan tambahan diisi dan klik tombol Pilih Paket sebelum Simpan.,Pengambilan Layanan Perawatan
+Pengambilan Error Refresh Data,Mengapa List Pengambilan tidak memperbarui data terbaru?,"Gunakan tombol Refresh untuk update; jika masih tidak muncul, kemungkinan ada masalah koneksi atau server.",Pengambilan Layanan Perawatan
+Pengambilan Validasi Total Tagihan,Bagaimana cara memastikan total tagihan sudah benar?,Total dihitung otomatis dari semua paket/tindakan + biaya admin (jika ada). Periksa subtotal tiap item sebelum Simpan.,Pengambilan Layanan Perawatan
+Pengambilan Error Simpan Gagal,Apa yang harus dilakukan jika klik Simpan tapi gagal?,"Pastikan semua field wajib diisi, unit perawatan dipilih, dan koneksi sistem stabil. Jika masih gagal, hubungi admin IT.",Pengambilan Layanan Perawatan
+Pengambilan Error Waktu Salah,Bagaimana jika jam atau tanggal transaksi salah?,Jam & tanggal otomatis; bisa diedit manual sebelum Simpan jika perlu.,Pengambilan Layanan Perawatan
+Pengambilan Validasi Keterangan,Apakah kolom keterangan wajib diisi?,"Tidak wajib, tetapi disarankan untuk mencatat info tambahan terkait transaksi atau permintaan customer.",Pengambilan Layanan Perawatan
+Pengambilan Error Delete Paket/Tindakan,Apa efek klik tombol Delete di tabel layanan?,"Item paket/tindakan akan dihapus dari List Pengambilan, subtotal & total tagihan diperbarui otomatis.",Pengambilan Layanan Perawatan
+Pengambilan Error Semua Field Kosong,Apa yang terjadi jika klik Simpan tapi semua field kosong?,"Sistem menampilkan notifikasi error, semua field wajib diisi minimal Customer & Unit Perawatan.",Pengambilan Layanan Perawatan
+Kontrol Filter Tanggal,Bagaimana cara menampilkan rencana kontrol pada tanggal tertentu?,"Gunakan kolom Tgl. Rencana untuk memilih tanggal yang diinginkan, lalu klik Refresh untuk menampilkan data.",Surat Kontrol Non-BPJS
+Kontrol Pencarian Pasien,Bagaimana mencari pasien berdasarkan nama atau No. RM?,"Masukkan Nama, No. RM, atau No. Surat pada kolom pencarian, lalu tekan Enter atau klik Refresh.",Surat Kontrol Non-BPJS
+Kontrol Filter Poli,Bagaimana memfilter surat kontrol berdasarkan poli asal?,"Pilih poli yang diinginkan di dropdown Poli Asal, lalu klik Refresh untuk menampilkan data sesuai filter.",Surat Kontrol Non-BPJS
+Kontrol Refresh Data,"Data surat kontrol tidak muncul, bagaimana solusinya?","Klik tombol Refresh untuk memuat ulang data. Jika masih kosong, pastikan filter tanggal, nama, atau poli tidak membatasi hasil.",Surat Kontrol Non-BPJS
+Kontrol Detail Rencana,Bagaimana melihat detail surat kontrol?,"Pilih salah satu surat kontrol, lalu klik tombol Detail Rencana Kontrol untuk menampilkan informasi lengkap.",Surat Kontrol Non-BPJS
+Kontrol Hapus Rencana,Bagaimana cara menghapus surat kontrol yang salah?,"Pilih surat kontrol yang ingin dihapus, kemudian klik Hapus Rencana Kontrol. Sistem akan meminta konfirmasi sebelum data dihapus.",Surat Kontrol Non-BPJS
+Kontrol Cetak,Bagaimana mencetak surat kontrol?,"Pilih surat kontrol yang ingin dicetak, lalu klik tombol Cetak. Pastikan printer siap dan koneksi stabil.",Surat Kontrol Non-BPJS
+Kontrol Export Excel,Bagaimana mengekspor data surat kontrol ke Excel?,"Klik tombol Export Excel, sistem akan mengunduh file berformat XLSX berisi semua data yang tampil di tabel.",Surat Kontrol Non-BPJS
+Kontrol Data Tidak Lengkap,Mengapa beberapa kolom pasien kosong atau hanya menampilkan dummy data?,Pastikan data pasien sudah terdaftar di sistem. Dummy data muncul jika data asli belum diinput atau sedang uji coba sistem.,Surat Kontrol Non-BPJS
+Kontrol Error Hapus Gagal,Apa yang harus dilakukan jika hapus rencana kontrol gagal?,"Periksa koneksi jaringan dan pastikan Anda memiliki hak akses hapus. Jika masih gagal, hubungi admin IT.",Surat Kontrol Non-BPJS
+Kontrol Error Cetak Gagal,Mengapa cetak surat kontrol tidak berhasil?,"Pastikan printer terhubung, driver terinstal, dan browser tidak memblokir pop-up/cetak.",Surat Kontrol Non-BPJS
+Kontrol Error Export Gagal,Bagaimana jika tombol Export Excel tidak bekerja?,"Refresh halaman terlebih dahulu. Pastikan browser mendukung download file XLSX. Jika masih gagal, hubungi IT.",Surat Kontrol Non-BPJS
+Kontrol Validasi DPJP,Bagaimana memastikan DPJP tujuan sesuai?,Sistem menampilkan DPJP tujuan berdasarkan poli tujuan. Periksa sebelum cetak atau export data.,Surat Kontrol Non-BPJS
+Kontrol Filter Tanggal BPJS,Bagaimana menampilkan pasien BPJS untuk tanggal tertentu?,Gunakan kolom Tgl. Rencana lalu klik Refresh.,Surat Kontrol BPJS
+Kontrol Pencarian Pasien BPJS,"Bagaimana mencari pasien berdasarkan No. RM, nama, atau SEP?","Masukkan data di kolom pencarian, tekan Enter atau klik Refresh.",Surat Kontrol BPJS
+Kontrol Filter Poli BPJS,Bagaimana memfilter kontrol BPJS berdasarkan poli asal?,"Pilih poli di dropdown Poli Asal, klik Refresh.",Surat Kontrol BPJS
+Kontrol Refresh Data BPJS,"Data pasien tidak muncul, bagaimana solusinya?","Klik tombol Refresh, pastikan filter dan tanggal sesuai.",Surat Kontrol BPJS
+Kontrol Detail BPJS,Bagaimana melihat detail surat kontrol BPJS?,"Pilih surat kontrol, klik Detail Rencana Kontrol.",Surat Kontrol BPJS
+Kontrol Hapus BPJS,Bagaimana menghapus surat kontrol BPJS?,"Pilih surat kontrol, klik Hapus Rencana Kontrol, pastikan SEP valid.",Surat Kontrol BPJS
+Kontrol Cetak BPJS,Bagaimana mencetak surat kontrol BPJS?,"Klik Cetak, pastikan printer siap dan koneksi internet stabil.",Surat Kontrol BPJS
+Kontrol Export BPJS,Bagaimana mengekspor data ke Excel?,"Klik Export Excel, file XLSX akan terunduh.",Surat Kontrol BPJS
+Kontrol SEP Tidak Valid,Mengapa SEP tidak muncul atau invalid?,"Pastikan SEP pasien sudah terbit dan valid di BPJS, lakukan sinkronisasi ulang jika perlu.",Surat Kontrol BPJS
+Kontrol Error Cetak BPJS,"Cetak surat kontrol gagal, solusinya?","Periksa koneksi printer, driver terinstal, browser tidak memblokir pop-up.",Surat Kontrol BPJS
+Kontrol Error Hapus Gagal BPJS,"Hapus surat kontrol gagal, apa yang dilakukan?","Pastikan hak akses Anda cukup, SEP valid, dan jaringan stabil. Hubungi admin jika tetap gagal.",Surat Kontrol BPJS
+Jadwal Dokter Cari Kontrol,Bagaimana mencari surat kontrol pasien?,"Gunakan kolom Nama / No. RM / No. Surat untuk pencarian pasien, lalu klik Refresh jika data tidak muncul.",Jadwal Dokter
+Jadwal Dokter Filter Poli,Bagaimana memfilter surat kontrol berdasarkan poli?,Gunakan dropdown Poli Asal untuk memilih poli tertentu.,Jadwal Dokter
+Jadwal Dokter Filter Tanggal,Bagaimana melihat surat kontrol untuk tanggal tertentu?,Gunakan kolom Tgl. Rencana untuk memilih tanggal rencana kontrol.,Jadwal Dokter
+Jadwal Dokter Detail Kontrol,Bagaimana melihat detail surat kontrol pasien?,"Pilih surat kontrol dari tabel, klik Detail Rencana Kontrol.",Jadwal Dokter
+Jadwal Dokter Hapus Kontrol,Bagaimana menghapus surat kontrol?,"Pilih surat kontrol yang ingin dihapus, klik Hapus Rencana Kontrol, konfirmasi aksi.",Jadwal Dokter
+Jadwal Dokter Cetak Kontrol,Bagaimana mencetak surat kontrol pasien?,"Pilih surat kontrol, klik Cetak. Pastikan printer siap.",Jadwal Dokter
+Jadwal Dokter Export,Bagaimana mengekspor data surat kontrol ke Excel?,"Klik tombol Export Excel, sistem akan mengunduh file berisi data surat kontrol.",Jadwal Dokter
+Jadwal Dokter Refresh,"Data surat kontrol tidak muncul, apa yang harus dilakukan?",Klik tombol Refresh untuk memuat ulang data terbaru.,Jadwal Dokter
+Jadwal Dokter Pindah Poli / DPJP,Bagaimana mengatur perpindahan pasien ke poli tujuan atau DPJP baru?,"Pilih surat kontrol, update Poli Tujuan atau DPJP Tujuan, klik simpan.",Jadwal Dokter
+Jadwal Dokter Rawat Jalan,Bagaimana melihat jadwal dokter rawat jalan?,"Masuk menu Jadwal Dokter, pilih unit/rawat jalan, pilih tanggal, sistem menampilkan jadwal dokter beserta kuota pasien.",Jadwal Dokter
+Jadwal Dokter Rawat Jalan Kuota,Bagaimana mengetahui kuota pasien per dokter?,"Kuota pasien (BPJS / Non-BPJS, online / onsite) ditampilkan pada tabel jadwal dokter.",Jadwal Dokter
+Jadwal Dokter Rawat Jalan Filter,Bagaimana memfilter jadwal dokter rawat jalan berdasarkan unit atau dokter?,Gunakan filter Unit atau Nama Dokter untuk menampilkan jadwal yang diinginkan.,Jadwal Dokter
+Jadwal Dokter Rawat Inap,Bagaimana melihat jadwal dokter DPJP rawat inap?,"Masuk menu Jadwal Dokter Rawat Inap, pilih tanggal dan ruang/kamar, sistem menampilkan DPJP dan kuota pasien.",Jadwal Dokter
+Jadwal Dokter MCU,Bagaimana melihat jadwal dokter MCU?,"Masuk menu Jadwal MCU, pilih tanggal rencana pemeriksaan, sistem menampilkan dokter dan paket pemeriksaan yang tersedia.",Jadwal Dokter
+Jadwal Dokter Laboratorium,Bagaimana melihat jadwal dokter untuk laboratorium?,"Masuk menu Jadwal Laboratorium, pilih tanggal dan unit pemeriksaan, sistem menampilkan dokter/unit yang menangani.",Jadwal Dokter
+Jadwal Dokter Radiologi,Bagaimana melihat jadwal dokter untuk radiologi?,"Masuk menu Jadwal Radiologi, pilih tanggal dan jenis pemeriksaan, sistem menampilkan dokter yang menangani serta integrasi PACS/RIS.",Jadwal Dokter
+Jadwal Dokter Tambah Jadwal,Bagaimana menambahkan jadwal dokter baru?,"Klik tombol Tambah Jadwal, pilih dokter, unit, tanggal, jam mulai–selesai, dan kuota pasien, kemudian simpan.",Jadwal Dokter
+Jadwal Dokter Edit Jadwal,Bagaimana mengubah jadwal dokter yang sudah ada?,"Pilih jadwal dokter dari tabel, klik Edit, ubah data yang diperlukan (jam, unit, kuota), klik simpan.",Jadwal Dokter
+Jadwal Dokter Hapus Jadwal,Bagaimana menghapus jadwal dokter?,"Pilih jadwal dokter, klik Hapus, konfirmasi aksi, jadwal akan dihapus dari sistem.",Jadwal Dokter
+Jadwal Dokter Error Data,"Data jadwal dokter tidak muncul, apa yang harus dilakukan?","Klik tombol Refresh, pastikan filter tanggal dan unit benar, jika masih tidak muncul, hubungi admin.",Jadwal Dokter
+Jadwal Dokter Filter Status,Bagaimana melihat dokter berdasarkan status praktik (aktif/tidak aktif)?,"Gunakan dropdown Status Dokter, pilih Aktif atau Tidak Aktif, sistem menampilkan jadwal sesuai status.",Jadwal Dokter
+Jadwal Dokter Kode Warna,Apa arti kode warna jadwal dokter?,"Kode warna biasanya menandakan kuota pasien atau status jadwal (misal hijau = tersedia, abu-abu = penuh).",Jadwal Dokter
+Tambah Cuti Dokter,Bagaimana menambahkan cuti dokter baru?,"Klik tombol Tambah, pilih dokter, tentukan tanggal cuti dan keterangan alasan, lalu klik Simpan.",Cuti Dokter
+Edit Cuti Dokter,Bagaimana mengubah data cuti dokter yang sudah ada?,"Pilih data cuti dokter dari tabel, klik Edit, ubah tanggal atau keterangan, klik Simpan.",Cuti Dokter
+Hapus Cuti Dokter,Bagaimana menghapus data cuti dokter?,"Pilih data cuti dokter dari tabel, klik Hapus, konfirmasi, data cuti akan dihapus.",Cuti Dokter
+Filter Tanggal Cuti Dokter,Bagaimana memfilter cuti dokter berdasarkan tanggal?,"Gunakan fitur Filter Tanggal, pilih tanggal mulai dan selesai, sistem menampilkan data cuti dokter sesuai rentang tanggal.",Cuti Dokter
+Refresh Cuti Dokter,Bagaimana memperbarui daftar cuti dokter?,Klik tombol Refresh untuk memuat ulang data terbaru.,Cuti Dokter
+Info Cuti Dokter,Apa fungsi modul cuti dokter?,"Modul ini digunakan untuk mencatat, mengelola, dan memantau cuti dokter agar admin/petugas mengetahui dokter yang tidak tersedia dan dapat mengatur jadwal layanan.",Cuti Dokter
+Pagination Cuti Dokter,Bagaimana melihat halaman lain data cuti dokter?,Gunakan tombol Pagination di bagian bawah tabel untuk berpindah halaman.,Cuti Dokter
+Keterangan Cuti Dokter,Apa saja keterangan alasan cuti dokter yang bisa dicatat?,"Contoh: Acara keluarga, Cuti Lebaran, Pelatihan di Jakarta, Pelatihan Laktasi, Kamis Putih (Paskah).",Cuti Dokter
+Error Cuti Dokter,"Data cuti dokter tidak muncul, apa yang harus dilakukan?","Klik Refresh, pastikan filter tanggal benar. Jika masih bermasalah, hubungi admin.",Cuti Dokter
+Tambah Hari Libur Nasional,Bagaimana menambahkan hari libur nasional baru?,"Klik tombol Tambah, isi tanggal, nama hari libur, keterangan tambahan jika ada, lalu klik Simpan.",Hari Libur Nasional
+Edit Hari Libur Nasional,Bagaimana mengubah data hari libur nasional yang sudah ada?,"Pilih data hari libur dari tabel, klik Edit, ubah tanggal atau nama hari libur, klik Simpan.",Hari Libur Nasional
+Hapus Hari Libur Nasional,Bagaimana menghapus data hari libur nasional?,"Pilih data hari libur dari tabel, klik Hapus, konfirmasi, data akan dihapus.",Hari Libur Nasional
+Filter Hari Libur Nasional,Bagaimana memfilter hari libur berdasarkan tanggal?,"Gunakan fitur Filter Tanggal, pilih tanggal mulai dan selesai, sistem menampilkan hari libur sesuai rentang tanggal.",Hari Libur Nasional
+Refresh Hari Libur Nasional,Bagaimana memperbarui daftar hari libur nasional?,Klik tombol Refresh untuk memuat ulang data terbaru.,Hari Libur Nasional
+Info Hari Libur Nasional,Apa fungsi modul hari libur nasional?,"Modul ini digunakan untuk mencatat dan mengelola daftar hari libur nasional agar jadwal dokter, jadwal pelayanan, dan sistem pendaftaran dapat menyesuaikan ketersediaan.",Hari Libur Nasional
+Pagination Hari Libur Nasional,Bagaimana melihat halaman lain data hari libur nasional?,Gunakan tombol Pagination di bagian bawah tabel untuk berpindah halaman.,Hari Libur Nasional
+Error Hari Libur Nasional,"Data hari libur nasional tidak muncul, apa yang harus dilakukan?","Klik Refresh, pastikan filter tanggal benar. Jika masih bermasalah, hubungi admin.",Hari Libur Nasional
+Integrasi dengan Jadwal Dokter,Apakah hari libur nasional mempengaruhi jadwal dokter?,"Ya, sistem akan menandai hari libur nasional dan menyesuaikan jadwal dokter secara otomatis agar tidak ada dokter yang dijadwalkan di hari libur.",Hari Libur Nasional
+Keterangan Hari Libur,Apa saja informasi yang dicatat untuk hari libur nasional?,"Sistem mencatat tanggal, nama hari libur, dan keterangan tambahan jika diperlukan.",Hari Libur Nasional
+Tambah Jadwal Dokter,Bagaimana menambahkan jadwal dokter baru?,"Klik tombol Tambah, isi tanggal, dokter, pelayanan, jam praktik, kuota pasien, lalu klik Simpan.",Jadwal Dokter
+Edit Jadwal Dokter,Bagaimana mengubah jadwal dokter yang sudah ada?,"Pilih jadwal dokter dari tabel, klik Edit, ubah kolom yang diperlukan, kemudian klik Simpan.",Jadwal Dokter
+Hapus Jadwal Dokter,Bagaimana menghapus jadwal dokter?,"Pilih jadwal dokter dari tabel, klik Hapus, konfirmasi, jadwal akan dihapus.",Jadwal Dokter
+Filter Jadwal Dokter,Bagaimana memfilter jadwal dokter berdasarkan tanggal?,"Gunakan Filter Tanggal dengan rentang tanggal yang diinginkan, sistem menampilkan jadwal sesuai filter.",Jadwal Dokter
+Refresh Jadwal Dokter,Bagaimana memperbarui daftar jadwal dokter?,Klik tombol Refresh untuk memuat ulang data terbaru dari sistem.,Jadwal Dokter
+Generate Jadwal Otomatis,Bagaimana cara membuat jadwal dokter secara otomatis?,"Gunakan fitur Form Generate, pilih parameter tanggal dan dokter, klik Generate, jadwal akan dibuat otomatis.",Jadwal Dokter
+Cetak Jadwal Dokter,Bagaimana mencetak jadwal dokter?,"Klik tombol Cetak, pilih format cetak, lalu konfirmasi untuk mencetak.",Jadwal Dokter
+Export Excel Jadwal Dokter,Bagaimana mengekspor jadwal dokter ke Excel?,"Klik tombol Export Excel, sistem akan menghasilkan file Excel berisi data jadwal.",Jadwal Dokter
+Keterangan Kuota,Apa arti kuota pasien online dan onsite?,Kuota pasien dibagi menjadi Online (BPJS / Non-BPJS) dan Onsite (BPJS / Non-BPJS). Total kuota adalah jumlah keseluruhan pasien.,Jadwal Dokter
+Estimasi Waktu Pelayanan,Apa fungsi kolom estimasi menit?,Menunjukkan estimasi rata-rata waktu pelayanan per pasien agar alur pelayanan lebih teratur.,Jadwal Dokter
+Keterangan Warna Jadwal,Apa arti warna di tabel jadwal dokter?,"Warna abu-abu = Non-Aktif. Warna lain dapat disesuaikan sistem untuk status aktif, cuti, atau libur nasional.",Jadwal Dokter
+Pagination Jadwal Dokter,Bagaimana melihat halaman lain data jadwal dokter?,Gunakan tombol Pagination di bagian bawah tabel untuk berpindah halaman.,Jadwal Dokter
+Error Jadwal Dokter,"Jadwal dokter tidak muncul, apa yang harus dilakukan?","Klik Refresh, pastikan filter tanggal dan dokter benar. Jika masih bermasalah, hubungi admin.",Jadwal Dokter
+Integrasi Cuti dan Hari Libur,Apakah jadwal dokter memperhitungkan cuti dan hari libur nasional?,"Ya, sistem otomatis menyesuaikan jadwal dokter agar tidak terjadwal pada cuti atau hari libur nasional.",Jadwal Dokter
+Tambah Hari Libur Nasional,Bagaimana menambahkan hari libur nasional baru?,"Klik tombol Tambah, isi nama hari libur, tanggal, keterangan (jika ada), status aktif, dan opsi libur/off pelayanan, lalu klik Simpan.",Hari Libur Nasional
+Edit Hari Libur Nasional,Bagaimana mengubah data hari libur nasional?,"Pilih data hari libur dari tabel, klik Edit, ubah kolom yang diperlukan, lalu klik Simpan.",Hari Libur Nasional
+Hapus Hari Libur Nasional,Bagaimana menghapus data hari libur nasional?,"Pilih data hari libur dari tabel, klik Hapus, konfirmasi, data akan terhapus.",Hari Libur Nasional
+Search Hari Libur Nasional,Bagaimana mencari hari libur tertentu?,"Gunakan Search bar dengan nama atau tanggal hari libur, sistem akan menampilkan hasil sesuai pencarian.",Hari Libur Nasional
+Refresh Hari Libur Nasional,Bagaimana memperbarui daftar hari libur nasional?,Klik tombol Refresh untuk memuat ulang data terbaru dari sistem.,Hari Libur Nasional
+Cetak Hari Libur Nasional,Bagaimana mencetak daftar hari libur nasional?,"Klik tombol Cetak, pilih format cetak, lalu konfirmasi untuk mencetak.",Hari Libur Nasional
+Export Excel Hari Libur Nasional,Bagaimana mengekspor daftar hari libur nasional ke Excel?,"Klik tombol Export Excel, sistem akan menghasilkan file Excel berisi daftar hari libur.",Hari Libur Nasional
+Status Aktif Hari Libur Nasional,Apa arti kolom aktif?,Menunjukkan apakah hari libur masih berlaku (Ya) atau sudah tidak berlaku (Tidak).,Hari Libur Nasional
+Libur/Off Pelayanan,Apa arti kolom Libur/Off Pelayanan?,Menandai apakah hari libur memengaruhi layanan rumah sakit/non-BPJS (Ya) atau hanya sebagai penanda (Tidak).,Hari Libur Nasional
+Pagination Hari Libur Nasional,Bagaimana melihat halaman lain data hari libur nasional?,Gunakan tombol Pagination di bagian bawah tabel untuk berpindah halaman.,Hari Libur Nasional
+Error Hari Libur Nasional,"Data hari libur tidak muncul, apa yang harus dilakukan?","Klik Refresh, pastikan filter/search bar benar. Jika masih bermasalah, hubungi admin.",Hari Libur Nasional
+Integrasi Jadwal Dokter & Cuti,Apakah hari libur nasional memengaruhi jadwal dokter dan cuti?,"Ya, sistem otomatis menyesuaikan jadwal dokter dan cuti agar tidak terjadwal pada hari libur nasional.",Hari Libur Nasional
+Refresh Data Pendaftaran,Bagaimana memperbarui tampilan data pendaftaran pasien?,Klik tombol Refresh di toolbar atas untuk memuat ulang data pendaftaran terbaru.,Update Data Pendaftaran
+Hapus Biaya Admin,Bagaimana menghapus biaya administrasi pasien?,"Pilih data pasien yang ingin dihapus biaya administrasinya, lalu klik Hapus Biaya Admin.",Update Data Pendaftaran
+Ubah Tanggal Pendaftaran,Bagaimana mengganti tanggal pendaftaran pasien?,"Pilih pasien yang ingin diubah tanggalnya, klik Ubah Tanggal Pendaftaran, pilih tanggal baru, lalu simpan.",Update Data Pendaftaran
+Batal Kunjungan,Bagaimana membatalkan kunjungan pasien?,"Pilih pasien yang ingin dibatalkan, klik Batal Kunjungan, konfirmasi, status pasien berubah menjadi Batal.",Update Data Pendaftaran
+Cari Pendaftaran,Bagaimana mencari pendaftaran pasien tertentu?,"Gunakan Search Bar dengan Nomor Pendaftaran, Nomor RM, atau Nama Pasien. Hasil akan muncul di tabel.",Update Data Pendaftaran
+Status Pendaftaran,Apa arti kolom Status pada tabel pendaftaran?,"Menunjukkan status kunjungan pasien: Daftar, Dilayani, atau Batal.",Update Data Pendaftaran
+Biaya Admin,Bagaimana melihat apakah biaya administrasi sudah dibayar?,"Kolom Biaya Admin menampilkan nominal, warna merah menandakan sudah dibayar.",Update Data Pendaftaran
+Aktif dan Verifikasi,Apa arti kolom Aktif dan Verif?,"Aktif menandakan data pendaftaran masih berlaku (y = ya, t = tidak). Verif menandakan data sudah diverifikasi (y = sudah, t = belum).",Update Data Pendaftaran
+Pagination Data,Bagaimana melihat data pendaftaran di halaman lain?,Gunakan navigasi Pagination di bagian bawah tabel untuk berpindah halaman.,Update Data Pendaftaran
+Fungsi Keseluruhan,Apa fungsi utama fitur Update Data Pendaftaran?,"Melihat data terbaru, mengelola status kunjungan, menghapus/ubah biaya administrasi, memverifikasi data, dan mengubah tanggal kunjungan.",Update Data Pendaftaran
+Filter Poli,Bagaimana menampilkan laporan untuk poli tertentu?,Pilih poli tujuan pasien di bagian Filter Laporan > Poli.,Booking Online
+Filter Dokter,Bagaimana menampilkan laporan untuk dokter tertentu?,"Pilih dokter di bagian Filter Laporan > Dokter, atau pilih Semua untuk menampilkan semua dokter.",Booking Online
+Filter Status Pembayaran,Bagaimana menampilkan laporan berdasarkan status pembayaran?,"Gunakan filter Status Pembayaran dengan pilihan Semua, Berhasil, Pending, atau Gagal.",Booking Online
+Filter Status Booking,Bagaimana menampilkan laporan berdasarkan status booking pasien?,"Gunakan filter Status Booking dengan pilihan Semua, Sukses, Batal, atau Menunggu Konfirmasi.",Booking Online
+Filter Periode Tanggal,Bagaimana menampilkan laporan untuk tanggal tertentu?,Pilih rentang tanggal pada kolom Tanggal di bagian Periode Booking.,Booking Online
+Filter Bulanan,Bagaimana menampilkan laporan berdasarkan bulan dan tahun?,Pilih bulan dan tahun pada filter Bulan di bagian Periode Booking.,Booking Online
+Reset Filter,Bagaimana mengembalikan filter ke default?,Klik tombol Reset Filter di bagian bawah halaman.,Booking Online
+Cetak Laporan,Bagaimana mencetak laporan pembayaran booking online?,Klik tombol Cetak untuk mencetak laporan sesuai filter yang dipilih.,Booking Online
+Export Excel,Bagaimana mengunduh laporan booking online ke Excel?,Klik tombol Export Excel untuk menyimpan laporan dalam format Excel.,Booking Online
+Fungsi Keseluruhan,Apa fungsi utama modul Booking Online?,"Memantau jadwal dan status booking pasien, melihat status pembayaran via Xendit, membuat laporan keuangan dan rekapan booking otomatis, serta mendukung transparansi administrasi rumah sakit/klinik.",Booking Online
